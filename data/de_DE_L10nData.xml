@@ -99,4 +99,173 @@
 <moqui.basic.LocalizedMessage localized="Einloggen" lastUpdatedStamp="1482826370249" original="Login" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Einloggen zum Testen (John Doe)" lastUpdatedStamp="1482826412011" original="Test Login (John Doe)" locale="de"/>
 
+<moqui.basic.LocalizedMessage localized="Passwort" lastUpdatedStamp="1482909642901" original="Password" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Passwort verifizieren" lastUpdatedStamp="1482909672389" original="Password Verify" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Entfernen" lastUpdatedStamp="1483013936871" original="Remove" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Notizen" lastUpdatedStamp="1483013968026" original="Notes" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Notizen hinzufügen" lastUpdatedStamp="1483013984807" original="Add Note" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Adresse aktualisieren" lastUpdatedStamp="1483014013223" original="Updade Address" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Gesperrt" lastUpdatedStamp="1483014086230" original="Disabled" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Rolle" lastUpdatedStamp="1483014115603" original="Role" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Rollen" lastUpdatedStamp="1483014124803" original="Roles" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Rolle hinzufügen" lastUpdatedStamp="1483014160853" original="Add Role" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Aufträge" lastUpdatedStamp="1483014319416" original="Orders" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Bestellung erstellen" lastUpdatedStamp="1483014428393" original="Create Purchase Order" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Verkaufsauftrag erstellen" lastUpdatedStamp="1483014519239" original="Create Sales Order" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Verkäufer/In" lastUpdatedStamp="1483014597308" original="Vendor" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Kunde/In" lastUpdatedStamp="1483014660018" original="Customer" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Nutzer/In hinzufügen" lastUpdatedStamp="1483014795756" original="Add User" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Nutzer/In erstellen" lastUpdatedStamp="1483014795756" original="Create user" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Nutzer/In suchen" lastUpdatedStamp="1483014795756" original="Search Users" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Nutzer/In" lastUpdatedStamp="1483014795756" original="User" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Nutzergruppen" lastUpdatedStamp="1483014795756" original="User Groups" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Nutzername" lastUpdatedStamp="1483014795756" original="Username" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Nutzer/In" lastUpdatedStamp="1483014795756" original="Users" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Mitarbeiter/In" lastUpdatedStamp="1483014804639" original="Employer" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Liefertermin" lastUpdatedStamp="1483014861118" original="Delivery Date" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Übersetzung" lastUpdatedStamp="1483014901096" original="Localized" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Lieferant" lastUpdatedStamp="1483015303999" original="Supplier" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neuer Lieferant(Organisation)" lastUpdatedStamp="1483015430095" original="New Organization Supplier" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neuer Lieferant(Person)" lastUpdatedStamp="1483015456917" original="New Person Supplier" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Organisationsname" lastUpdatedStamp="1483015478426" original="Organization Name" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Organisation aktualisieren" lastUpdatedStamp="1483015558332" original="Update Organization" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Optionen für Suchergebnisse" lastUpdatedStamp="1483015641390" original="Find Options" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Lieferanten" lastUpdatedStamp="1483015689441" original="Suppliers" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Stadt" lastUpdatedStamp="1483015752162" original="City" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Bundesland" lastUpdatedStamp="1483015778511" original="State" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Postleitzahl" lastUpdatedStamp="1483015817490" original="Postal Code" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Einkäufe" lastUpdatedStamp="1483015924483" original="Purchasing" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Wareneingang" lastUpdatedStamp="1483015964606" original="Receiving" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Bestand" lastUpdatedStamp="1483015989202" original="Inventory" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Kunden" lastUpdatedStamp="1483016013311" original="Customers" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Umsatz" lastUpdatedStamp="1483016037883" original="Sales" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Kommissionierungen" lastUpdatedStamp="1483016086562" original="Picking" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Versand" lastUpdatedStamp="1483016114000" original="Shipping" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Abwicklung" lastUpdatedStamp="1483016168329" original="Operate" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Verwaltung" lastUpdatedStamp="1483016183330" original="Manage" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Katalog" lastUpdatedStamp="1483016207853" original="Catalog" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Einrichtungen" lastUpdatedStamp="1483016224690" original="Facilities" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Anlagen" lastUpdatedStamp="1483016254815" original="Assets" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Buchhaltung" lastUpdatedStamp="1483016448309" original="Accounting" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Berichten" lastUpdatedStamp="1483016498189" original="Reports" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Verkäufer" lastUpdatedStamp="1483017870552" original="Vendors" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Antworten" lastUpdatedStamp="1483020111541" original="Reply" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Ablaufsdatum" lastUpdatedStamp="1483020263635" original="Expire Date" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neues Produkt" lastUpdatedStamp="1483020391569" original="New Product" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Produktname" lastUpdatedStamp="1483020425153" original="Product Name" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Produkttyp" lastUpdatedStamp="1483020511250" original="Product Type" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Typ" lastUpdatedStamp="1483020603378" original="Type" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Klasse" lastUpdatedStamp="1483020624183" original="Class" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Einrichtungstyp" lastUpdatedStamp="1483020665170" original="Asset Type" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Einrichtungsklasse" lastUpdatedStamp="1483020689437" original="Asset Class" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Einheit" lastUpdatedStamp="1483020776993" original="UOM" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Merkmal" lastUpdatedStamp="1483020872340" original="Feature" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Merkmale" lastUpdatedStamp="1483020872340" original="Features" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Abmessungen" lastUpdatedStamp="1483020921287" original="Dimensions" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Einheit" lastUpdatedStamp="1483020950276" original="Unit" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Wert" lastUpdatedStamp="1483020966144" original="Value" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Merkmal anlegen" lastUpdatedStamp="1483021198190" original="Apply Feature" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Übersetzungen" lastUpdatedStamp="1483021242721" original="Localization" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Kategorie" lastUpdatedStamp="1483021282175" original="Category" locale="de"/>
+<moqui.basic.LocalizedMessage localized="zur Kategorie hinzufügen" lastUpdatedStamp="1483021317591" original="Add to Category" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Startdatum" lastUpdatedStamp="1483021507402" original="From Date" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Sequenznummer" lastUpdatedStamp="1483021584277" original="Sequence Num" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Verknüpfungen" lastUpdatedStamp="1483021950744" original="Associated" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Kategorien" lastUpdatedStamp="1483021972498" original="Categories" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Kosten" lastUpdatedStamp="1483021986624" original="Prices" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Merkmalgruppe" lastUpdatedStamp="1483022036835" original="Feature Group" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Auswählbare Merkmale" lastUpdatedStamp="1483022075846" original="Selectable Features" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Varianten erstellen" lastUpdatedStamp="1483022101296" original="Create Variants" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Variantentyp" lastUpdatedStamp="1483022132960" original="Variant Type" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Merkmalgruppe(n)" lastUpdatedStamp="1483022160192" original="Feature Group(s)" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Alle Varianten erstellen" lastUpdatedStamp="1483022197355" original="Create All Variants" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Besitzer" lastUpdatedStamp="1483022496079" original="Owner" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Einrichtungstyp" lastUpdatedStamp="1483022521210" original="Facility Type" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neue Einrichtung" lastUpdatedStamp="1483022538333" original="New Facility" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Einrichtungsname" lastUpdatedStamp="1483022564857" original="Facility Name" locale="de"/>
+<moqui.basic.LocalizedMessage localized="ID" lastUpdatedStamp="1483022601176" original="ID" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Spalten" lastUpdatedStamp="1483022652762" original="Columns" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Detail" lastUpdatedStamp="1483022683368" original="Detail" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Produkt-ID" lastUpdatedStamp="1483022725741" original="Product ID" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Standort" lastUpdatedStamp="1483023634530" original="Location" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Anlage" lastUpdatedStamp="1483023776221" original="Asset" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Anlagen-ID" lastUpdatedStamp="1483023817454" original="Asset ID" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Anlage finden" lastUpdatedStamp="1483024939344" original="Find Asset" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Verkäufer suchen" lastUpdatedStamp="1483026046659" original="Search Vendors" locale="de"/>
+<moqui.basic.LocalizedMessage localized="ignorieren" lastUpdatedStamp="1483026074847" original="ignore" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neue Rechnung" lastUpdatedStamp="1483026167529" original="New Invoice" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Refenrenznummer" lastUpdatedStamp="1483026190495" original="Reference Number" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Rechnungsdatum" lastUpdatedStamp="1483026211355" original="Invoice Date" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Rechnung Projektkunde" lastUpdatedStamp="1483026743267" original="Invoice Project Client" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Projekt" lastUpdatedStamp="1483026762008" original="Project" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Vorhandene Rechnungen" lastUpdatedStamp="1483026785039" original="Existing Invoice" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neu" lastUpdatedStamp="1483026821894" original="New" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Ausgaben" lastUpdatedStamp="1483026871642" original="Expenses" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Rechnung Mitarbeiter" lastUpdatedStamp="1483027000736" original="Worker Invoice" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Verkäufer hinzufügen" lastUpdatedStamp="1483027086655" original="Add Vendor" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Versand" lastUpdatedStamp="1483027166266" original="Shipments" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Von Teilnehmer" lastUpdatedStamp="1483027413738" original="From Party" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Ursprungseinrichtung" lastUpdatedStamp="1483027470517" original="Origin Facility" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Versandbereitschaftsdatum" lastUpdatedStamp="1483027635118" original="Ready Date" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neuer Kommissionierschein" lastUpdatedStamp="1483027786587" original="New Picklist" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Ladungs-ID" lastUpdatedStamp="1483027834293" original="Load ID" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Versanddatum" lastUpdatedStamp="1483027860809" original="Ship Date" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Keine Ergebnisse gefunden" lastUpdatedStamp="1483027907186" original="No results found" locale="de"/>
+<moqui.basic.LocalizedMessage localized="LKW / Anlage" lastUpdatedStamp="1483027937076" original="Truck / Equipment" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Auftrags-ID" lastUpdatedStamp="1483027998573" original="Order ID" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Gesamt" lastUpdatedStamp="1483028025485" original="Total" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Zu Teilnehmer" lastUpdatedStamp="1483028068011" original="To Party" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Geschätztes Ankunftsdatum" lastUpdatedStamp="1483028142916" original="Estimated Arrival Date" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Geschätztes Bereitschaftsdatum" lastUpdatedStamp="1483028170759" original="Estimated Ready Date" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Erfassungsdatum" lastUpdatedStamp="1483028218797" original="Entry Date" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Zieleinrichtung" lastUpdatedStamp="1483028253608" original="Dest. Facility" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Warensendung" lastUpdatedStamp="1483028284342" original="Shipment" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Betriebsanlage" lastUpdatedStamp="1483028428280" original="Equipment" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Gesperrt?" lastUpdatedStamp="1483028497625" original="Disabled?" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neuer Kunde/In(Person)" lastUpdatedStamp="1483028548807" original="New Person Customer" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neuer Kunde (Organisation)" lastUpdatedStamp="1483028595554" original="New Organization Customer" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neuer Preis" lastUpdatedStamp="1483028640368" original="New Price" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Enddatum" lastUpdatedStamp="1483028672356" original="Thru Date" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Produkt" lastUpdatedStamp="1483028707650" original="Product" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Min Anzahl" lastUpdatedStamp="1483028741658" original="Min Quantity" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Preiseinheit-ID" lastUpdatedStamp="1483028773366" original="Price Uom ID" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Verknüpfung hinzufügen" lastUpdatedStamp="1483028878895" original="Add Assoc" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Verknüpfungstyp" lastUpdatedStamp="1483028905663" original="Assoc. Type" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Anzahl" lastUpdatedStamp="1483028925669" original="Quantity" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Anzahl" lastUpdatedStamp="1483028977344" original="Qty" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Produktklasse" lastUpdatedStamp="1483029003175" original="Product Class" locale="de"/>
+<moqui.basic.LocalizedMessage localized="App-Liste" lastUpdatedStamp="1483029114175" original=" App List" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Interne Organisation" lastUpdatedStamp="1483029140966" original="Internal Organization" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Zahlungsinformation" lastUpdatedStamp="1483029190150" original="Payment Information" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Rechnungsinformation" lastUpdatedStamp="1483029240714" original="Billing Information" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Rechnungsinformation editieren" lastUpdatedStamp="1483029272987" original="Edit Billing Info" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Stadt/PLZ" lastUpdatedStamp="1483029305174" original="City/Zip" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Land/Bundesland" lastUpdatedStamp="1483029326253" original="Country/State" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Sume" lastUpdatedStamp="1483029438912" original="Amount" locale="de"/>
+<moqui.basic.LocalizedMessage localized="J" lastUpdatedStamp="1483029523250" original="Y" locale="de"/>
+<moqui.basic.LocalizedMessage localized="N" lastUpdatedStamp="1483029532133" original="N" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Verkäufer erstellen" lastUpdatedStamp="1483029565923" original="Create Vendor" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Projekte" lastUpdatedStamp="1483029683632" original="Projects" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Aufgaben" lastUpdatedStamp="1483029699036" original="Tasks" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Anfragen" lastUpdatedStamp="1483029715923" original="Requests" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Schnellsuche" lastUpdatedStamp="1483029738064" original="Quick Search" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Meine offenen Aufgaben" lastUpdatedStamp="1483029763324" original="My Open Tasks" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Meine Projekte" lastUpdatedStamp="1483029789655" original="My Projects" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Meine Meilensteine" lastUpdatedStamp="1483029816428" original="My Milestones" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Meilenstein" lastUpdatedStamp="1483029841059" original="Milestone" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Geschätzte Stunden" lastUpdatedStamp="1483029932157" original="Estimated Hours" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Tatsächliche Stunden" lastUpdatedStamp="1483029956624" original="Actual Hours" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Fälligkeitsdatum" lastUpdatedStamp="1483030002868" original="Due Date" locale="de"/>
+<moqui.basic.LocalizedMessage localized="in Bearbeitung" lastUpdatedStamp="1483030019758" original="In Progress" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Projekte suchen" lastUpdatedStamp="1483030039199" original="Search Projects" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Projekt-ID" lastUpdatedStamp="1483030052605" original="Project ID" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Text suchen" lastUpdatedStamp="1483030098170" original="Text Search" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Aufgabe finden" lastUpdatedStamp="1483030125388" original="Find Task" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Anfrage finden" lastUpdatedStamp="1483030155670" original="Find Request" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neue Anfrage" lastUpdatedStamp="1483030174045" original="New Request" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Zugewiesen an" lastUpdatedStamp="1483030252844" original="Assign To" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Kunde" lastUpdatedStamp="1483030291218" original="Client" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Suchen" lastUpdatedStamp="1483030394075" original="Search" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Titel" lastUpdatedStamp="1483036887020" original="Title" locale="de"/>
+
 </entity-facade-xml>
