@@ -50,7 +50,7 @@
 <moqui.basic.LocalizedMessage localized="Vom Datum" lastUpdatedStamp="1482799713753" original="From Date" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Bis Datum" lastUpdatedStamp="1482799733090" original="Thru Date" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Email-Adressen" lastUpdatedStamp="1482799784603" original="Email Addresses" locale="de"/>
-<moqui.basic.LocalizedMessage localized="Telefonnumber" lastUpdatedStamp="1482799815691" original="Phone Numbers" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Telefonnummer" lastUpdatedStamp="1482799815691" original="Phone Numbers" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Ort" lastUpdatedStamp="1482799851018" original="Locale" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Feldname" lastUpdatedStamp="1482799928071" original="Field Name" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Entitätsname" lastUpdatedStamp="1482799949834" original="Entity Name" locale="de"/>
