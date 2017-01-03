@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<entity-facade-xml type="seed">
-    
+<entity-facade-xml>
 <moqui.basic.LocalizedMessage localized="Beispiel" lastUpdatedStamp="1482231819624" original="Example" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Zeit" lastUpdatedStamp="1482231894681" original="Time" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Erstellen" lastUpdatedStamp="1482231909608" original="Create" locale="de"/>
@@ -14,9 +13,7 @@
 <moqui.basic.LocalizedMessage localized="Drucken" lastUpdatedStamp="1482797695352" original="Print" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Nachrichten" lastUpdatedStamp="1482797760808" original="Messages" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Kalender" lastUpdatedStamp="1482797776239" original="Calendar" locale="de"/>
-<moqui.basic.LocalizedMessage localized="Nutzer" lastUpdatedStamp="1482797889712" original="Users" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Neue Nachricht" lastUpdatedStamp="1482797912687" original="New Message" locale="de"/>
-<moqui.basic.LocalizedMessage localized="Nutzergruppen" lastUpdatedStamp="1482797977433" original="User Groups" locale="de"/>
 <moqui.basic.LocalizedMessage localized="von" lastUpdatedStamp="1482798042673" original="of" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Seite ${curPageIndex + 1} von ${curPageMaxIndex + 1} (${context[listName + 'PageRangeLow']} - ${context[listName + 'PageRangeHigh']} von ${context[listName + 'Count']})" lastUpdatedStamp="1482798384495" original="PaginationTemplate" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Finden" lastUpdatedStamp="1482798573848" original="Find" locale="de"/>
@@ -26,11 +23,8 @@
 <moqui.basic.LocalizedMessage localized="Beschreibung" lastUpdatedStamp="1482798658998" original="Description" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Name" lastUpdatedStamp="1482798689410" original="Name" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Status" lastUpdatedStamp="1482798746610" original="Status" locale="de"/>
-<moqui.basic.LocalizedMessage localized="Type" lastUpdatedStamp="1482798787891" original="Type" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Applikation" lastUpdatedStamp="1482798848024" original="Application" locale="de"/>
-<moqui.basic.LocalizedMessage localized="Ortsanpassung" lastUpdatedStamp="1482798996194" original="Localization" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Konto" lastUpdatedStamp="1482799146508" original="Account" locale="de"/>
-<moqui.basic.LocalizedMessage localized="Nutzer" lastUpdatedStamp="1482799158983" original="User" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Kontaktinformation" lastUpdatedStamp="1482799207571" original="Contact Info" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Benachrichtigungen" lastUpdatedStamp="1482799293351" original="Notifications" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Gelesen markieren" lastUpdatedStamp="1482799370682" original="Mark Viewed" locale="de"/>
@@ -46,16 +40,11 @@
 <moqui.basic.LocalizedMessage localized="Neues Ereignis" lastUpdatedStamp="1482799597415" original="New Event" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Neue Aufgabe" lastUpdatedStamp="1482799625785" original="New Task" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Priorität" lastUpdatedStamp="1482799651226" original="Priority" locale="de"/>
-<moqui.basic.LocalizedMessage localized="Mitarbeiter" lastUpdatedStamp="1482799692143" original="Employer" locale="de"/>
-<moqui.basic.LocalizedMessage localized="Vom Datum" lastUpdatedStamp="1482799713753" original="From Date" locale="de"/>
-<moqui.basic.LocalizedMessage localized="Bis Datum" lastUpdatedStamp="1482799733090" original="Thru Date" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Email-Adressen" lastUpdatedStamp="1482799784603" original="Email Addresses" locale="de"/>
-<moqui.basic.LocalizedMessage localized="Telefonnummer" lastUpdatedStamp="1482799815691" original="Phone Numbers" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Ort" lastUpdatedStamp="1482799851018" original="Locale" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Feldname" lastUpdatedStamp="1482799928071" original="Field Name" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Entitätsname" lastUpdatedStamp="1482799949834" original="Entity Name" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Nachricht senden" lastUpdatedStamp="1482800189843" original="Send Message" locale="de"/>
-<moqui.basic.LocalizedMessage localized="Nutzername" lastUpdatedStamp="1482800305608" original="Username" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Vorname" lastUpdatedStamp="1482800337869" original="First Name" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Zwischenname" lastUpdatedStamp="1482800356296" original="Middle Name" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Nachname" lastUpdatedStamp="1482800376505" original="Last Name" locale="de"/>
@@ -98,9 +87,9 @@
 <moqui.basic.LocalizedMessage localized="Aufgabenname" lastUpdatedStamp="1482825798049" original="Task Name" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Einloggen" lastUpdatedStamp="1482826370249" original="Login" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Einloggen zum Testen (John Doe)" lastUpdatedStamp="1482826412011" original="Test Login (John Doe)" locale="de"/>
-
 <moqui.basic.LocalizedMessage localized="Passwort" lastUpdatedStamp="1482909642901" original="Password" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Passwort verifizieren" lastUpdatedStamp="1482909672389" original="Password Verify" locale="de"/>
+<moqui.basic.LocalizedMessage localized="nicht" lastUpdatedStamp="1482938979003" original="not" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Entfernen" lastUpdatedStamp="1483013936871" original="Remove" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Notizen" lastUpdatedStamp="1483013968026" original="Notes" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Notizen hinzufügen" lastUpdatedStamp="1483013984807" original="Add Note" locale="de"/>
@@ -267,5 +256,101 @@
 <moqui.basic.LocalizedMessage localized="Kunde" lastUpdatedStamp="1483030291218" original="Client" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Suchen" lastUpdatedStamp="1483030394075" original="Search" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Titel" lastUpdatedStamp="1483036887020" original="Title" locale="de"/>
-
+<moqui.basic.LocalizedMessage localized="Aktueller Suchlink" lastUpdatedStamp="1483360109235" original="Current Search Link" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Als CSV runterladen" lastUpdatedStamp="1483360164266" original="Get as CSV" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Offen" lastUpdatedStamp="1483360707011" original="Receivable" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Groß- und Kleinschreibung ignorieren" lastUpdatedStamp="1483360836653" original="Ignore Case" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Gleich" lastUpdatedStamp="1483360854854" original="Equals" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Ähnlich wie" lastUpdatedStamp="1483360910393" original="Like" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Enthält" lastUpdatedStamp="1483360967792" original="Contains" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Anfängt mit" lastUpdatedStamp="1483361034370" original="Begins With" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Leer" lastUpdatedStamp="1483361049381" original="Empty" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neuen Kunden hinzufügen" lastUpdatedStamp="1483361087295" original="Add client" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Währung" lastUpdatedStamp="1483363543039" original="Currency" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Rechungsdatum" lastUpdatedStamp="1483363582246" original="Invoice Time" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Rechnungs-ID" lastUpdatedStamp="1483363740246" original="Invoice ID" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Gesamtsumme" lastUpdatedStamp="1483363772116" original="Invoice Total" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Ausgabenrechnung erstellen" lastUpdatedStamp="1483363821662" original="Create Expense Invoice" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Ausgabenrechnung" lastUpdatedStamp="1483363837111" original="Expense Invoice" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Summe" lastUpdatedStamp="1483365394749" original="Sume" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Telefonnummer" lastUpdatedStamp="1483463465945" original="Phone Numbers" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Mitarbeiter" lastUpdatedStamp="1483466858374" original="Worker" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Bilanz" lastUpdatedStamp="1483467177975" original="Balance Sheet" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Ausführen" lastUpdatedStamp="1483467211958" original="Run" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Finanzberichte" lastUpdatedStamp="1483467256653" original="Financial Reports" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Geschlossen" lastUpdatedStamp="1483467396866" original="Closed" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Konten" lastUpdatedStamp="1483467414405" original="Accounts" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Rechnungen" lastUpdatedStamp="1483467609426" original="Invoices" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neue Zahlung" lastUpdatedStamp="1483467639817" original="New Payment" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Zahlungen" lastUpdatedStamp="1483467654074" original="Payments" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Zahlungsmethode" lastUpdatedStamp="1483467725507" original="Instrument" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Finanzkonten" lastUpdatedStamp="1483467781211" original="Financial Accounts" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neues Finanzkonto" lastUpdatedStamp="1483467837452" original="New Financial Accounts" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Kontoname" lastUpdatedStamp="1483467906711" original="Account Name" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Verfügbar" lastUpdatedStamp="1483467961316" original="Available" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Saldo" lastUpdatedStamp="1483468044707" original="Balance" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neue Transaktion" lastUpdatedStamp="1483468098682" original="New Transaction" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Transaktionen" lastUpdatedStamp="1483468124156" original="Transactions" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Transaktionsdatum" lastUpdatedStamp="1483468547630" original="Transaction Date" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Transaktionstyp" lastUpdatedStamp="1483468587573" original="TX Type" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Transaktions-ID" lastUpdatedStamp="1483468660369" original="TX ID" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Rechnung" lastUpdatedStamp="1483468731102" original="Invoice" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Zahlung" lastUpdatedStamp="1483468747703" original="Payment" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neue Einträge finden" lastUpdatedStamp="1483468806319" original="Find Entries" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Kontonummer" lastUpdatedStamp="1483468945214" original="Account Code" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Organisation hinzufügen" lastUpdatedStamp="1483469391121" original="Add Organization" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Organisation" lastUpdatedStamp="1483469416110" original="Organization" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Zeitraum" lastUpdatedStamp="1483469505183" original="Time Period" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Zeitraum finden" lastUpdatedStamp="1483469528274" original="Find Time Period" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Kommissionierscheine" lastUpdatedStamp="1483469625876" original="Picklists" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Rechnung finden" lastUpdatedStamp="1483469804836" original="Find Invoice" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Kontobesitzer" lastUpdatedStamp="1483469838871" original="Account Owner" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Betriebsanlage hinzufügen" lastUpdatedStamp="1483470102465" original="Add Equipment" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Kommissionierschein" lastUpdatedStamp="1483470183074" original="Picklist" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Anfrage" lastUpdatedStamp="1483470391799" original="Request" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Anfrage-ID" lastUpdatedStamp="1483470423059" original="Request ID" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Zuweisungen" lastUpdatedStamp="1483470456034" original="Assignments" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Aufgabe hinzufügen" lastUpdatedStamp="1483470487281" original="Add Task" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neue Aufgabe für Anfrage" lastUpdatedStamp="1483470524780" original="New Task for Request" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Übergeordnete Aufgabe" lastUpdatedStamp="1483470555893" original="Parent Task" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neue Wiki-Seite" lastUpdatedStamp="1483470624126" original="Add Wiki Page" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Bereich" lastUpdatedStamp="1483470670351" original=" Space" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Auszahlbar" lastUpdatedStamp="1483470768970" original="Payable" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Gefahr" lastUpdatedStamp="1483470800643" original="Danger" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Vergütungssätze" lastUpdatedStamp="1483470929146" original="Rates" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Nicht" lastUpdatedStamp="1483470975694" original="Not" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Teams" lastUpdatedStamp="1483470994579" original="Teams" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Team finden" lastUpdatedStamp="1483471018856" original="Find Team" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Verkäufer" lastUpdatedStamp="1483471114764" original="Vendor(s)" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Kunden" lastUpdatedStamp="1483471131072" original="Clients" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Wiki-Bereiche" lastUpdatedStamp="1483471157755" original="Wiki Spaces" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Wiki-Bereich finden" lastUpdatedStamp="1483471177280" original="Find Wiki Space" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Neuer Bereich" lastUpdatedStamp="1483471200981" original="New Space" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Wiki-Bereich-ID" lastUpdatedStamp="1483471220461" original="Wiki Space ID" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Beschränkte Aktualisierung" lastUpdatedStamp="1483471304535" original="Restrict Update" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Beschränkte Ansicht" lastUpdatedStamp="1483471340080" original="Restrict View" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Verzeichnis für Startseite" lastUpdatedStamp="1483471427887" original="Root Page Directory" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Bereich erstellen" lastUpdatedStamp="1483471448790" original="Create Space" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Lesen" lastUpdatedStamp="1483471500389" original="View" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Bereich lesen" lastUpdatedStamp="1483471532056" original="View Space" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Anhänge" lastUpdatedStamp="1483471557218" original="Attachments" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Hochladen" lastUpdatedStamp="1483471567423" original="Upload" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Seitenverlauf" lastUpdatedStamp="1483471585426" original="Page History" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Seite editieren" lastUpdatedStamp="1483471620185" original="Edit Page" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Seitenname" lastUpdatedStamp="1483471641175" original="Page Name" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Übergeordneter Pfad" lastUpdatedStamp="1483471670232" original="Parent Path" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Wiki-Typ" lastUpdatedStamp="1483471700066" original="Wiki Type" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Abbrechen" lastUpdatedStamp="1483471718977" original="Cancel" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Seite aktualisieren" lastUpdatedStamp="1483471753390" original="Update page" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Wiki-Seite editieren" lastUpdatedStamp="1483471777413" original="Edit Wiki Page" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Seite editieren" lastUpdatedStamp="1483471805578" original="Add Page" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Kommentar hinzufügen" lastUpdatedStamp="1483471829663" original="Add Comment" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Meilensteine" lastUpdatedStamp="1483472036428" original="Milestones" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Meilenstein erstellen" lastUpdatedStamp="1483472086571" original="Create Milestone" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Meilenstein-ID" lastUpdatedStamp="1483472106939" original="Milestone ID" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Meilensteinname" lastUpdatedStamp="1483472127941" original="Milestone Name" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Fortschritt" lastUpdatedStamp="1483472183863" original="Progress" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Wiki-Seiten" lastUpdatedStamp="1483472248198" original="Wiki Pages" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Nutzerzuweisung hinzufügen" lastUpdatedStamp="1483472336579" original="Add User Assignment" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Zuweisung hinzufügen" lastUpdatedStamp="1483472392100" original="Add Assignment" locale="de"/>
 </entity-facade-xml>
