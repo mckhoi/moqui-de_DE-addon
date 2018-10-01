@@ -41,7 +41,7 @@
 <moqui.basic.LocalizedMessage localized="Neue Aufgabe" lastUpdatedStamp="1482799625785" original="New Task" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Priorität" lastUpdatedStamp="1482799651226" original="Priority" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Email-Adressen" lastUpdatedStamp="1482799784603" original="Email Addresses" locale="de"/>
-<moqui.basic.LocalizedMessage localized="Ort" lastUpdatedStamp="1482799851018" original="Locale" locale="de"/>
+<moqui.basic.LocalizedMessage localized="Sprache" lastUpdatedStamp="1482799851018" original="Locale" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Feldname" lastUpdatedStamp="1482799928071" original="Field Name" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Entitätsname" lastUpdatedStamp="1482799949834" original="Entity Name" locale="de"/>
 <moqui.basic.LocalizedMessage localized="Nachricht senden" lastUpdatedStamp="1482800189843" original="Send Message" locale="de"/>
