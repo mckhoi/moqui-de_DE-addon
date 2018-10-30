@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+
+	<Geo geoCodeNumeric="01" geoId="DEU_01" geoName="Baden-Württemberg"
+		geoTypeEnumId="GEOT_STATE" />
+	<Geo geoCodeNumeric="02" geoId="DEU_02" geoName="Bayern"
+		geoTypeEnumId="GEOT_STATE" />
+	<Geo geoCodeNumeric="03" geoId="DEU_03" geoName="Berlin"
+		geoTypeEnumId="GEOT_STATE" />
+	<Geo geoCodeNumeric="04" geoId="DEU_04" geoName="Brandenburg"
+		geoTypeEnumId="GEOT_STATE" />
+	<Geo geoCodeNumeric="05" geoId="DEU_05" geoName="Bremen"
+		geoTypeEnumId="GEOT_STATE" />
+	<Geo geoCodeNumeric="06" geoId="DEU_06" geoName="Hamburg"
+		geoTypeEnumId="GEOT_STATE" />
+	<Geo geoCodeNumeric="07" geoId="DEU_07" geoName="Hessen"
+		geoTypeEnumId="GEOT_STATE" />
+	<Geo geoCodeNumeric="08" geoId="DEU_08" geoName="Mecklenburg-Vorpommern"
+		geoTypeEnumId="GEOT_STATE" />
+	<Geo geoCodeNumeric="09" geoId="DEU_09" geoName="Niedersachsen"
+		geoTypeEnumId="GEOT_STATE" />
+	<Geo geoCodeNumeric="10" geoId="DEU_10" geoName="Nordrhein-Westfalen"
+		geoTypeEnumId="GEOT_STATE" />
+	<Geo geoCodeNumeric="11" geoId="DEU_11" geoName="Rheinland-Pfalz"
+		geoTypeEnumId="GEOT_STATE" />
+	<Geo geoCodeNumeric="12" geoId="DEU_12" geoName="Saarland"
+		geoTypeEnumId="GEOT_STATE" />
+	<Geo geoCodeNumeric="13" geoId="DEU_13" geoName="Sachsen"
+		geoTypeEnumId="GEOT_STATE" />
+	<Geo geoCodeNumeric="14" geoId="DEU_14" geoName="Sachsen-Anhalt"
+		geoTypeEnumId="GEOT_STATE" />
+	<Geo geoCodeNumeric="15" geoId="DEU_15" geoName="Schleswig-Holstein"
+		geoTypeEnumId="GEOT_STATE" />
+	<Geo geoCodeNumeric="15" geoId="DEU_16" geoName="Thüringen"
+		geoTypeEnumId="GEOT_STATE" />
+
+
+	<GeoAssoc geoId="DEU" toGeoId="DEU_01" geoAssocTypeEnumId="GAT_REGIONS" />
+	<GeoAssoc geoId="DEU" toGeoId="DEU_02" geoAssocTypeEnumId="GAT_REGIONS" />
+	<GeoAssoc geoId="DEU" toGeoId="DEU_03" geoAssocTypeEnumId="GAT_REGIONS" />
+	<GeoAssoc geoId="DEU" toGeoId="DEU_04" geoAssocTypeEnumId="GAT_REGIONS" />
+	<GeoAssoc geoId="DEU" toGeoId="DEU_05" geoAssocTypeEnumId="GAT_REGIONS" />
+	<GeoAssoc geoId="DEU" toGeoId="DEU_06" geoAssocTypeEnumId="GAT_REGIONS" />
+	<GeoAssoc geoId="DEU" toGeoId="DEU_07" geoAssocTypeEnumId="GAT_REGIONS" />
+	<GeoAssoc geoId="DEU" toGeoId="DEU_08" geoAssocTypeEnumId="GAT_REGIONS" />
+	<GeoAssoc geoId="DEU" toGeoId="DEU_09" geoAssocTypeEnumId="GAT_REGIONS" />
+	<GeoAssoc geoId="DEU" toGeoId="DEU_10" geoAssocTypeEnumId="GAT_REGIONS" />
+	<GeoAssoc geoId="DEU" toGeoId="DEU_11" geoAssocTypeEnumId="GAT_REGIONS" />
+	<GeoAssoc geoId="DEU" toGeoId="DEU_12" geoAssocTypeEnumId="GAT_REGIONS" />
+	<GeoAssoc geoId="DEU" toGeoId="DEU_13" geoAssocTypeEnumId="GAT_REGIONS" />
+	<GeoAssoc geoId="DEU" toGeoId="DEU_14" geoAssocTypeEnumId="GAT_REGIONS" />
+	<GeoAssoc geoId="DEU" toGeoId="DEU_15" geoAssocTypeEnumId="GAT_REGIONS" />
+	<GeoAssoc geoId="DEU" toGeoId="DEU_15" geoAssocTypeEnumId="GAT_REGIONS" />
+	<GeoAssoc geoId="DEU" toGeoId="DEU_16" geoAssocTypeEnumId="GAT_REGIONS" />
+	
+</entity-facade-xml>		
