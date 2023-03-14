@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="seed">
+
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PtAsset" localized="Aktivposten (Vermögenswerte)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PtDigitalAsset" localized="Digitaler Vermögenswert"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PtDigital" localized="Digital (Download)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PtAssetUse" localized="Nutzung des Vermögenswerts"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PtFacilityUse" localized="Nutzung der Einrichtung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PtService" localized="Dienstleistung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PtVirtual" localized="Virtual (mit Varianten)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PtPickAssembly" localized="Montage"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PtConfigurable" localized="Konfigurierbare Vermögenswerte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AstTpInventory" localized="Inventar"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AstTpSupplies" localized="Bedarfsgüter"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AstTpFixed" localized="Anlagevermögen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AstTpEquipment" localized="Ausrüstung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AstTpRental" localized="Vermietungsausrüstung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AstTpRealEstate" localized="Immobilien"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AstTpInvRealEstate" localized="Investition in Immobilien"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AstTpBearerBiological" localized="Biologischer Vermögenswert für die Produktion"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AstTpBiological" localized="Biologisch"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsInventory" localized="Inventar"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsInventoryRaw" localized="Inventar - Rohstoffe"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsInventorySub" localized="Inventar - Komponenten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsInventoryFin" localized="Inventar - Fertige Produkte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsBoat" localized="Boot"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsForklift" localized="Gabelstapler"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsDigger" localized="Bagger"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsManlift" localized="Hebebühne"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsServiceBody" localized="Serviceeinheit"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsTractor" localized="Traktor"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsPassengerVeh" localized="Personenkraftwagen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsCompressor" localized="Kompressor"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsTrencher" localized="Grabenaushobmaschine"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsPuller" localized="Zugmaschine"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsTanker" localized="Tankwagen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsReelStand" localized="Rollenständer"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsCargoVehicle" localized="Fracht Fahrzeug"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsTruck" localized="Lastwagen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsTrailer" localized="Anhänger"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsContainer" localized="Container"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsComputerHard" localized="Computer-Hardware"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsDesktop" localized="Desktop-Computer"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsLaptop" localized="Laptop"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsTablet" localized="Tablet"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsMonitor" localized="Monitor"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsComputerSoft" localized="Software"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsSoftProgramming" localized="Programmierungssoftware"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsSoftSystem" localized="Systemsoftware"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsSoftApp" localized="Softwareanwendung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsSoftUtility" localized="Software-Tool"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AsClsWhEquip" localized="Lagerausrüstung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftAccessory" localized="Zubehör"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftAmount" localized="Menge"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftNetWeight" localized="Nettogewicht"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftArtist" localized="Künstler"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftBilling" localized="Abrechnung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftBrand" localized="Marke"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftCare" localized="Pflege"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftColor" localized="Farbe"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftDimension" localized="Abmessung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftEquipClass" localized="Geräteklasse"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftFabric" localized="Stoff"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftGenre" localized="Genre"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftHardware" localized="Hardware"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftLicense" localized="Lizenz"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftOrigin" localized="Herkunft"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftOther" localized="Andere"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftPackagingComponent" localized="Verpackungskomponente"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftPackagingType" localized="Verpackungstyp"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftProdQuality" localized="Produktqualität"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftSize" localized="Größe"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftSoftware" localized="Software"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftStyle" localized="Stil"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftSymptom" localized="Symptom"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftTopic" localized="Thema"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftType" localized="Typ"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftWarranty" localized="Garantie"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftModelYear" localized="Modelljahr"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PftYearMade" localized="Baujahr"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="InvoiceSales" localized="Verkauf"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="InvoiceReturn" localized="Rückgabe"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Customer" localized="Kunde"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="CustomerBillTo" localized="Kunde - Rechnung an"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="CustomerEndUser" localized="Kunde - Endnutzer"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="CustomerPlacing" localized="Kunde - Besteller"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="CustomerShipTo" localized="Kunde - Versand an"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Vendor" localized="Lieferant"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="VendorBillFrom" localized="Lieferant - Rechnung von"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="VendorShipFrom" localized="Lieferant - Versand von"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="VendorPickUpFrom" localized="Lieferant - Abholung von"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntOnline" localized="Online-Zugriff"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntDownload" localized="Digitaler Download"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntEmail" localized="E-Mail-Versand"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntProductName" localized="Produktname"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntDescription" localized="Beschreibung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntDescriptionLong" localized="Lange Beschreibung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntPriceDetail" localized="Preisdetails-Text"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntIngredients" localized="Zutaten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntUniqueIngred" localized="Einzigartige Zutaten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntSpecialInstr" localized="Besondere Anweisungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="Advertencias" localized="Warnhinweise"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntDirections" localized="Anweisungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntTermsConditions" localized="Geschäftsbedingungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntDeliveryInfo" localized="Lieferinformationen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntImageUrlSmall" localized="Bild - Klein"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntImageUrlMedium" localized="Bild - Mittelgroß"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntImageUrlLarge" localized="Bild - Groß"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntImageUrlDetail" localized="Bild - Detail"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntImageUrlOriginal" localized="Bild - Original"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntImageAltSmall" localized="Alternativer Text für Bild - Klein"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntImageAltMedium" localized="Alternativer Text für Bild - Mittel"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntImageAltLarge" localized="Alternativer Text für Bild - Groß"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntImageAltDetail" localized="Alternativer Text für Bild - Detail"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntAddToCartLabel" localized="In den Warenkorb hinzufügen Beschriftung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntAddToCartImage" localized="In den Warenkorb hinzufügen Bild"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntShortSalesPitch" localized="Kurze Verkaufspräsentation"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntInstallation" localized="Installation"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntSpecification" localized="Spezifikation"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntWarranty" localized="Garantie"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntMetaKeywords" localized="Meta-Stichworte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntMetaDescription" localized="Meta - Beschreibung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ScPhone" localized="Telefon"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ScPostal" localized="Postanschrift"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ScAffiliate" localized="Partner"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ScUnknown" localized="Unbekannt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="OrderBeingChanged" localized="Wird geändert"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="OrderOpen" localized="Offen (Versuch)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="OrderRequested" localized="Angebot angefordert"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="OrderProposed" localized="Vorschlag des Verkäufers"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="OrderPlaced" localized="Platziert"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="OrderProcessing" localized="In Bearbeitung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="OrderApproved" localized="Genehmigt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="OrderSent" localized="Verschickt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="OrderCompleted" localized="Abgeschlossen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="OrderHold" localized="In Wartestellung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="OrderRejected" localized="Abgelehnt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="OrderCancelled" localized="Abgebrochen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="OrderWishList" localized="Wunschliste"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="OrderGiftRegistry" localized="Geschenkeliste"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="OrderAutoReorder" localized="Automatische Neubestellung"/>
+	<moqui.basic.LocalizedMessage original="Make Open/Tentative" locale="de" localized="Öffnen/Tentativ machen"/>
+	<moqui.basic.LocalizedMessage original="Begin Changes" locale="de" localized="Änderungen beginnen"/>
+	<moqui.basic.LocalizedMessage original="Place#Order" locale="de" localized="Bestellung aufgeben"/>
+	<moqui.basic.LocalizedMessage original="Reject" locale="de" localized="Ablehnen"/>
+	<moqui.basic.LocalizedMessage original="Cancel" locale="de" localized="Abbrechen"/>
+	<moqui.basic.LocalizedMessage original="Request Quote" locale="de" localized="Angebot anfordern"/>
+	<moqui.basic.LocalizedMessage original="Propose Quote" locale="de" localized="Angebot erstellen"/>
+	<moqui.basic.LocalizedMessage original="Reject Request" locale="de" localized="Anfrage ablehnen"/>
+	<moqui.basic.LocalizedMessage original="Place from Quote" locale="de" localized="Bestellung aus Angebot"/>
+	<moqui.basic.LocalizedMessage original="Cancel Quote" locale="de" localized="Angebot stornieren"/>
+	<moqui.basic.LocalizedMessage original="Process" locale="de" localized="Verarbeiten"/>
+	<moqui.basic.LocalizedMessage original="Approve" locale="de" localized="Genehmigen"/>
+	<moqui.basic.LocalizedMessage original="Hold#Order" locale="de" localized="In Warteschlange halten"/>
+	<moqui.basic.LocalizedMessage original="Send#Order" locale="de" localized="Versenden"/>
+	<moqui.basic.LocalizedMessage original="Order Completed" locale="de" localized="Bestellung abgeschlossen"/>
+	<moqui.basic.LocalizedMessage original="Order Cancelled" locale="de" localized="Bestellung storniert"/>
+	<moqui.basic.LocalizedMessage original="Approve (un-complete)" locale="de" localized="Genehmigen (rückgängig machen)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PppPurchase" localized="Kauf/Initial"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PppPurchase" localized="Kauf/Initial"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PppRecurring" localized="Wiederkehrende Gebühr"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PppUsage" localized="Nutzungsgebühr"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PppComponent" localized="Komponentenpreis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptList" localized="Listenpreis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptCurrent" localized="Aktueller Preis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptAverage" localized="Durchschnittskosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptMinimum" localized="Mindestpreis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptMaximum" localized="Höchstpreis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptPromotional" localized="Werbe-Preis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptCompetitive" localized="Wettbewerbspreis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptWholesale" localized="Großhandelspreis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptSpecialPromo" localized="Sonderaktion-Preis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptMinimumOrder" localized="Mindestbestellmenge-Preis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpBlock" localized="Block"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpBlockGroup" localized="Block-Gruppe"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpBuilding" localized="Gebäude"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpLand" localized="Grundstück"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpFloor" localized="Stockwerk"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptAverage" localized="Durchschnittspreis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptMinimum" localized="Mindestpreis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptMaximum" localized="Höchstpreis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptPromotional" localized="Werbe-Preis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptCompetitive" localized="Wettbewerbspreis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptWholesale" localized="Großhandelspreis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptSpecialPromo" localized="Sonderwerbe-Preis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PptMinimumOrder" localized="Mindestbestellmenge-Preis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpBlock" localized="Block"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpBlockGroup" localized="Blockgruppe"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpBuilding" localized="Gebäude"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpLand" localized="Land"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpFloor" localized="Etage"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpOffice" localized="Büro"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpPlant" localized="Werk"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpRoom" localized="Zimmer"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpRetailStore" localized="Geschäft"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpWarehouse" localized="Lager"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpDock" localized="Dock"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FcTpLine" localized="Produktionslinie"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="ShipInput" localized="Eingang"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="ShipScheduled" localized="Geplant"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="ShipPicked" localized="Kommissioniert"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="ShipPacked" localized="Verpackt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="ShipShipped" localized="Versandt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="ShipDelivered" localized="Geliefert"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="ShipRejected" localized="Abgelehnt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="ShipCancelled" localized="Storniert"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.account.invoice.SettlementTerm" fieldName="description" locale="de" pkValue="Immediate" localized="Sofortzahlung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.account.invoice.SettlementTerm" fieldName="description" locale="de" pkValue="Net10" localized="10 Tage"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.account.invoice.SettlementTerm" fieldName="description" locale="de" pkValue="Net15" localized="15 Tage"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.account.invoice.SettlementTerm" fieldName="description" locale="de" pkValue="Net30" localized="30 Tage"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.account.invoice.SettlementTerm" fieldName="description" locale="de" pkValue="Net60" localized="60 Tage"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.account.invoice.SettlementTerm" fieldName="description" locale="de" pkValue="Net90" localized="90 Tage"/>
+	<moqui.basic.LocalizedMessage original="Receive" locale="de" localized="Empfangen"/>
+    <moqui.basic.LocalizedMessage original="Received" locale="de" localized="Empfangen"/>
+    <moqui.basic.LocalizedMessage original="Approve" locale="de" localized="Genehmigen"/>
+    <moqui.basic.LocalizedMessage original="Resume Changes" locale="de" localized="Änderungen fortsetzen"/>
+    <moqui.basic.LocalizedMessage original="Approve" locale="de" localized="Genehmigen"/>
+    <moqui.basic.LocalizedMessage original="Approved" locale="de" localized="Genehmigt"/>
+    <moqui.basic.LocalizedMessage original="Cancelled" locale="de" localized="Abgebrochen"/>
+    <moqui.basic.LocalizedMessage original="Deliver" locale="de" localized="Liefern"/>
+    <moqui.basic.LocalizedMessage original="Delivered" locale="de" localized="Geliefert"/>
+    <moqui.basic.LocalizedMessage original="Hold" locale="de" localized="Warten"/>
+    <moqui.basic.LocalizedMessage original="On Hold" locale="de" localized="In Warteschleife"/>
+    <moqui.basic.LocalizedMessage original="Mark As Defective" locale="de" localized="Als defekt markieren"/>
+    <moqui.basic.LocalizedMessage original="Defective" locale="de" localized="Defekt"/>
+    <moqui.basic.LocalizedMessage original="Promise" locale="de" localized="Versprechen"/>
+    <moqui.basic.LocalizedMessage original="Promised" locale="de" localized="Versprochen"/>
+    <moqui.basic.LocalizedMessage original="Start Transfer" locale="de" localized="Transfer starten"/>
+    <moqui.basic.LocalizedMessage original="In Transfer" locale="de" localized="In Übertragung"/>
+    <moqui.basic.LocalizedMessage original="Available" locale="de" localized="Verfügbar"/>
+	
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Account" localized="Konto"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="InvoiceSales" localized="Rechnungsverkauf"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="InvoiceReturn" localized="Rechnungsrückgabe"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="InvoicePayroll" localized="Lohnabrechnung"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="InvoiceGarnishment" localized="Gerichtliche Pfändung"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="InvoiceCommission" localized="Kommission"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="InvoiceCreditMemo" localized="Gutschrift"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="InvoiceTemplate" localized="Vorlage"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="InvoiceInProcess" localized="In Bearbeitung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="InvoiceFinalized" localized="Abgeschlossen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="InvoiceSent" localized="Gesendet"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="InvoiceAcked" localized="Bestätigt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="InvoiceWriteOff" localized="Abgeschrieben"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="InvoiceIncoming" localized="Eingehend"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="InvoiceReceived" localized="Empfangen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="InvoiceApproved" localized="Genehmigt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="InvoicePmtSent" localized="Zahlung Gesendet"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="InvoiceCancelled" localized="Storniert"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PiCreditCard" localized="Kreditkarte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PiDebitCard" localized="Debitkarte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PiGiftCard" localized="Geschenkkarte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PiCash" localized="Bargeld"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PiPersonalCheck" localized="Persönlicher Scheck"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PiCompanyCheck" localized="Unternehmensscheck"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="PIInPlanning" localized="In Planung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="PIInProgress" localized="In Bearbeitung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="PIInValidation" localized="In Validierung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="PIComplete" localized="Abgeschlossen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WetProject" localized="Projekt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WetMilestone" localized="Meilenstein"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WetTask" localized="Aufgabe"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WetRelease" localized="Freigabe"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WetComponent" localized="Komponente"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WetEvent" localized="Ereignis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WetAvailable" localized="Verfügbar"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WetTimeOff" localized="Freizeit"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepTask" localized="Aufgabe"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepFix" localized="Fehlerbehebung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepNewFeature" localized="Neues Feature"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepFeatureEnhance" localized="Featureverbesserung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepFeatureTest" localized="Featuretest"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepToDo" localized="Aufgabenliste"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepDocument" localized="Dokument"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepCommunication" localized="Kommunikation"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepPlaceholder" localized="Platzhalter"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepManufacturing" localized="Herstellung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepAssembling" localized="Montage"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepRouting" localized="Routenplanung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepRoutingTask" localized="Routenplanungsaufgabe"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepProductionRun" localized="Produktionslauf"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepShipmentShip" localized="Versandvorbereitung/-beladung/-versand"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepShipmentReceive" localized="Empfang des Versands"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepAssetUsage" localized="Nutzung von Vermögenswerten (Miete)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepBusinessTravel" localized="Geschäftsreise"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepMeeting" localized="Treffen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepTraining" localized="Schulung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepMaintenance" localized="Wartung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepResearch" localized="Forschung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepDevelopment" localized="Entwicklung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepSupport" localized="Support"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepDeployment" localized="Bereitstellung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepSubcontracting" localized="Unterbeauftragung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepPhoneCall" localized="Telefonanruf"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepEmail" localized="E-Mail"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WerUnresolved" localized="Nicht gelöst"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WerCompleted" localized="Abgeschlossen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WerIncomplete" localized="Unvollständig"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WerWontComplete" localized="Wird nicht abgeschlossen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WerDuplicate" localized="Dupliziert"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WerCannotReproduce" localized="Nicht reproduzierbar"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WerInsufficient" localized="Unzureichende Informationen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="WeInPlanning" localized="In Planung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="WeApproved" localized="Genehmigt/Geplant"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="WeInProgress" localized="In Bearbeitung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="WeOnHold" localized="In Warteposition"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="WeComplete" localized="Abgeschlossen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="WeClosed" localized="Geschlossen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="WeCancelled" localized="Abgebrochen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepeFyi" localized="Zu Ihrer Information"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepeInvRequired" localized="Intervention erforderlich"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepeInvRequested" localized="Intervention angefordert"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WepeImmediate" localized="Sofortige Antwort angefordert"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.humanres.position.EmplPositionClass" fieldName="title" locale="de" pkValue="ProjectManager" localized="Projektmanager"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.humanres.position.EmplPositionClass" fieldName="title" locale="de" pkValue="GeneralManager" localized="General Manager"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="NA" localized="Nicht zutreffend"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="PmntAuthorized" localized="Autorisiert"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="PmntCancelled" localized="Abgebrochen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="PmntConfirmed" localized="Bestätigt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="PmntDeclined" localized="Abgelehnt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="PmntDelivered" localized="Geliefert"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="PmntPromised" localized="Zugesagt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="PmntProposed" localized="Vorgeschlagen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="PmntRefunded" localized="Zurückerstattet"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="PmntVoid" localized="Ungültig"/>
+
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Account" localized="Konto"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="AccountLead" localized="Kontoleiter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Agent" localized="Vertreter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Affiliate" localized="Affiliate"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Carrier" localized="Transporteur"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Competitor" localized="Konkurrent"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Consumer" localized="Verbraucher"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Contractor" localized="Auftragnehmer"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Distributor" localized="Verteiler"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="GarnishmentPayee" localized="Gehaltsempfänger"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="InternetSp" localized="Internetanbieter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="HostingProvider" localized="Hosting-Anbieter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Manufacturer" localized="Hersteller"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Owner" localized="Besitzer"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Partner" localized="Partner"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Prospect" localized="Aussicht"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Referrer" localized="Empfehler"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Shareholder" localized="Aktionär"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Subscriber" localized="Abonnent"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Supplier" localized="Lieferant"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Visitor" localized="Besucher"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="WebMaster" localized="Web-Meister"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Accountant" localized="Buchhalter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Administrator" localized="Administrator"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Assignee" localized="Zugewiesene Person"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Buyer" localized="Käufer"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Cashier" localized="Kassierer"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="ClientBilling" localized="Kundenabrechnung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="ClientManager" localized="Kundenmanager"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Contact" localized="Kontakt"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="EmailAdmin" localized="E-Mail-Administrator"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Employee" localized="Mitarbeiter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Executive" localized="Führungskraft"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="FamilyMember" localized="Familienmitglied"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="HumanResourcesManager" localized="Personalmanager"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="InventoryManager" localized="Inventarmanager"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Manager" localized="Manager"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Operator" localized="Operator"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrderClerk" localized="Auftragsbearbeiter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Packer" localized="Verpacker"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Payroll" localized="Lohnbuchhalter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Picker" localized="Auswähler"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="ProductionManager" localized="Produktionsmanager"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="ProductionWorker" localized="Produktionsarbeiter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Receiver" localized="Empfänger"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Reporter" localized="Reporter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="SalesRepresentative" localized="Vertriebsrepräsentant"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="ShipmentClerk" localized="Versandangestellter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Sponsor" localized="Sponsor"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Spouse" localized="Ehepartner"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Stocker" localized="Lagerarbeiter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="SupplierAgent" localized="Lieferantbeauftragter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Watcher" localized="Beobachter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Worker" localized="Arbeiter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="BusinessAnalyst" localized="Geschäftsanalyst"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="DefaultAssignee" localized="Standard-Zuständiger"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="ExpertUser" localized="Expertenbenutzer"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Programmer" localized="Programmierer"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="ProgrammerLead" localized="Leiter der Programmierer"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="SalesRepresentative" localized="Vertriebsmitarbeiter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="ShipmentClerk" localized="Versandmitarbeiter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Sponsor" localized="Sponsor"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Spouse" localized="Ehepartner"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Stocker" localized="Lagerarbeiter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="SupplierAgent" localized="Lieferant Agent"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Watcher" localized="Beobachter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Worker" localized="Arbeiter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="BusinessAnalyst" localized="Business-Analyst"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="DefaultAssignee" localized="Standardbeauftragter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="ExpertUser" localized="Expertenbenutzer"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="Programmer" localized="Programmierer"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="ProgrammerLead" localized="Leiter der Programmierer"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="ProjectManager" localized="Projektleiter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="QualityAnalyst" localized="Qualitätsanalyst"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="QualityLead" localized="Leiter der Qualitätskontrolle"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="SysAdmin" localized="Systemadministrator"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="SysArchitect" localized="Systemarchitekt"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="UiDesigner" localized="UI-Designer"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WktpManagement" localized="Management"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WktpGeneralLabor" localized="Allgemeine Arbeit"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WktpGeneralOffice" localized="Allgemeine Verwaltung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WktpPaidBreak" localized="Bezahlte Pause"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WktpPaidNpt" localized="Bezahlte unproduktive Zeit"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="WeptOffered" localized="Angeboten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="WeptAssigned" localized="Zugewiesen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="WeptArrived" localized="Angekommen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="WeptDeparted" localized="Abgefahren"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="WeptDeclined" localized="Abgelehnt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="WeptUnassigned" localized="Nicht zugewiesen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GLJRNL_ERROR" localized="Fehlerbuch"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GLJRNL_MANUAL" localized="Manuelle Journalbuchung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.time.TimePeriodType" fieldName="description" locale="de" pkValue="FiscalYear" localized="Geschäftsjahr"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.time.TimePeriodType" fieldName="description" locale="de" pkValue="FiscalQuarter" localized="Quartal im Geschäftsjahr"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.time.TimePeriodType" fieldName="description" locale="de" pkValue="FiscalMonth" localized="Monat im Geschäftsjahr"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.time.TimePeriodType" fieldName="description" locale="de" pkValue="FiscalBiWeek" localized="14-tägiger Zeitraum im Geschäftsjahr"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.time.TimePeriodType" fieldName="description" locale="de" pkValue="FiscalWeek" localized="Woche im Geschäftsjahr"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.time.TimePeriodType" fieldName="description" locale="de" pkValue="PayrollYear" localized="Jahresabrechnung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.time.TimePeriodType" fieldName="description" locale="de" pkValue="PayrollQuarter" localized="Quartalsabrechnung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.time.TimePeriodType" fieldName="description" locale="de" pkValue="PayrollMonth" localized="Monatsabrechnung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.time.TimePeriodType" fieldName="description" locale="de" pkValue="PayrollBiWeek" localized="14-tägige Abrechnungsperiode"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.time.TimePeriodType" fieldName="description" locale="de" pkValue="PayrollWeek" localized="Wochenabrechnung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.time.TimePeriodType" fieldName="description" locale="de" pkValue="SalesYear" localized="Jahresumsatz"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.time.TimePeriodType" fieldName="description" locale="de" pkValue="SalesQuarter" localized="Quartalsumsatz"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.time.TimePeriodType" fieldName="description" locale="de" pkValue="SalesMonth" localized="Monatsumsatz"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.time.TimePeriodType" fieldName="description" locale="de" pkValue="SalesBiWeek" localized="Verkauf Zweiwöchentlich"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.time.TimePeriodType" fieldName="description" locale="de" pkValue="SalesWeek" localized="Verkauf Wöchentlich"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RESOURCE" localized="Ressource"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="NON_POSTING" localized="Nicht buchungswirksam"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="DEBIT" localized="Soll"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="CONTRA_REVENUE" localized="Negativer Ertrag"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ASSET" localized="Vermögenswert"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="CURRENT_ASSET" localized="Kurzfristiger Vermögenswert"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="CASH_EQUIVALENT" localized="Kassenbestand und Zahlungsmitteläquivalente"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="INVENTORY_ASSET" localized="Inventarvermögen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ACCOUNTS_RECEIVABLE" localized="Forderungen aus Lieferungen und Leistungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PREPAID_EXPENSE" localized="Vorausbezahlte Aufwendungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ACCRUED_REVENUE" localized="Verbindlichkeiten aus dem Leistungserfolg"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="LONG_TERM_ASSET" localized="Langfristiger Vermögenswert"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="LAND_BUILDING" localized="Grund und Gebäude"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="EQUIPMENT" localized="Ausrüstung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="OTHER_ASSET" localized="Andere Vermögenswerte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="DISTRIBUTION" localized="Verteilung von Kapital"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RETURN_OF_CAPITAL" localized="Rückzahlung des Kapitals"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="DIVIDEND" localized="Dividenden"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="COST_OF_SALES" localized="Verkaufskosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="COST_GOODS_SOLD" localized="Kosten der verkauften Waren"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="INVENTORY_SHRINKAGE" localized="Inventurrückgang"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="COST_SERVICES_SOLD" localized="Kosten der verkauften Dienstleistungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="EXPENSE" localized="Aufwendungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="CASH_EXPENSE" localized="Barausgaben"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="INTEREST_EXPENSE" localized="Zinsaufwendungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="COMPENSATION" localized="Entschädigung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GEN_ADMIN_EXPENSE" localized="Allgemeine und Verwaltungskosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="NON_EMP_COMPENSATION" localized="Entschädigung für Nicht-Angestellte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="SALES_EXPENSE" localized="Verkaufs- und Marketingkosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="CONTRIBUTIONS" localized="Beiträge"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PROF_SERVICES" localized="Professionelle Dienstleistungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="BANKING_CHARGES" localized="Bankgebühren"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="DATA_PROCESSING" localized="Datenverarbeitung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="DUES_SUBSCRIPTIONS" localized="Beiträge und Abonnements"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="EDUCATION_EXPENSE" localized="Bildungsausgaben"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FACILITY_EXPENSE" localized="Gebäudekosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="INSURANCE_EXPENSE" localized="Versicherungskosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="MISC_EXPENSE" localized="Verschiedene Ausgaben"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="OFFICE_EXPENSE" localized="Bürokosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="INCOME_TAX_EXPENSE" localized="Einkommensteuerkosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="OTHER_TAX_EXPENSE" localized="Andere Steuerkosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="TRAVEL_ENT" localized="Reise- und Unterhaltungskosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="UTILITIES_EXPENSE" localized="Kosten für öffentliche Versorgungsunternehmen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="VEHICLE_EXPENSE" localized="Fahrzeugkosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="SGA_EXPENSE" localized="Verkaufs-, Allgemeine und Verwaltungskosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="TAX_EXPENSE" localized="Steuerausgaben"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="NON_CASH_EXPENSE" localized="Nicht monetäre Ausgaben"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ADVERTISING" localized="Werbung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="DEPRECIATION" localized="Abschreibung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AMORTIZATION" localized="Amortisation"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="CREDIT" localized="Kredit"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="CONTRA_ASSET" localized="Negative Vermögenswerte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ACCUM_DEPRECIATION" localized="Kumulierte Abschreibungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ACCUM_AMORTIZATION" localized="Kumulierte Amortisationen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="LIABILITY" localized="Verbindlichkeiten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="CURRENT_LIABILITY" localized="Kurzfristige Verbindlichkeiten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ACCOUNTS_PAYABLE" localized="Verbindlichkeiten aus Lieferungen und Leistungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ACCRUED_EXPENSES" localized="Rückstellungen für Aufwendungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="UNEARNED_REVENUE" localized="Erhaltene, aber nicht verdiente Einnahmen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="THIRD_PARTY_HOLDINGS" localized="Fremdgeldverwaltung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="LONG_TERM_LIABILITY" localized="Langfristige Verbindlichkeiten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="EQUITY" localized="Eigenkapital"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="OWNERS_EQUITY" localized="Eigenkapital der Eigentümer"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RETAINED_EARNINGS" localized="Gewinnrücklagen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="REVENUE" localized="Einnahmen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GOODS_REVENUE" localized="Einnahmen aus Waren"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="SERVICES_REVENUE" localized="Einnahmen aus Dienstleistungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="INCOME" localized="Einkommen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="CASH_INCOME" localized="Monetäre Einkünfte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="INTEREST_INCOME" localized="Zinseinkünfte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="NON_CASH_INCOME" localized="Nicht-monetäre Einkünfte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatCurrentAsset" localized="Umlaufvermögen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatPrepaidExpenses" localized="Vorauszahlungen und Antizipierte Kosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatAccruedRevenue" localized="Angefallene Einkünfte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatAccountsReceivable" localized="Forderungen aus Lieferungen und Leistungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatRecInventoryTranOut" localized="Forderungen auf Lagertransfer-Ausgang"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatInterestIncomeRec" localized="Forderungen auf Zinseinkünfte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatAccReceivableUnapplied" localized="Forderungen auf Zahlungen ohne Zuordnung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatMerchantSettlement" localized="Händlerabrechnung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatAccountsPayable" localized="Verbindlichkeiten aus Lieferungen und Leistungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatPayInventoryTranIn" localized="Verbindlichkeiten auf Lagertransfer-Eingang"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatAccPayableUnapplied" localized="Verbindlichkeiten auf Zahlungen ohne Zuordnung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatUndepositedReceipts" localized="Unabgelegte Einnahmen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatFixedAsset" localized="Sachanlagevermögen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatUnreceivedFixedAsset" localized="Festvermögen nicht erhalten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatUnissuedFixedAsset" localized="Festvermögen nicht ausgegeben"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatFaAccumDepreciation" localized="Kumulierte Abschreibung auf Anlagevermögen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatFaDepreciation" localized="Abschreibung auf Anlagevermögen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatFaMaintenance" localized="Anlagevermögen-Wartung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatFaShrinkage" localized="Anlagevermögen-Schrumpfung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatFaFound" localized="Gefundenes Anlagevermögen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatCurrentLiability" localized="Kurzfristige Verbindlichkeiten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatUnearnedRevenue" localized="Nicht realisierte Einnahmen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatAccruedExpenses" localized="Angesammelte Aufwendungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatLongTermLiability" localized="Langfristige Verbindlichkeiten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatInventory" localized="Inventar"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatWipInventory" localized="Inventar für in Bearbeitung befindliche Produkte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatInvAdjAvgCost" localized="Inventar-Anpassung für durchschnittliche Kosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatInvValueAdj" localized="Inventar-Wertanpassung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatUnreceivedInventory" localized="Nicht erhaltenes/nicht fakturiertes Inventar"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatInvShrinkage" localized="Inventurverluste"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatInvFound" localized="Inventurfund"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatTax" localized="Steuern"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatProfitLoss" localized="Gewinne und Verluste"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatSales" localized="Verkäufe"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatCustomerReturns" localized="Kundenrückgaben"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatDiscounts" localized="Rabatte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatCogs" localized="Verkaufskosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatCogsAvgCostAdj" localized="Verkaufskosten - Durchschnittskostenanpassung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatExpense" localized="Aufwendungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatOperatingExpense" localized="Betriebsaufwendungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatOtherExpense" localized="Sonstige Ausgaben"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatOwnersEquity" localized="Eigentümerkapital"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatRetainedEarnings" localized="Einbehaltene Gewinne"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatCustomerDeposits" localized="Kundeneinlagen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatCustomerCredits" localized="Kundenguthaben"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatUninvoicedShpmntRcpts" localized="Unabgerechnete Lieferbelege"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatSupplierDeposits" localized="Garantien von Lieferanten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatCommissionsAccrued" localized="Angesammelte Provisionen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatIncome" localized="Einkommen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatOtherIncome" localized="Andere Einkommen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatInterestIncome" localized="Zinseinkünfte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatCommissionExpense" localized="Provisionsaufwendungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatWriteOff" localized="Abschreibung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatAccRecWriteOff" localized="Abschreibung Forderungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatAccPayWriteOff" localized="Abschreibung Verbindlichkeiten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatCommissionsPayWriteOff" localized="Abschreibung Provisionszahlungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatInterestIncWriteOff" localized="Abschreibung Zinseinkünfte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatForExGainLoss" localized="Wechselkursgewinne/-verluste"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatForExGain" localized="Wechselkursgewinne"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GatForExLoss" localized="Wechselkursverluste"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GlrtMoney" localized="Geld"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GlrtRawMaterial" localized="Rohstoffe"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GlrtLabor" localized="Arbeitskosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GlrtService" localized="Dienstleistung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GlrtFinishedGood" localized="Fertigprodukt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GlrtDeliveredGood" localized="Geliefertes Produkt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RqtBugFix" localized="Fehlerbehebung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RqtNewFeature" localized="Neue Funktion"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RqtInformation" localized="Information"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RqtProposal" localized="Vorschlag"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RqtQuote" localized="Angebot"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RqtSupport" localized="Unterstützung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RqtInventory" localized="Inventar"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RqtPurchase" localized="Einkauf"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RqtContact" localized="Kontaktieren"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="ReqDraft" localized="Entwurf"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="ReqSubmitted" localized="Eingereicht"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="ReqReviewed" localized="Überprüft"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="ReqInProgress" localized="In Bearbeitung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="ReqCompleted" localized="Abgeschlossen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="ReqCancelled" localized="Abgebrochen"/>
+	<moqui.basic.LocalizedMessage original="Title" locale="de" localized="Titel"/>
+	<moqui.basic.LocalizedMessage original="Link" locale="de" localized="Link"/>
+	<moqui.basic.LocalizedMessage original="Find Project" locale="de" localized="Projekt suchen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrCantReproduce" localized="Nicht reproduzierbar"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrWontFix" localized="Wird nicht behoben"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrDuplicate" localized="Duplikat"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrRejected" localized="Abgelehnt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrInsufficient" localized="Unzureichende Informationen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrCompleted" localized="Abgeschlossen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrUnresolved" localized="Ungelöst"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrFixed" localized="Behoben"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PostalShippingDest" localized="Post - Versandziel"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PostalShippingOrigin" localized="Post - Versandursprung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PostalBilling" localized="Post - Lieferantenabrechnung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PostalPayment" localized="Post - Zahlungseingänge"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PostalTax" localized="Post - Steuern"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PostalGeneral" localized="Post - Allgemeine Korrespondenz"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PostalPurchReturn" localized="Post - Einkaufsrücksendung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PostalPrimary" localized="Post - Primär"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PostalPrevious" localized="Post - Vorherige"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PostalHome" localized="Post - Zuhause"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PostalWork" localized="Post - Arbeit"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PhoneShippingDest" localized="Telefon - Versandziel"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PhoneShippingOrigin" localized="Telefon - Versandherkunft"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PhoneShippingFax" localized="Telefon - Fax Versand"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PhoneBilling" localized="Telefon - Lieferantenrechnung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PhoneBillingFax" localized="Telefon - Fax Lieferantenrechnung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PhonePayment" localized="Telefon - Forderungsmanagement"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PhonePaymentFax" localized="Telefon - Fax Forderungsmanagement"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PhoneTax" localized="Telefon - Steuern"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PhoneDid" localized="Telefon - Direktwahl"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PhoneHome" localized="Telefon - Privat"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PhoneWork" localized="Telefon - Arbeit"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PhoneFax" localized="Telefon - Fax"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PhoneMobile" localized="Telefon - Mobil"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PhoneAssistant" localized="Telefon - Assistent"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PhonePrimary" localized="Telefon - Hauptnummer"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="PhoneQuick" localized="Telefon - Schnellwahl"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="EmailShippingDest" localized="E-Mail - Versandziel"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="EmailShippingOrigin" localized="E-Mail - Versandursprung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="EmailPrimary" localized="E-Mail - Primär"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="EmailBilling" localized="E-Mail - Abrechnung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="EmailPayment" localized="E-Mail - Zahlung an Lieferanten"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="EmailOther" localized="E-Mail - Andere"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="EmailSupport" localized="E-Mail - Unterstützung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="EmailOrder" localized="E-Mail - Bestellungen"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="EmailMarketing" localized="E-Mail - Marketing"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="WebUrlPrimary" localized="URL der Webseite - Primär"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.contact.ContactMechPurpose" fieldName="description" locale="de" pkValue="WebUrlPayment" localized="URL der Webseite - Zahlungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemSales" localized="Verkäufe"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemWorkEffort" localized="Arbeitsaufwand"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemTimeEntry" localized="Zeiterfassung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemRental" localized="Vermietung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemReplacement" localized="Ersatz"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemDiscount" localized="Rabatt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemDonation" localized="Spende"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemFee" localized="Gebühr"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemMiscCharge" localized="Verschiedene Kosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemSalesTax" localized="Umsatzsteuer"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemVatTax" localized="Mehrwertsteuer (nicht in Gesamtbetrag enthalten)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemShipping" localized="Versand- und Bearbeitungskosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemShippingOther" localized="Andere Versandkosten (nicht im Inventar)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemSurcharge" localized="Zuschlag"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemAddtlFeature" localized="Zusatzfunktionen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemWarranty" localized="Garantie"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemMkgtPkgAdj" localized="Marketingpaketanpassung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemSales" localized="Verkäufe"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemProduct" localized="Produkt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemServiceProduct" localized="Standardisierter Service"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemSalesThirdParty" localized="Dritte"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemInventory" localized="Vermögenswert - Inventar"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemAsset" localized="Vermögenswert - Sachanlagevermögen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpense" localized="Ausgaben"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpAdvertising" localized="Werbung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpCharitable" localized="Wohltätigkeitsbeitrag"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpCommTelephone" localized="Telefonkommunikation"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpCommCellular" localized="Mobiltelefonkommunikation"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpCommNetwork" localized="Kommunikationsnetzwerk"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpCommissionFee" localized="Provision/Gebühr"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpHosting" localized="Server-Hosting"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpServAccount" localized="Buchhaltungsdienstleistungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpServLegal" localized="Rechtsdienstleistungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpServLabor" localized="Arbeitskräftedienstleistungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpOfficeSup" localized="Büromaterialien"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpOfficePostage" localized="Versandkosten (Büro)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpLeaseVehicle" localized="Fahrzeugvermietung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpLeaseEquip" localized="Gerätevermietung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpLeaseRealEst" localized="Immobilienvermietung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpLeaseOther" localized="Sonstige Vermietung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpMaintVehicle" localized="Fahrzeugreparatur/Wartung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpMaintEquip" localized="Gerätereeparatur/Wartung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpMaintRealEst" localized="Immobilienreparatur/Wartung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpMaintOther" localized="Reparatur/Wartung Sonstiges"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpInterestVehi" localized="Fahrzeugzinsen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpInterestEquip" localized="Ausrüstungszinsen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpInterestReal" localized="Immobilienzinsen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpInterestOther" localized="Sonstige Zinsen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpInsBusiness" localized="Geschäftsversicherung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpInsHealth" localized="Gesundheitsversicherung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpInsVehicle" localized="Fahrzeugversicherung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpInsEquipment" localized="Ausrüstungsversicherung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpInsRealEst" localized="Immobilienversicherung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpInsOther" localized="Sonstige Versicherungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpUtilHeating" localized="Heizungsdienstleistungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpUtilElec" localized="Stromdienstleistungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpUtilWater" localized="Wasserdienstleistungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpUtilTrash" localized="Mülldienstleistungen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpUtilVehFuel" localized="Kraftstoffdienstleistungen für Fahrzeuge"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpMedical" localized="Medizinische und Gesundheitsversorgung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpRoyalties" localized="Lizenzgebühren"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpShipping" localized="Versand"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpSupplies" localized="Bedarf"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpTaxesLic" localized="Steuern und Lizenzen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpOther" localized="Andere"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpTravMealsEnt" localized="Reisen Verpflegung/Unterhaltung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpTravLocal" localized="Reisen Lokal/Parken/Maut"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpTravAir" localized="Reisen per Flugzeug"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpTravCarRental" localized="Reisen Mietwagen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpTravOther" localized="Reisen Andere"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemExpTravLodging" localized="Reisen Unterkunft"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemCommission" localized="Ausgaben - Kommissionslinie"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemCommissionAdj" localized="Ausgaben - Kommissionsanpassung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemInvAdjust" localized="Rechnungsanpassung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemWriteOff" localized="OP-Anpassung - Erlass"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemPromptDiscount" localized="OP-Anpassung - Skonto"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemLateCharge" localized="OP-Anpassung - Mahngebühr"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemReturnAdjust" localized="OP-Anpassung - Rücksendung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemChargebackAdjust" localized="Anpassung von OP - Rückbuchung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemComplianceFee" localized="Anpassung von OP - Einhaltungsgebühr"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemShrinkage" localized="Anpassung von OP - Schwund"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemPayrollIncome" localized="Entlohnung - Einkommen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemHourlyEarnings" localized="Entlohnung - Stundenlohn"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemPieceCountEarnings" localized="Entlohnung - Stücklohn"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemSickHourly" localized="Entlohnung - Krankheitsstundenlohn"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemSalary" localized="Entlohnung - Gehalt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemVacationSalary" localized="Entlohnung - Urlaubsgehalt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemSickSalary" localized="Entlohnung - Krankheitsgehalt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemBonus" localized="Entlohnung - Bonus"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemPrlCommission" localized="Entlohnung - Provision"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemAdvancePay" localized="Entlohnung - Vorschusszahlung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemPayAdjOverpay" localized="Entlohnung - Anpassung des Abrechnungszeitraums - Überzahlung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemPayAdjPay" localized="Entlohnung - Anpassung des Abrechnungszeitraums - Zahlung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemReimbursement" localized="Entlohnung - Erstattung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemPayrollDeduct" localized="Remuneration - Abzug"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="InvoicePayrollOther" localized="Andere Entgelte"/>
+
+	<moqui.basic.LocalizedMessage original="Order Name" locale="de" localized="Bestellname"/>
+	<moqui.basic.LocalizedMessage original="Resume Last Sale" locale="de" localized="Letzten Verkauf fortsetzen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttAmortization" localized="Abschreibung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttDepreciation" localized="Wertminderung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttCapitalization" localized="Kapitalisierung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttInventoryReceipt" localized="Inventurerhaltung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttInventoryIssuance" localized="Inventurausgabe"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttInventoryVariance" localized="Inventarabweichung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttPeriodClosing" localized="Periodenabschluss"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttInternal" localized="Intern"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttExternal" localized="Extern"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttObligation" localized="Verpflichtung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttCreditLine" localized="Kreditlinie"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttCreditMemo" localized="Gutschrift"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttNote" localized="Hinweis"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttOtherObligation" localized="Andere Verpflichtung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttSales" localized="Verkauf"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttTaxDue" localized="Fällige Steuern"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttPayment" localized="Zahlung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttDisbursement" localized="Auszahlung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttReceipt" localized="Empfang"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttSalesInvoice" localized="Verkaufsrechnung (vom Unternehmen an Kunden)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttCustRtnInvoice" localized="Gutschrift (Kundenrückgabe)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttPurchaseInvoice" localized="Einkaufsrechnung (vom Lieferanten an Unternehmen)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttVendRtnInvoice" localized="Gutschrift (Lieferantenrückgabe)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttPayrollInvoice" localized="Lohnabrechnung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttTaxInvoice" localized="Steuern"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttGarnishmentInvoice" localized="Gerichtliche Lohnpfändung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttCommissionInvoice" localized="Provision"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttInvoiceAdjust" localized="Gutschrift (Anpassung)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttAssetReceipt" localized="Empfang von Sachanlagen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttAssetIssuance" localized="Ausgabe von Sachanlagen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttAssetVariance" localized="Sachanlagen-Abweichung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttSalesInventory" localized="Verkaufsinventar"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttReturnInventory" localized="Rückgabeninventar"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttManufacturing" localized="Herstellung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttFinancialDeposit" localized="Finanzielle Einzahlung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttFinancialWithdrawal" localized="Finanzielle Auszahlung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttFinancialAdjustment" localized="Finanzielle Anpassung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttIncomingPayment" localized="Eingehende Zahlung (Empfang)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttOutgoingPayment" localized="Ausgehende Zahlung (Auszahlung)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttIncomingPaymentAp" localized="Anwendung eingehender Zahlung (Empfang)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttOutgoingPaymentAp" localized="Anwendung ausgehender Zahlung (Auszahlung)"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AttPaymentApplied" localized="Angewandte Zahlung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GLFT_ACTUAL" localized="Tatsächlich"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GLFT_BUDGET" localized="Budget"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GLFT_FORECAST" localized="Prognose"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GLFT_PLAN" localized="Plan"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="GLFT_SCENARIO" localized="Szenario"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AtrSuccess" localized="Erfolgreich"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AtrNoAcctgPreference" localized="Keine Buchhaltungseinstellung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AtrNoAcquireCost" localized="Keine Anschaffungskosten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AtrNoTransReason" localized="Kein Transaktionsgrund"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AtrPaymentNotPosted" localized="Zahlung nicht verbucht"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="BudgetCapital" localized="Kapitalbudget"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="BudgetOperating" localized="Betriebsbudget"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="AterNot" localized="Nicht abgestimmt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="AterPartly" localized="Teilweise abgestimmt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="AterRec" localized="Abgestimmt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="PmtrNot" localized="Nicht abgestimmt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="PmtrPartly" localized="Teilweise abgestimmt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="PmtrRec" localized="Abgestimmt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AgrProduct" localized="Produkt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AgrSales" localized="Verkäufe"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AgrEmployment" localized="Beschäftigung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AgrOther" localized="Andere"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AgrCommission" localized="Provision"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="AgrEula" localized="Lizenzvereinbarung (EULA)"/>
+	<moqui.basic.LocalizedMessage original="Partly Reconcile" locale="de" localized="Teilweise abstimmen"/>
+	<moqui.basic.LocalizedMessage original="Reconcile" locale="de" localized="Abstimmen"/>
+	<moqui.basic.LocalizedMessage original="Unreconcile" locale="de" localized="Unversöhnen"/>
+	<moqui.basic.LocalizedMessage original="Customer Credit" locale="de" localized="Kundenkredit"/>
+	<moqui.basic.LocalizedMessage original="Entry Date" locale="de" localized="Eingangsdatum"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="CmtlNew" localized="Neu"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="CmtlValid" localized="Gültig/Vollständig"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="CmtlVerified" localized="Überprüft"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="CmtlInvalid" localized="Ungültig"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="CmtlIncomplete" localized="Unvollständig"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="CmtlGreylisted" localized="Graue Liste"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="CmtlBlacklisted" localized="Schwarze Liste"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ShMthPickUp" localized="Kunde holt ab"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ShMthNextDay" localized="Nächster Standardtag"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ShMthNextDayPri" localized="Nächster Prioritätstag"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ShMthSecondDay" localized="Zweiter Tag"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ShMthThirdDay" localized="Dritter Tag"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ShMthGround" localized="Bodenpaket"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ShMthMotor" localized="Allgemeiner Spediteur"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" locale="de" pkValue="RateType" localized="Stundensatztyp"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" locale="de" pkValue="PieceRateType" localized="Stücklohn-Typ"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpStandard" localized="Standard"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpPieceMinWageAdj" localized="Anpassung des Mindestlohns"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpPaidBreakStd" localized="Standard-Bezahlungspause"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpPaidBreakRrp" localized="Bezahlte Pause - spezifisch"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpPaidNptStd" localized="Standard-Bezahlung nicht produktive Zeit"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpPaidNptRrp" localized="Bezahlte nicht produktive Zeit - spezifisch"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpVacation" localized="Bezahlte Pause - Urlaub"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpHoliday" localized="Bezahlte Pause - Feiertage"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpSick" localized="Bezahlte Pause - Krankheit"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpPtoOther" localized="Bezahlte Auszeit - Andere"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpPieceOrHour" localized="Einheit oder Zeit"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpPieceOnly" localized="Einheit"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpPiecelPlusHour" localized="Einheit plus Zeit"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpUnpaid" localized="Unbezahlt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpNoCharge" localized="Keine Gebühr"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpDiscounted" localized="Reduziert"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpOnsite" localized="Vor Ort"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpEvening" localized="Schicht - Abend"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpNight" localized="Schicht - Nacht"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpWeekend" localized="Schicht - Wochenende"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatpShHoliday" localized="Schicht - Feiertag"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatmRegular" localized="Normal"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatmOvertime" localized="Überstunden"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RatmDouble" localized="Doppelt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RaprClient" localized="Kundenabrechnung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RaprVendor" localized="Arbeiter/Lieferantenzahlung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" locale="de" pkValue="RateModifier" localized="Tarifmodifikator"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" locale="de" pkValue="EngRateCommonEntry" localized="Manueller Eintrittstarif-Typ"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" locale="de" pkValue="EngRateCommonConfig" localized="Konfigurierter Tarif-Typ"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" locale="de" pkValue="EngHourlyRateType" localized="Tarif-Typ nach Zeit"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" locale="de" pkValue="EngPieceRateType" localized="Tarif-Typ pro Einheit"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" locale="de" pkValue="EngPayRateModifierType" localized="Tarifmodifikator-Typ"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" locale="de" pkValue="RatePurpose" localized="Tarifzweck"/>
+
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgAssociation" localized="Assoziation"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgCorporation" localized="Korporation"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgDepartment" localized="Abteilung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgDivision" localized="Division"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgEmployer" localized="Arbeitgeber"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgFamily" localized="Familie"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgGovernment" localized="Regierung"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgGovernmentAgency" localized="Regierungsbehörde"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgHousehold" localized="Haushalt"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgInternal" localized="Interne Organisation"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgTeam" localized="Team"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgUnit" localized="Einheit"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgParent" localized="Übergeordnet"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgRegulatoryAgency" localized="Regulierungsbehörde"/> <moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgSubsidiary" localized="Tochterunternehmen"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgTaxAuthority" localized="Steuerbehörde"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="de" pkValue="OrgUnion" localized="Gewerkschaft"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PrtAgent" localized="Agent"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PrtEmployee" localized="Mitarbeiter"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PrtChild" localized="Kind"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PrtContact" localized="Kontakt"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PrtCustomer" localized="Kunde"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PrtFriend" localized="Freund"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PrtManager" localized="Manager"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PrtMember" localized="Mitglied"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PrtOrgRollup" localized="Organisationseinheit"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PrtPartner" localized="Partner"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PrtRepresentative" localized="Vertreter"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PrtSalesAffiliate" localized="Vertriebspartner"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PrtSpouse" localized="Ehepartner"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PrtSupplier" localized="Lieferant"/>
+	<moqui.basic.LocalizedMessage original="Estimated Quantity" locale="de" localized="Cantidad Estimada"/>
+	<moqui.basic.LocalizedMessage locale="de" original="PayrollInvoicePayDescription" localized="Grundgehalt ${emplPosition.description?:''} für gearbeitete Tage ${ec.l10n.format(timePeriod.fromDate, 'dd MMM yyyy')} - ${ec.l10n.format(timePeriod.thruDate, 'dd MMM yyyy')}"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ShpTpIncoming" localized="Eingehend"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ShpTpOutgoing" localized="Ausgehend"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ShpTpSalesReturn" localized="Rückgabe von Verkauf"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ShpTpSales" localized="Verkaufsversand"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ShpTpPurchase" localized="Kaufversand"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ShpTpPurchaseReturn" localized="Rückgabe von Kauf"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ShpTpDrop" localized="Direktlieferung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ShpTpTransfer" localized="Überweisung"/>
+	<moqui.basic.LocalizedMessage original="Finalize" locale="de" localized="Abschließen"/>
+	<moqui.basic.LocalizedMessage original="Sent" locale="de" localized="Gesendet"/>
+	<moqui.basic.LocalizedMessage original="Payment Received" locale="de" localized="Zahlung erhalten"/>
+	<moqui.basic.LocalizedMessage original="In-Process" locale="de" localized="In Bearbeitung"/>
+	<moqui.basic.LocalizedMessage original="Write Off" locale="de" localized="Abschreiben"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="InVrLost" localized="Verlust"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="InVrStolen" localized="Diebstahl"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="InVrFound" localized="Gefunden"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="InVrDamaged" localized="Beschädigt"/>
+</entity-facade-xml>
