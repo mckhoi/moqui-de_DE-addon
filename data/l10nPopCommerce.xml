@@ -1,0 +1,233 @@
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+	<moqui.basic.LocalizedMessage original="Internal Organization" locale="de" localized="Interne Organisation"/>
+	<moqui.basic.LocalizedMessage original="Operate" locale="de" localized="Betreiben"/>
+	<moqui.basic.LocalizedMessage original="Suppliers" locale="de" localized="Lieferanten"/>
+	<moqui.basic.LocalizedMessage original="Purchasing" locale="de" localized="Einkauf"/>
+	<moqui.basic.LocalizedMessage original="Receiving" locale="de" localized="Empfang"/>
+	<moqui.basic.LocalizedMessage original="Inventory" locale="de" localized="Inventar"/>
+	<moqui.basic.LocalizedMessage original="Customers" locale="de" localized="Kunden"/>
+	<moqui.basic.LocalizedMessage original="Customer" locale="de" localized="Kunde"/>
+	<moqui.basic.LocalizedMessage original="Customer: " locale="de" localized="Kunde: "/>
+	<moqui.basic.LocalizedMessage original="Sales" locale="de" localized="Verkauf"/>
+	<moqui.basic.LocalizedMessage original="Picking" locale="de" localized="Kommissionierung"/>
+	<moqui.basic.LocalizedMessage original="Shipping" locale="de" localized="Versand"/>
+	<moqui.basic.LocalizedMessage original="Manage" locale="de" localized="Verwalten"/>
+	<moqui.basic.LocalizedMessage original="Catalog" locale="de" localized="Katalog"/>
+	<moqui.basic.LocalizedMessage original="Facilities" locale="de" localized="Einrichtungen"/>
+	<moqui.basic.LocalizedMessage original="Facility" locale="de" localized="Einrichtung"/>
+	<moqui.basic.LocalizedMessage original="Assets" locale="de" localized="Vermögenswerte"/>
+	<moqui.basic.LocalizedMessage original="Asset" locale="de" localized="Vermögenswert"/>
+	<moqui.basic.LocalizedMessage original="Vendor(s)" locale="de" localized="Lieferant(en)"/>
+	<moqui.basic.LocalizedMessage original="Vendor" locale="de" localized="Lieferant"/>
+	<moqui.basic.LocalizedMessage original="Vendor: " locale="de" localized="Lieferant: "/>
+	<moqui.basic.LocalizedMessage original="Vendors" locale="de" localized="Lieferanten"/>
+	<moqui.basic.LocalizedMessage original="Accounting" locale="de" localized="Buchhaltung"/>
+	<moqui.basic.LocalizedMessage original="Reports" locale="de" localized="Berichte"/>
+	<moqui.basic.LocalizedMessage original="Receivable" locale="de" localized="Forderungen"/>
+	<moqui.basic.LocalizedMessage original="Payable" locale="de" localized="Verbindlichkeiten"/>
+	<moqui.basic.LocalizedMessage original="Shipments" locale="de" localized="Versand"/>
+	<moqui.basic.LocalizedMessage original="Users" locale="de" localized="Benutzer"/>
+	<moqui.basic.LocalizedMessage original="Orders" locale="de" localized="Bestellungen"/>
+	<moqui.basic.LocalizedMessage original="Create Purchase Order" locale="de" localized="Bestellung erstellen"/>
+	<moqui.basic.LocalizedMessage original="Create Sales Order" locale="de" localized="Verkaufsauftrag erstellen"/>
+	<moqui.basic.LocalizedMessage original="Purchase Orders Only" locale="de" localized="Nur Bestellungen"/>
+	<moqui.basic.LocalizedMessage original="Purchase Orders" locale="de" localized="Bestellungen"/>
+	<moqui.basic.LocalizedMessage original="Sales Orders Only" locale="de" localized="Nur Verkaufsaufträge"/>
+	<moqui.basic.LocalizedMessage original="Placed Date" locale="de" localized="Bestelldatum"/>
+	<moqui.basic.LocalizedMessage original="Ship Before Date" locale="de" localized="Versanddatum"/>
+	<moqui.basic.LocalizedMessage original="Delivery Date" locale="de" localized="Lieferdatum"/>
+	<moqui.basic.LocalizedMessage original="Asset Type" locale="de" localized="Anlagentyp"/>
+	<moqui.basic.LocalizedMessage original="Owner Party" locale="de" localized="Eigentümerpartei"/>
+	<moqui.basic.LocalizedMessage original="Product Type" locale="de" localized="Produkttyp"/>
+	<moqui.basic.LocalizedMessage original="Asset ID" locale="de" localized="Anlagen-ID"/>
+	<moqui.basic.LocalizedMessage original="Product ID" locale="de" localized="Produkt-ID"/>
+	<moqui.basic.LocalizedMessage original="Product Name" locale="de" localized="Produktname"/>
+	<moqui.basic.LocalizedMessage original="Received Date" locale="de" localized="Erhaltungsdatum"/>
+	<moqui.basic.LocalizedMessage original="Mfg Date" locale="de" localized="Herstellungsdatum"/>
+	<moqui.basic.LocalizedMessage original="Quantity On Hand" locale="de" localized="Menge auf Lager"/>
+	<moqui.basic.LocalizedMessage original="Available To Promise" locale="de" localized="Verfügbar zum Versprechen"/>
+	<moqui.basic.LocalizedMessage original="Location" locale="de" localized="Standort"/>
+	<moqui.basic.LocalizedMessage original="New Organization Supplier" locale="de" localized="Neuer Organisation-Lieferant"/>
+	<moqui.basic.LocalizedMessage original="New Person" locale="de" localized="Neue Person"/>
+	<moqui.basic.LocalizedMessage original="New Person Supplier" locale="de" localized="Neuer Person-Lieferant"/>
+	<moqui.basic.LocalizedMessage original="Edit Payment Info" locale="de" localized="Zahlungsinformationen bearbeiten"/>
+	<moqui.basic.LocalizedMessage original="Current Rep" locale="de" localized="Aktueller Vertreter"/>
+	<moqui.basic.LocalizedMessage original="New Rep User" locale="de" localized="Neuer Vertreterbenutzer"/>
+	<moqui.basic.LocalizedMessage original="Set Vendor (AR) Representative" locale="de" localized="Lieferanten-(AR) Vertreter festlegen"/>
+	<moqui.basic.LocalizedMessage original="Billing Information" locale="de" localized="Abrechnungsinformationen"/>
+	<moqui.basic.LocalizedMessage original="Edit Billing Info" locale="de" localized="Abrechnungsinformationen bearbeiten"/>
+	<moqui.basic.LocalizedMessage original="Make Client" locale="de" localized="Kunde erstellen"/>
+	<moqui.basic.LocalizedMessage original="Edit Accounting Configuration" locale="de" localized="Bearbeiten der Buchhaltungskonfiguration"/>
+	<moqui.basic.LocalizedMessage original="Product Class" locale="de" localized="Produktklasse"/>
+	<moqui.basic.LocalizedMessage original="Asset Class" locale="de" localized="Vermögensklasse"/>
+	<moqui.basic.LocalizedMessage original="New Product" locale="de" localized="Neues Produkt"/>
+	<moqui.basic.LocalizedMessage original="Find Supplier" locale="de" localized="Lieferanten finden"/>
+	<moqui.basic.LocalizedMessage original="Add Vendor" locale="de" localized="Lieferant hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Search Vendors" locale="de" localized="Lieferanten suchen"/>
+	<moqui.basic.LocalizedMessage original="New Feature" locale="de" localized="Neues Feature"/>
+	<moqui.basic.LocalizedMessage original="Abbrev" locale="de" localized="Abkürzung"/>
+	<moqui.basic.LocalizedMessage original="Feature Type" locale="de" localized="Feature-Typ"/>
+	<moqui.basic.LocalizedMessage original="Categories" locale="de" localized="Kategorien"/>
+	<moqui.basic.LocalizedMessage original="Feature Groups" locale="de" localized="Feature-Gruppen"/>
+	<moqui.basic.LocalizedMessage original="Features" locale="de" localized="Features"/>
+	<moqui.basic.LocalizedMessage original="Groups" locale="de" localized="Gruppen"/>
+	<moqui.basic.LocalizedMessage original="Products" locale="de" localized="Produkte"/>
+	<moqui.basic.LocalizedMessage original="Search Products" locale="de" localized="Produkte suchen"/>
+	<moqui.basic.LocalizedMessage original="Find Feature" locale="de" localized="Feature finden"/>
+	<moqui.basic.LocalizedMessage original="Search Any Field" locale="de" localized="Suche in jedem Feld"/>
+	<moqui.basic.LocalizedMessage original="Amount/UOM" locale="de" localized="Betrag/Einheit"/>
+	<moqui.basic.LocalizedMessage original="Full search string: ${queryString?:''}" locale="de" localized="Vollständiger Suchstring: ${queryString?:''}"/>
+	<moqui.basic.LocalizedMessage original="Find Facility" locale="de" localized="Einrichtung finden"/>
+	<moqui.basic.LocalizedMessage original="New Facility" locale="de" localized="Neue Einrichtung"/>
+	<moqui.basic.LocalizedMessage original="Facility ID" locale="de" localized="Einrichtungs-ID"/>
+	<moqui.basic.LocalizedMessage original="Facility Type" locale="de" localized="Einrichtungs-Typ"/>
+	<moqui.basic.LocalizedMessage original="Shipment" locale="de" localized="Versand"/>
+	<moqui.basic.LocalizedMessage original="New Outgoing Shipment" locale="de" localized="Neuer ausgehender Versand"/>
+	<moqui.basic.LocalizedMessage original="New Incoming Shipment" locale="de" localized="Neuer eingehender Versand"/>
+	<moqui.basic.LocalizedMessage original="Origin Facility" locale="de" localized="Herkunftseinrichtung"/>
+	<moqui.basic.LocalizedMessage original="Destination Facility" locale="de" localized="Zieleinrichtung"/>
+	<moqui.basic.LocalizedMessage original="Dest. Facility" locale="de" localized="Zieleinrichtung"/>
+	<moqui.basic.LocalizedMessage original="From Party" locale="de" localized="Von Partei"/>
+	<moqui.basic.LocalizedMessage original="To Party" locale="de" localized="Hacia Sujeto"/>
+	<moqui.basic.LocalizedMessage original="Estimated Arrival Date" locale="de" localized="Voraussichtliches Ankunftsdatum"/>
+	<moqui.basic.LocalizedMessage original="Estimated Ready Date" locale="de" localized="Voraussichtliches Bereitstellungsdatum"/>
+	<moqui.basic.LocalizedMessage original="Outgoing Shipments" locale="de" localized="Ausgehende Sendungen"/>
+	<moqui.basic.LocalizedMessage original="Find User" locale="de" localized="Benutzer finden"/>
+	<moqui.basic.LocalizedMessage original="Add User" locale="de" localized="Benutzer hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Search Users" locale="de" localized="Benutzer suchen"/>
+	<moqui.basic.LocalizedMessage original="Email Address" locale="de" localized="E-Mail-Adresse"/>
+	<moqui.basic.LocalizedMessage original="Time Zone" locale="de" localized="Zeitzone"/>
+	<moqui.basic.LocalizedMessage original="Disabled?" locale="de" localized="Deaktiviert?"/>
+	<moqui.basic.LocalizedMessage original="Middle Name" locale="de" localized="Zweiter Vorname"/>
+	<moqui.basic.LocalizedMessage original="Where payments are sent" locale="de" localized="Wo Zahlungen gesendet werden"/>
+	<moqui.basic.LocalizedMessage original="Add to Admin Group" locale="de" localized="Zu Admin-Gruppe hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Add to User Group" locale="de" localized="Zu Benutzergruppe hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="User" locale="de" localized="Benutzer"/>
+	<moqui.basic.LocalizedMessage original="New Person Customer" locale="de" localized="Neuer Kunde (Person)"/>
+	<moqui.basic.LocalizedMessage original="New Organization Customer" locale="de" localized="Neuer Kunde (Organisation)"/>
+	<moqui.basic.LocalizedMessage original="Party ID" locale="de" localized="Sujeto-ID"/>
+	<moqui.basic.LocalizedMessage original="Combined Name" locale="de" localized="Kombinierter Name"/>
+	<moqui.basic.LocalizedMessage original="Address1" locale="de" localized="Adresse1"/>
+	<moqui.basic.LocalizedMessage original="City" locale="de" localized="Stadt"/>
+	<moqui.basic.LocalizedMessage original="State" locale="de" localized="Bundesstaat"/>
+	<moqui.basic.LocalizedMessage original="Postal Code" locale="de" localized="Postleitzahl"/>
+	<moqui.basic.LocalizedMessage original="Area Code" locale="de" localized="Vorwahl"/>
+	<moqui.basic.LocalizedMessage original="Contact Number" locale="de" localized="Kontakt Nummer"/>
+	<moqui.basic.LocalizedMessage original="Order ID" locale="de" localized="Bestellungs-ID"/>
+	<moqui.basic.LocalizedMessage original="Start Date" locale="de" localized="Startdatum"/>
+	<moqui.basic.LocalizedMessage original="Load ID" locale="de" localized="Ladungs-ID"/>
+	<moqui.basic.LocalizedMessage original="New Picklist" locale="de" localized="Neue Pickliste"/>
+	<moqui.basic.LocalizedMessage original="Equipment" locale="de" localized="Ausrüstung"/>
+	<moqui.basic.LocalizedMessage original="Find Vendor" locale="de" localized="Suche Anbieter"/>
+	<moqui.basic.LocalizedMessage original="New Feature Group" locale="de" localized="Neue Merkmalsgruppe"/>
+	<moqui.basic.LocalizedMessage original="Feature Group ID" locale="de" localized="Merkmalsgruppen-ID"/>
+	<moqui.basic.LocalizedMessage original="New Category" locale="de" localized="Neue Kategorie"/>
+	<moqui.basic.LocalizedMessage original="Category ID" locale="de" localized="Kategorie-ID"/>
+	<moqui.basic.LocalizedMessage original="Category Type" locale="de" localized="Kategorietyp"/>
+	<moqui.basic.LocalizedMessage original="Find Category" locale="de" localized="Suche Kategorie"/>
+	<moqui.basic.LocalizedMessage original="Find Feature Group" locale="de" localized="Suche Merkmalsgruppe"/>
+	<moqui.basic.LocalizedMessage original="Clone Product" locale="de" localized="Produkt klonen"/>
+	<moqui.basic.LocalizedMessage original="Associated" locale="de" localized="Zugehörig"/>
+	<moqui.basic.LocalizedMessage original="Apply Feature" locale="de" localized="Merkmal anwenden"/>
+	<moqui.basic.LocalizedMessage original="Dimensions" locale="de" localized="Maße"/>
+	<moqui.basic.LocalizedMessage original="Add Dimension" locale="de" localized="Maß hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Identification" locale="de" localized="Identifizierung"/>
+	<moqui.basic.LocalizedMessage original="Add Identification" locale="de" localized="Identifizierung hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Content" locale="de" localized="Inhalt"/>
+	<moqui.basic.LocalizedMessage original="Add Content" locale="de" localized="Inhalt hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Feature" locale="de" localized="Merkmal"/>
+	<moqui.basic.LocalizedMessage original="Appl. Type" locale="de" localized="Anwendungsart"/>
+	<moqui.basic.LocalizedMessage original="Value" locale="de" localized="Wert"/>
+	<moqui.basic.LocalizedMessage original="Unit" locale="de" localized="Einheit"/>
+	<moqui.basic.LocalizedMessage original="ID Type" locale="de" localized="ID-Typ"/>
+	<moqui.basic.LocalizedMessage original="ID Value" locale="de" localized="ID-Wert"/>
+	<moqui.basic.LocalizedMessage original="Content Type" locale="de" localized="Inhaltstyp"/>
+	<moqui.basic.LocalizedMessage original="Content File" locale="de" localized="Inhaltsdatei"/>
+	<moqui.basic.LocalizedMessage original="Create Vendor" locale="de" localized="Anbieter erstellen"/>
+	<moqui.basic.LocalizedMessage original="Make Internal Org" locale="de" localized="Interne Organisation erstellen"/>
+	<moqui.basic.LocalizedMessage original="Add To Product" locale="de" localized="Zum Produkt hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Add To Feature Group" locale="de" localized="Zur Merkmalsgruppe hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Approve Order" locale="de" localized="Bestellung genehmigen"/>
+	<moqui.basic.LocalizedMessage original="Order Sent" locale="de" localized="Bestellung gesendet"/>
+	<moqui.basic.LocalizedMessage original="Add Part" locale="de" localized="Teil hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Clone Order" locale="de" localized="Bestellung duplizieren"/>
+	<moqui.basic.LocalizedMessage original="Cancel Order" locale="de" localized="Bestellung stornieren"/>
+	<moqui.basic.LocalizedMessage original="Order PDF" locale="de" localized="Bestell-PDF"/>
+	<moqui.basic.LocalizedMessage original="Entry" locale="de" localized="Eintrag"/>
+	<moqui.basic.LocalizedMessage original="Placed" locale="de" localized="Platziert"/>
+	<moqui.basic.LocalizedMessage original="Channel" locale="de" localized="Kanal"/>
+	<moqui.basic.LocalizedMessage original="Message Remote" locale="de" localized="Remote-Nachricht"/>
+	<moqui.basic.LocalizedMessage original="External ID" locale="de" localized="Externe ID"/>
+	<moqui.basic.LocalizedMessage original="External Rev" locale="de" localized="Externe Rev"/>
+	<moqui.basic.LocalizedMessage original="Status History" locale="de" localized="Status-Historie"/>
+	<moqui.basic.LocalizedMessage original="Notes" locale="de" localized="Notizen"/>
+	<moqui.basic.LocalizedMessage original="Add Note" locale="de" localized="Notiz hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Attachments" locale="de" localized="Anhänge"/>
+	<moqui.basic.LocalizedMessage original="Add Attachment" locale="de" localized="Anhang hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Update Header" locale="de" localized="Header aktualisieren"/>
+	<moqui.basic.LocalizedMessage original="Edit Part ${orderPartInfo.orderPart.orderPartSeqId}" locale="de" localized="Teil ${orderPartInfo.orderPart.orderPartSeqId} bearbeiten"/>
+	<moqui.basic.LocalizedMessage original="Add Party" locale="de" localized="Teilnehmer hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Add Payment" locale="de" localized="Zahlung hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Add Shipping Address" locale="de" localized="Lieferadresse hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Choose a Shipping Address" locale="de" localized="Lieferadresse auswählen"/>
+	<moqui.basic.LocalizedMessage original="Add Product Item" locale="de" localized="Produkt-Element hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Add Other Item" locale="de" localized="Anderes Element hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Set Shipping Address and Info" locale="de" localized="Lieferadresse und Info festlegen"/>
+	<moqui.basic.LocalizedMessage original="Order Part ${orderPartInfo.orderPart.orderPartSeqId}" locale="de" localized="Teil ${orderPartInfo.orderPart.orderPartSeqId} bestellen"/>
+	<moqui.basic.LocalizedMessage original="Order Part" locale="de" localized="Teil"/>
+	<moqui.basic.LocalizedMessage original="Parent Item" locale="de" localized="Übergeordnetes Element"/>
+	<moqui.basic.LocalizedMessage original="Other Party Product ID" locale="de" localized="Andere Partei Produkt-ID"/>
+	<moqui.basic.LocalizedMessage original="Comments" locale="de" localized="Kommentare"/>
+	<moqui.basic.LocalizedMessage original="Required By Date" locale="de" localized="Erforderlich Bis Datum"/>
+	<moqui.basic.LocalizedMessage original="Price" locale="de" localized="Preis"/>
+	<moqui.basic.LocalizedMessage original="Prices" locale="de" localized="Preise"/>
+	<moqui.basic.LocalizedMessage original="New Price" locale="de" localized="Neuer Preis"/>
+	<moqui.basic.LocalizedMessage original="Quantity" locale="de" localized="Menge"/>
+	<moqui.basic.LocalizedMessage original="Asset Reservations" locale="de" localized="Anlagenreservierungen"/>
+	<moqui.basic.LocalizedMessage original="Item Total" locale="de" localized="Gesamtartikel"/>
+	<moqui.basic.LocalizedMessage original="With Children" locale="de" localized="Mit Kindern"/>
+	<moqui.basic.LocalizedMessage original="Ship Before: ${ec.l10n.format(orderPartInfo.orderPart.shipBeforeDate, 'yyyy-MM-dd HH:mm') ?: ''}" locale="de" localized="Versand bis: ${ec.l10n.format(orderPartInfo.orderPart.shipBeforeDate, 'yyyy-MM-dd HH:mm') ?: ''}"/>
+	<moqui.basic.LocalizedMessage original="Delivery Date: ${ec.l10n.format(orderPartInfo.orderPart.estimatedDeliveryDate, 'yyyy-MM-dd HH:mm') ?: ''}" locale="de" localized="Lieferdatum: ${ec.l10n.format(orderPartInfo.orderPart.estimatedDeliveryDate, 'yyyy-MM-dd HH:mm') ?: ''}"/>
+	<moqui.basic.LocalizedMessage original="Pick Up Date: ${ec.l10n.format(orderPartInfo.orderPart.estimatedPickUpDate, 'yyyy-MM-dd HH:mm') ?: ''}"
+	locale="de"
+	localized="Abholdatum: ${ec.l10n.format(orderPartInfo.orderPart.estimatedPickUpDate, 'yyyy-MM-dd HH:mm') ?: ''}"/>
+	<moqui.basic.LocalizedMessage original="To Facility: " locale="de" localized="Zur Einrichtung: "/>
+	<moqui.basic.LocalizedMessage original="Part Total ${ec.l10n.formatCurrency(orderPartInfo.orderPart.partTotal ?: 0, orderHeader?.currencyUomId)}"
+	locale="de"
+	localized="Teil Gesamtsumme ${ec.l10n.formatCurrency(orderPartInfo.orderPart.partTotal ?: 0, orderHeader?.currencyUomId)}"/>
+	<moqui.basic.LocalizedMessage original="Edit Note" locale="de" localized="Notiz bearbeiten"/>
+	<moqui.basic.LocalizedMessage original="Min Quantity" locale="de" localized="Mindestmenge"/>
+	<moqui.basic.LocalizedMessage original="Purpose" locale="de" localized="Zweck"/>
+	<moqui.basic.LocalizedMessage original="Add to Category" locale="de" localized="Zur Kategorie hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Add Assoc" locale="de" localized="Verknüpfung hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Associated From" locale="de" localized="Verbunden von"/>
+	<moqui.basic.LocalizedMessage original="Selectable Features" locale="de" localized="Auswählbare Funktionen"/>
+	<moqui.basic.LocalizedMessage original="Create Variants" locale="de" localized="Varianten erstellen"/>
+
+	<moqui.basic.LocalizedMessage original="None" locale="de" localized="Keine"/>
+	<moqui.basic.LocalizedMessage original="Choose File" locale="de" localized="Datei auswählen"/>
+	<moqui.basic.LocalizedMessage original="No File Choosen" locale="de" localized="Keine Datei ausgewählt"/>
+
+	<moqui.basic.LocalizedMessage original="Sales Intro" locale="de" localized="Verkaufseinführung"/>
+	<moqui.basic.LocalizedMessage original="Sales Discontinue" locale="de" localized="Verkauf eingestellt"/>
+	<moqui.basic.LocalizedMessage original="Returns" locale="de" localized="Rückgaben"/>
+	<moqui.basic.LocalizedMessage original="Incoming Shipments" locale="de" localized="Eingehende Lieferungen"/>
+	<moqui.basic.LocalizedMessage original="Inventory Assets" locale="de" localized="Inventaraktiva"/>
+	<moqui.basic.LocalizedMessage original="Wiki/Content" locale="de" localized="Wiki/Inhalt"/>
+	<moqui.basic.LocalizedMessage original="New Sales Account" locale="de" localized="Neues Vertriebskonto"/>
+	<moqui.basic.LocalizedMessage original="New Sales Contact" locale="de" localized="Neuer Vertriebskontakt"/>
+
+</entity-facade-xml>

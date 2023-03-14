@@ -1,0 +1,186 @@
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+	<moqui.basic.LocalizedMessage original="Wiki Space" locale="de" localized="Wiki-Raum"/>
+	<moqui.basic.LocalizedMessage original="Wiki Pages" locale="de" localized="Wiki-Seiten"/>
+	<moqui.basic.LocalizedMessage original="Milestone" locale="de" localized="Meilenstein"/>
+	<moqui.basic.LocalizedMessage original="Priority" locale="de" localized="Priorität"/>
+	<moqui.basic.LocalizedMessage original="Estimated Hours" locale="de" localized="Geschätzte Stunden"/>
+	<moqui.basic.LocalizedMessage original="Actual Hours" locale="de" localized="Tatsächliche Stunden"/>
+	<moqui.basic.LocalizedMessage original="Expectation" locale="de" localized="Erwartung"/>
+	<moqui.basic.LocalizedMessage original="Client" locale="de" localized="Kunde"/>
+	<moqui.basic.LocalizedMessage original="Priority" locale="de" localized="Priorität"/>
+	<moqui.basic.LocalizedMessage original="Priority: " locale="de" localized="Priorität: "/>
+	<moqui.basic.LocalizedMessage original="Position Class" locale="de" localized="Positionsklasse"/>
+	<moqui.basic.LocalizedMessage original="Resolution" locale="de" localized="Lösung"/>
+	<moqui.basic.LocalizedMessage original="Resolution: " locale="de" localized="Lösung: "/>
+	<moqui.basic.LocalizedMessage original="Parent" locale="de" localized="Übergeordnete Aufgabe"/>
+	<moqui.basic.LocalizedMessage original="Project" locale="de" localized="Projekt"/>
+	<moqui.basic.LocalizedMessage original="Project: " locale="de" localized="Projekt: "/>
+	<moqui.basic.LocalizedMessage original="Rem" locale="de" localized="Rest"/>
+	<moqui.basic.LocalizedMessage original="Act" locale="de" localized="Eff."/>
+	<moqui.basic.LocalizedMessage original="${count} tasks" locale="de" localized="${count} Aufgaben"/>
+	<moqui.basic.LocalizedMessage original="New Task" locale="de" localized="Neue Aufgabe"/>
+	<moqui.basic.LocalizedMessage original="Purpose: " locale="de" localized="Zweck: "/>
+	<moqui.basic.LocalizedMessage original="Due Date: " locale="de" localized="Fälligkeitsdatum: "/>
+	<moqui.basic.LocalizedMessage original="Estimated Hours: " locale="de" localized="Geschätzte Stunden: "/>
+	<moqui.basic.LocalizedMessage original="Remaining Hours" locale="de" localized="Verbleibende Stunden"/>
+	<moqui.basic.LocalizedMessage original="Remaining Hours: " locale="de" localized="Verbleibende Stunden: "/>
+	<moqui.basic.LocalizedMessage original="Actual Hours: " locale="de" localized="Tatsächliche Stunden: "/>
+	<moqui.basic.LocalizedMessage original="Act/Est: " locale="de" localized="Eff./Gesch.: "/>
+	<moqui.basic.LocalizedMessage original="Act+Rem/Est: " locale="de" localized="Eff.+Rest/Gesch.: "/>
+	<moqui.basic.LocalizedMessage original="Assignments" locale="de" localized="Zuweisungen"/>
+	<moqui.basic.LocalizedMessage original="Time Entries" locale="de" localized="Zeiteinträge"/>
+	<moqui.basic.LocalizedMessage original="Task" locale="de" localized="Aufgabe"/>
+	<moqui.basic.LocalizedMessage original="Task Summary" locale="de" localized="Aufgabenübersicht"/>
+	<moqui.basic.LocalizedMessage original="Time" locale="de" localized="Zeit"/>
+	<moqui.basic.LocalizedMessage original="Related" locale="de" localized="Zusammenhängend"/>
+	<moqui.basic.LocalizedMessage original="Requests" locale="de" localized="Anfragen"/>
+	<moqui.basic.LocalizedMessage original="Task ID" locale="de" localized="Aufgaben-ID"/>
+	<moqui.basic.LocalizedMessage original="Parent Task" locale="de" localized="Übergeordnete Aufgabe"/>
+	<moqui.basic.LocalizedMessage original="Task Name" locale="de" localized="Aufgabenname"/>
+	<moqui.basic.LocalizedMessage original="Hours Budget" locale="de" localized="Stundenbudget"/>
+	<moqui.basic.LocalizedMessage original="Edit ${project.workEffortId}" locale="de" localized="${project.workEffortId} bearbeiten"/>
+	<moqui.basic.LocalizedMessage original="Edit ${milestoneAssoc.workEffortId}" locale="de" localized="${milestoneAssoc.workEffortId} bearbeiten"/>
+	<moqui.basic.LocalizedMessage original="Edit ${parentWorkEffortId}" locale="de" localized="${parentWorkEffortId} bearbeiten"/>
+	<moqui.basic.LocalizedMessage original="Worker" locale="de" localized="Mitarbeiter"/>
+	<moqui.basic.LocalizedMessage original="Current Rem Hours" locale="de" localized="Aktuelle verbleibende Stunden"/>
+	<moqui.basic.LocalizedMessage original="Enter values for 2 of the 3 below, or just Hours and Thru will be set to now" locale="de" localized="Geben Sie Werte für 2 der folgenden 3 Felder ein, oder nur Stunden, dann wird Bis auf aktuell gesetzt"/>
+	<moqui.basic.LocalizedMessage original="Add Time" locale="de" localized="Zeit hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Hours" locale="de" localized="Stunden"/>
+	<moqui.basic.LocalizedMessage original="Break" locale="de" localized="Descanso"/>
+	<moqui.basic.LocalizedMessage original="Break Hours" locale="de" localized="Pausenstunden"/>
+	<moqui.basic.LocalizedMessage original="Time Range" locale="de" localized="Zeitbereich"/>
+	<moqui.basic.LocalizedMessage original="Rate Type" locale="de" localized="Tarifart"/>
+	<moqui.basic.LocalizedMessage original="Piece Count" locale="de" localized="Stückzahl"/>
+	<moqui.basic.LocalizedMessage original="Add Team" locale="de" localized="Team hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Projects" locale="de" localized="Projekte"/>
+	<moqui.basic.LocalizedMessage original="Edit Vendor" locale="de" localized="Anbieter bearbeiten"/>
+	<moqui.basic.LocalizedMessage original="Edit Client" locale="de" localized="Kunde bearbeiten"/>
+	<moqui.basic.LocalizedMessage original="Milestones" locale="de" localized="Meilensteine"/>
+	<moqui.basic.LocalizedMessage original="Parties" locale="de" localized="Parteien"/>
+	<moqui.basic.LocalizedMessage original="Cost Budget" locale="de" localized="Kostenbudget"/>
+	<moqui.basic.LocalizedMessage original="Provider Cost" locale="de" localized="Anbieterkosten"/>
+	<moqui.basic.LocalizedMessage original="Estimate ${ec.l10n.format(project.estimatedWorkTime, '#.#')} hrs" locale="de" localized="Schätzung ${ec.l10n.format(project.estimatedWorkTime, '#.#')} Std."/>
+	<moqui.basic.LocalizedMessage original="Worked ${ec.l10n.format(project.actualWorkTime, '#.#')} hrs" locale="de" localized="Gearbeitet ${ec.l10n.format(project.actualWorkTime, '#.#')} Std."/>
+	<moqui.basic.LocalizedMessage original="Est Rem ${ec.l10n.format(project.remainingWorkTime, '#.#')} hrs" locale="de" localized="Verbleibend ${ec.l10n.format(project.remainingWorkTime, '#.#')} Std."/>
+	<moqui.basic.LocalizedMessage original="Budget ${ec.l10n.format(project.totalTimeAllowed, '#.#')} hrs" locale="de" localized="Budget ${ec.l10n.format(project.totalTimeAllowed, '#.#')} Std."/>
+	<moqui.basic.LocalizedMessage original="Act Bgt Rem ${ec.l10n.format(project.totalTimeAllowed - (project.actualWorkTime?:0), '#.#')} hrs" locale="de" localized="Eff. verbl. Budget ${ec.l10n.format(project.totalTimeAllowed - (project.actualWorkTime?:0), '#.#')} Std."/>
+	<moqui.basic.LocalizedMessage original="Est Bgt Rem ${ec.l10n.format(project.totalTimeAllowed - pstats.actualPlusRemainingTime, '#.#')} hrs" locale="de" localized="Gesch. verbl. Budget ${ec.l10n.format(project.totalTimeAllowed - pstats.actualPlusRemainingTime, '#.#')} Std."/>
+	<moqui.basic.LocalizedMessage original="Avg Rate ${ec.l10n.formatCurrency(pstats.clientAverageHourCost, project.costUomId, 2)}" locale="de" localized="Durchschnittl. Tarif ${ec.l10n.formatCurrency(pstats.clientAverageHourCost, project.costUomId, 2)}"/>
+	<moqui.basic.LocalizedMessage original="Actual Cost ${ec.l10n.formatCurrency(project.actualClientCost, project.costUomId, 2)}" locale="de" localized="Tatsächliche Kosten ${ec.l10n.formatCurrency(project.actualClientCost, project.costUomId, 2)}"/>
+	<moqui.basic.LocalizedMessage original="Est Cost ${ec.l10n.formatCurrency(pstats.clientEstimatedCost, project.costUomId, 2)}" locale="de" localized="Geschätzte Kosten ${ec.l10n.formatCurrency(pstats.clientEstimatedCost, project.costUomId, 2)}"/>
+	<moqui.basic.LocalizedMessage original="Budget ${ec.l10n.formatCurrency(project.totalClientCostAllowed, project.costUomId, 2)}" locale="de" localized="Budget ${ec.l10n.formatCurrency(project.totalClientCostAllowed, project.costUomId, 2)}"/>
+	<moqui.basic.LocalizedMessage original="Rem ${ec.l10n.formatCurrency(pstats.clientBudgetRemaining, project.costUomId, 2)}" locale="de" localized="Verbleibend ${ec.l10n.formatCurrency(pstats.clientBudgetRemaining, project.costUomId, 2)}"/>
+
+	<moqui.basic.LocalizedMessage original="Est ${ec.l10n.formatCurrency(pstats.clientBudgetEstimateDiff?.abs(), project.costUomId, 2)} ${pstats.clientBudgetEstimateDiff < 0 ? 'über' : 'unter'}" locale="de" localized="Geschätzt ${ec.l10n.formatCurrency(pstats.clientBudgetEstimateDiff?.abs(), project.costUomId, 2)} ${pstats.clientBudgetEstimateDiff < 0 ? 'über' : 'unter'}"/>
+
+	<moqui.basic.LocalizedMessage original="Provider Cost ${ec.l10n.formatCurrency(project.actualCost, project.costUomId, 2)}" locale="de" localized="Anbieterkosten ${ec.l10n.formatCurrency(project.actualCost, project.costUomId, 2)}"/>
+	<moqui.basic.LocalizedMessage original="Profit ${ec.l10n.formatCurrency(pstats.actualProfit, project.costUomId, 2)}" locale="de" localized="Gewinn ${ec.l10n.formatCurrency(pstats.actualProfit, project.costUomId, 2)}"/>
+	<moqui.basic.LocalizedMessage original="${pstats.taskCount} Tasks" locale="de" localized="${pstats.taskCount} Aufgaben"/>
+	<moqui.basic.LocalizedMessage original="Approved - ${pstats.taskCountByStatusMap.WeApproved?:0}" locale="de" localized="Genehmigt - ${pstats.taskCountByStatusMap.WeApproved?:0}"/>
+	<moqui.basic.LocalizedMessage original="On Hold - ${pstats.taskCountByStatusMap.WeOnHold?:0}" locale="de" localized="In Wartestellung - ${pstats.taskCountByStatusMap.WeOnHold?:0}"/>
+	<moqui.basic.LocalizedMessage original="In Progress - ${pstats.taskCountByStatusMap.WeInProgress?:0}" locale="de" localized="In Bearbeitung - ${pstats.taskCountByStatusMap.WeInProgress?:0}"/>
+	<moqui.basic.LocalizedMessage original="Complete/Closed - ${((pstats.taskCountByStatusMap.WeComplete?:0) as BigDecimal) + ((pstats.taskCountByStatusMap.WeClosed?:0) as BigDecimal)}" locale="de" localized="Abgeschlossen/Geschlossen - ${((pstats.taskCountByStatusMap.WeComplete?:0) as BigDecimal) + ((pstats.taskCountByStatusMap.WeClosed?:0) as BigDecimal)}"/>
+	<moqui.basic.LocalizedMessage original="In Planning - ${pstats.taskCountByStatusMap.WeInPlanning?:0}" locale="de" localized="In Planung - ${pstats.taskCountByStatusMap.WeInPlanning?:0}"/>
+	<moqui.basic.LocalizedMessage original="Cancelled - ${pstats.taskCountByStatusMap.WeCancelled?:0}" locale="de" localized="Abgebrochen - ${pstats.taskCountByStatusMap.WeCancelled?:0}"/>
+	<moqui.basic.LocalizedMessage original="Create Milestonen" locale="de" localized="Meilenstein erstellen"/>
+	<moqui.basic.LocalizedMessage original="Add User Assignment" locale="de" localized="Benutzerzuweisung hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Person" locale="de" localized="Person"/>
+	<moqui.basic.LocalizedMessage original="Add Assignment" locale="de" localized="Zuweisung hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Must be in Assignee or Team roles to assign to a task. Parties may be assigned in multiple roles." locale="de" localized="Sie müssen die Rollen Zuweiser oder Team haben, um einer Aufgabe zuzuweisen. Parteien können in mehreren Rollen zugewiesen werden."/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.humanres.position.EmplPositionClass" fieldName="title" locale="de" pkValue="QualityAnalyst" localized="Qualitätsanalyst"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.humanres.position.EmplPositionClass" fieldName="title" locale="de" pkValue="QualityLead" localized="Qualitätsleiter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.humanres.position.EmplPositionClass" fieldName="title" locale="de" pkValue="Programmer" localized="Programmierer"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.humanres.position.EmplPositionClass" fieldName="title" locale="de" pkValue="ProgrammerLead" localized="Programmierleiter"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.humanres.position.EmplPositionClass" fieldName="title" locale="de" pkValue="SysAdmin" localized="Systemadministrator"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.humanres.position.EmplPositionClass" fieldName="title" locale="de" pkValue="SysArchitect" localized="Systemarchitekt"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.humanres.position.EmplPositionClass" fieldName="title" locale="de" pkValue="BusinessAnalyst" localized="Business-Analyst"/>
+	<moqui.basic.LocalizedEntityField entityName="mantle.humanres.position.EmplPositionClass" fieldName="title" locale="es" pkValue="ExpertUser" localized="Experte Benutzer"/>
+	<moqui.basic.LocalizedMessage original="Add Wiki Page" locale="de" localized="Wiki-Seite hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Space" locale="de" localized="Raum"/>
+	<moqui.basic.LocalizedMessage original="Add Page" locale="de" localized="Seite hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Progress" locale="de" localized="Fortschritt"/>
+	<moqui.basic.LocalizedMessage original="Tasks by Top Level" locale="de" localized="Aufgaben nach Top-Level"/>
+	<moqui.basic.LocalizedMessage original="Actual (h)" locale="de" localized="Aktuell (h)"/>
+	<moqui.basic.LocalizedMessage original="Actual (d)" locale="de" localized="Aktuell (d)"/>
+	<moqui.basic.LocalizedMessage original="Remaining (h)" locale="de" localized="Verbleibend (h)"/>
+	<moqui.basic.LocalizedMessage original="Remaining (d)" locale="de" localized="Verbleibend (d)"/>
+	<moqui.basic.LocalizedMessage original="Estimated (h)" locale="de" localized="Geschätzt (h)"/>
+	<moqui.basic.LocalizedMessage original="Estimated (d)" locale="de" localized="Geschätzt (d)"/>
+	<moqui.basic.LocalizedMessage original="Act/Est %" locale="de" localized="Akt/Geschätzt %"/>
+	<moqui.basic.LocalizedMessage original="Act+Rem/Est %" locale="de" localized="Akt+Verbl/Geschätzt %"/>
+	<moqui.basic.LocalizedMessage original="Budget (h)" locale="de" localized="Budget (h)"/>
+	<moqui.basic.LocalizedMessage original="Budget (d)" locale="de" localized="Budget (d)"/>
+	<moqui.basic.LocalizedMessage original="Act/Bgt %" locale="de" localized="Akt/Budg %"/>
+	<moqui.basic.LocalizedMessage original="Act+Rem/Bgt %" locale="de" localized="Akt+Verbl/Budg %"/>
+	<moqui.basic.LocalizedMessage original="New Invoice" locale="de" localized="Neue Rechnung"/>
+	<moqui.basic.LocalizedMessage original="Invoice Project Client" locale="de" localized="Projekt an Kunden in Rechnung stellen"/>
+	<moqui.basic.LocalizedMessage original="Worker Invoice" locale="de" localized="Zeit des Mitarbeiters in Rechnung stellen"/>
+	<moqui.basic.LocalizedMessage original="Existing Invoice" locale="de" localized="Bestehende Rechnung"/>
+	<moqui.basic.LocalizedMessage original="Invoice Time" locale="de" localized="Zeit in Rechnung stellen"/>
+	<moqui.basic.LocalizedMessage original="Invoice Time and Expenses" locale="de" localized="Zeit und Aufwendungen in Rechnung stellen"/>
+	<moqui.basic.LocalizedMessage original="Other party invoice reference number" locale="de" localized="Referenznummer der Rechnung der anderen Partei"/>
+	<moqui.basic.LocalizedMessage original="My Projects" locale="de" localized="Meine Projekte"/>
+	<moqui.basic.LocalizedMessage original="My Milestones" locale="de" localized="Meine Meilensteine"/>
+	<moqui.basic.LocalizedMessage original="Find Task" locale="de" localized="Aufgabe finden"/>
+	<moqui.basic.LocalizedMessage original="Find Tasks" locale="de" localized="Aufgaben finden"/>
+	<moqui.basic.LocalizedMessage original="Due" locale="de" localized="Fällig"/>
+	<moqui.basic.LocalizedMessage original="Request" locale="de" localized="Anfrage"/>
+	<moqui.basic.LocalizedMessage original="Find Request" locale="de" localized="Anfrage finden"/>
+	<moqui.basic.LocalizedMessage original="New Request" locale="de" localized="Neue Anfrage"/>
+	<moqui.basic.LocalizedMessage original="Quick Search" locale="de" localized="Schnellsuche"/>
+	<moqui.basic.LocalizedMessage original="Full Search" locale="de" localized="Vollständige Suche"/>
+	<moqui.basic.LocalizedMessage original="Wiki Spaces" locale="de" localized="Wiki Spaces"/>
+	<moqui.basic.LocalizedMessage original="My Open Tasks" locale="de" localized="Meine offenen Aufgaben"/>
+	<moqui.basic.LocalizedMessage original="My Open Requests" locale="de" localized="Meine offenen Anfragen"/>
+	<moqui.basic.LocalizedMessage original="Assign To" locale="de" localized="Zuweisen zu"/>
+	<moqui.basic.LocalizedMessage original="If empty will be assigned to current user" locale="de" localized="Wenn leer, wird dem aktuellen Benutzer zugewiesen"/>
+	<moqui.basic.LocalizedMessage original="Tasks" locale="de" localized="Aufgaben"/>
+	<moqui.basic.LocalizedMessage original="Assigned To" locale="de" localized="Zugewiesen an"/>
+	<moqui.basic.LocalizedMessage original="Assigned To Team" locale="de" localized="Zugewiesen an Team"/>
+	<moqui.basic.LocalizedMessage original="Est. Hours" locale="de" localized="Gesch. Std."/>
+	<moqui.basic.LocalizedMessage original="Record Time" locale="de" localized="Zeit aufzeichnen"/>
+	<moqui.basic.LocalizedMessage original="Clock In" locale="de" localized="Einstempeln"/>
+	<moqui.basic.LocalizedMessage original="Employer" locale="de" localized="Arbeitgeber"/>
+	<moqui.basic.LocalizedMessage original="Work Type" locale="de" localized="Arbeitstyp"/>
+	<moqui.basic.LocalizedMessage original="Clock Out" locale="de" localized="Ausstempeln"/>
+	<moqui.basic.LocalizedMessage original="Clients" locale="de" localized="Kunden"/>
+	<moqui.basic.LocalizedMessage original="Teams" locale="de" localized="Teams"/>
+	<moqui.basic.LocalizedMessage original="Rates" locale="de" localized="Tarife"/>
+	<moqui.basic.LocalizedMessage original="Rate Amount" locale="de" localized="Betrag Tarif"/>
+	<moqui.basic.LocalizedMessage original="Add Rate Amount" locale="de" localized="Betrag Tarif hinzufügen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WktpRequirements" localized="Anforderungserhebung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WktpSystemDesign" localized="Systemdesign"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WktpProgramming" localized="Programmierung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="WktpTesting" localized="Tests (Testing)"/>
+	<moqui.basic.LocalizedMessage original="New Project" locale="de" localized="Neues Projekt"/>
+	<moqui.basic.LocalizedMessage original="Add User Agent" locale="de" localized="Vertreter des Benutzers hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Add Client" locale="de" localized="Kunde hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Create Client" locale="de" localized="Kunde erstellen"/>
+	<moqui.basic.LocalizedMessage original="Find Customer" locale="de" localized="Kunden suchen"/>
+	<moqui.basic.LocalizedMessage original="Set Client (AP) Representative" locale="de" localized="Zahlungsvertreter für Kunden (AP) definieren"/>
+	<moqui.basic.LocalizedMessage original="New Space" locale="de" localized="Neuer Raum"/>
+	<moqui.basic.LocalizedMessage original="Root Page" locale="de" localized="Startseite"/>
+	<moqui.basic.LocalizedMessage original="Restrict View" locale="de" localized="Sichtbarkeit einschränken"/>
+	<moqui.basic.LocalizedMessage original="Restrict Update" locale="de" localized="Aktualisierung einschränken"/>
+	<moqui.basic.LocalizedMessage original="WikiSpace" locale="de" localized="Wiki-Raum"/>
+	<moqui.basic.LocalizedMessage original="New##Requests" locale="de" localized="Neu"/>
+	<moqui.basic.LocalizedMessage original="Open##Requests" locale="de" localized="Offen"/>
+	<moqui.basic.LocalizedMessage original="New Child Task" locale="de" localized="Neue Unter-Tätigkeit"/>
+	<moqui.basic.LocalizedMessage original="Child Tasks" locale="de" localized="Unter-Tätigkeiten"/>
+	<moqui.basic.LocalizedMessage original="${oldStatusItem ? oldStatusItem.description + ' to ' : ''}${statusItem?.description}${(userAccount?.username ? ' by ' + userAccount.username : '')} at ${ec.l10n.format(statusHistory.changedDate, 'yyyy-MM-dd HH:mm')}" locale="de" localized="${oldStatusItem ? ''' + oldStatusItem.description + '' auf ' : ''}'${statusItem?.description}'${(userAccount?.username ? ' von ' + userAccount.username : '')} um ${ec.l10n.format(statusHistory.changedDate, 'yyyy-MM-dd HH:mm')}"/>
+	<moqui.basic.LocalizedMessage original="Download ${content.contentLocation.substring(content.contentLocation.lastIndexOf('/')+1)}" locale="de" localized="Herunterladen ${content.contentLocation.substring(content.contentLocation.lastIndexOf('/')+1)}"/>
+
+</entity-facade-xml>

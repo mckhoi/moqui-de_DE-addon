@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+
+	<moqui.basic.LocalizedMessage locale="de" original="PaginationTemplate"
+                      localized="Seite ${curPageIndex + 1} von ${curPageMaxIndex + 1} (${context[listName + 'PageRangeLow']} - ${context[listName + 'PageRangeHigh']} von ${context[listName + 'Count']})"/>
+    <moqui.basic.LocalizedMessage original="Owner" locale="de" localized="Besitzer"/>
+    <moqui.basic.LocalizedMessage original="Product" locale="de" localized="Produkt"/>
+    <moqui.basic.LocalizedMessage original="Technician" locale="de" localized="Techniker"/>
+    <moqui.basic.LocalizedMessage original="Application" locale="de" localized="Anwendung"/>
+    <moqui.basic.LocalizedMessage original="Applications" locale="de" localized="Anwendungen"/>
+    <moqui.basic.LocalizedMessage original="My Account" locale="de" localized="Mein Konto"/>
+    <moqui.basic.LocalizedMessage original="System" locale="de" localized="System"/>
+    <moqui.basic.LocalizedMessage original="Tools" locale="de" localized="Werkzeuge"/>
+    <moqui.basic.LocalizedMessage original="View" locale="de" localized="Ansicht"/>
+    <moqui.basic.LocalizedMessage original="This" locale="de" localized="Dieses"/>
+    <moqui.basic.LocalizedMessage original="Last" locale="de" localized="Letztes"/>
+    <moqui.basic.LocalizedMessage original="Next" locale="de" localized="Nächstes"/>
+    <moqui.basic.LocalizedMessage original="Day" locale="de" localized="Tag"/>
+    <moqui.basic.LocalizedMessage original="Week" locale="de" localized="Woche"/>
+    <moqui.basic.LocalizedMessage original="Month" locale="de" localized="Monat"/>
+    <moqui.basic.LocalizedMessage original="Quarter" locale="de" localized="Quartal"/>
+    <moqui.basic.LocalizedMessage original="Year" locale="de" localized="Jahr"/>
+	<moqui.basic.LocalizedMessage original="Choose an Application" locale="de" localized="Wählen Sie eine Anwendung"/>
+	<moqui.basic.LocalizedMessage original="Find Options" locale="de" localized="Suchoptionen"/>
+	<moqui.basic.LocalizedMessage original="Username" locale="de" localized="Benutzername"/>
+	<moqui.basic.LocalizedMessage original="Organization Name" locale="de" localized="Organisationsname"/>
+	<moqui.basic.LocalizedMessage original="Business Name" locale="de" localized="Unternehmensname"/>
+	<moqui.basic.LocalizedMessage original="Disabled" locale="de" localized="Deaktiviert"/>
+	<moqui.basic.LocalizedMessage original="Payment Information" locale="de" localized="Zahlungsinformationen"/>
+	<moqui.basic.LocalizedMessage original="Role" locale="de" localized="Rolle"/>
+	<moqui.basic.LocalizedMessage original="From Date" locale="de" localized="Von Datum"/>
+	<moqui.basic.LocalizedMessage original="Thru Date" locale="de" localized="Bis Datum"/>
+	<moqui.basic.LocalizedMessage original="From" locale="de" localized="Von"/>
+	<moqui.basic.LocalizedMessage original="To" locale="de" localized="Zu"/>
+	<moqui.basic.LocalizedMessage original="Thru" locale="de" localized="Bis"/>
+	<moqui.basic.LocalizedMessage original="First Name" locale="de" localized="Vorname"/>
+	<moqui.basic.LocalizedMessage original="Last Name" locale="de" localized="Nachname"/>
+	<moqui.basic.LocalizedMessage original="First##Name" locale="de" localized="Name"/>
+	<moqui.basic.LocalizedMessage original="Last##Name" locale="de" localized="Nachname"/>
+	<moqui.basic.LocalizedMessage original="Org Name" locale="de" localized="Org-Name"/>
+	<moqui.basic.LocalizedMessage original="Y" locale="de" localized="J"/>
+	<moqui.basic.LocalizedMessage original="Currency" locale="de" localized="Währung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="de" pkValue="CLP" localized="Chilenischer Peso"/>
+	<moqui.basic.LocalizedMessage original="Asset Detail" locale="de" localized="Detail des Vermögensgegenstandes"/>
+	<moqui.basic.LocalizedMessage original="Columns" locale="de" localized="Spalten"/>
+	<moqui.basic.LocalizedMessage original="Saved Finds" locale="de" localized="Gespeicherte Suchen"/>
+	<moqui.basic.LocalizedMessage original="Active Saved Find:" locale="de" localized="Aktive gespeicherte Suche:"/>
+	<moqui.basic.LocalizedMessage original="Save New Find" locale="de" localized="Neue Suche speichern"/>
+	<moqui.basic.LocalizedMessage original="Find Parameters" locale="de" localized="Suchparameter"/>
+	<moqui.basic.LocalizedMessage original="Update to Current" locale="de" localized="Aktualisieren auf Aktuell"/>
+	<moqui.basic.LocalizedMessage original="Search" locale="de" localized="Suchen"/>
+	<moqui.basic.LocalizedMessage original="Column Fields" locale="de" localized="Felder der Spalten"/>
+	<moqui.basic.LocalizedMessage original="Drag fields to the desired column or do not display" locale="de"
+								  localized="Ziehen Sie Felder in die gewünschte Spalte oder zeigen Sie sie nicht an"/>
+	<moqui.basic.LocalizedMessage original="Do Not Display" locale="de" localized="Nicht anzeigen"/>
+	<moqui.basic.LocalizedMessage original="Column" locale="de" localized="Spalte"/>
+	<moqui.basic.LocalizedMessage original="End Date" locale="de" localized="Enddatum"/>
+	<moqui.basic.LocalizedMessage original="Physical Inventory ID" locale="de" localized="Physische Inventar-ID"/>
+	<moqui.basic.LocalizedMessage original="Select" locale="de" localized="Auswählen"/>
+	<moqui.basic.LocalizedMessage original="Select Inventory" locale="de" localized="Inventar auswählen"/>
+	<moqui.basic.LocalizedMessage original="Select Location" locale="de" localized="Standort auswählen"/>
+	<moqui.basic.LocalizedMessage original="Details" locale="de" localized="Details"/>
+	<moqui.basic.LocalizedMessage original="Page" locale="de" localized="Seite"/>
+	<moqui.basic.LocalizedMessage original="Status Flow" locale="de" localized="Statusfluss"/>
+	<moqui.basic.LocalizedMessage original="Text Search" locale="de" localized="Textsuche"/>
+	<moqui.basic.LocalizedMessage original="Get as CSV" locale="de" localized="Als CSV exportieren"/>
+	<moqui.basic.LocalizedMessage original="Current Search Link" locale="de" localized="Aktueller Suchlink"/>
+	<moqui.basic.LocalizedMessage original="Status: " locale="de" localized="Status: "/>
+	<moqui.basic.LocalizedMessage original="Notifications" locale="de" localized="Benachrichtigungen"/>
+	<moqui.basic.LocalizedMessage original="Organization" locale="de" localized="Organisation"/>
+
+	<moqui.basic.LocalizedMessage original="Edit" locale="de" localized="Bearbeiten"/>
+	<moqui.basic.LocalizedMessage original="New Value" locale="de" localized="Neuer Wert"/>
+	<moqui.basic.LocalizedMessage original="Ignore Case" locale="de" localized="Groß-/Kleinschreibung ignorieren"/>
+	<moqui.basic.LocalizedMessage original="Not" locale="de" localized="Nicht"/>
+	<moqui.basic.LocalizedMessage original="Messages" locale="de" localized="Nachrichten"/>
+	<moqui.basic.LocalizedMessage original="Calendar" locale="de" localized="Kalender"/>
+	<moqui.basic.LocalizedMessage original="Contact Info" locale="de" localized="Kontaktinformationen"/>
+	<moqui.basic.LocalizedMessage original="today" locale="de" localized="heute"/>
+	<moqui.basic.LocalizedMessage original="month" locale="de" localized="Monat"/>
+	<moqui.basic.LocalizedMessage original="week" locale="de" localized="Woche"/>
+	<moqui.basic.LocalizedMessage original="day" locale="de" localized="Tag"/>
+	<moqui.basic.LocalizedMessage original="Email Addresses" locale="de" localized="E-Mail-Adressen"/>
+	<moqui.basic.LocalizedMessage original="Add Email" locale="de" localized="E-Mail hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Phone Numbers" locale="de" localized="Telefonnummern"/>
+	<moqui.basic.LocalizedMessage original="Add Phone" locale="de" localized="Telefonnummer hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Mailing Addresses" locale="de" localized="Postadressen"/>
+	<moqui.basic.LocalizedMessage original="Add Address" locale="de" localized="Adresse hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Update Address" locale="de" localized="Adresse aktualisieren"/>
+	<moqui.basic.LocalizedMessage original="Remove" locale="de" localized="Entfernen"/>
+	<moqui.basic.LocalizedMessage original="Contains" locale="de" localized="Enthält"/>
+	<moqui.basic.LocalizedMessage original="Equals" locale="de" localized="Gleich"/>
+	<moqui.basic.LocalizedMessage original="Like" locale="de" localized="Ähnlich (Like)"/>
+	<moqui.basic.LocalizedMessage original="Begins With" locale="de" localized="Beginnt mit"/>
+	<moqui.basic.LocalizedMessage original="Empty" locale="de" localized="Leer"/>
+	<moqui.basic.LocalizedMessage original="Order By" locale="de" localized="Sortieren nach"/>
+	<moqui.basic.LocalizedMessage original="View##DataBase" locale="de" localized="Ansicht"/>
+	<moqui.basic.LocalizedMessage original="Dashboard" locale="de" localized="Dashboard"/>
+	<moqui.basic.LocalizedMessage original="Clear Current Find" locale="de" localized="Aktuelle Suche löschen"/>
+	<moqui.basic.LocalizedMessage original="No find parameters, choose some to save a new find or update existing" locale="de" localized="Keine Suchparameter, wählen Sie einige aus, um eine neue Suche zu speichern oder eine vorhandene zu aktualisieren"/>
+	<moqui.basic.LocalizedMessage original="Do Find" locale="de" localized="Suche ausführen"/>
+	<moqui.basic.LocalizedMessage original="Clear Parameters" locale="de" localized="Parameter löschen"/>
+	<moqui.basic.LocalizedMessage original="Switch Dark/Light" locale="de" localized="Hell/Dunkel wechseln"/>
+	<moqui.basic.LocalizedMessage original="Logout" locale="de" localized="Abmelden"/>
+	<moqui.basic.LocalizedMessage original="Clear Current Find" locale="de" localized="Limpiar Búsqueda Actual"/>
+	<moqui.basic.LocalizedMessage original="No find parameters, choose some to save a new find or update existing" locale="de" localized="Sin parámetros de búsqueda, elija algunos para guardar nueva búsqueda o actualizar existente"/>
+	<moqui.basic.LocalizedMessage original="Do Find" locale="de" localized="Realizar Búsqueda"/>
+	<moqui.basic.LocalizedMessage original="Clear Parameters" locale="de" localized="Limpiar Parámetros"/>
+	<moqui.basic.LocalizedMessage original="Switch Dark/Light" locale="de" localized="Cambiar Claro/Oscuro"/>
+	<moqui.basic.LocalizedMessage original="Logout" locale="de" localized="Cerrar Sesión"/>
+	<moqui.basic.LocalizedMessage original="Open Tasks" locale="de" localized="Offene Aufgaben"/>
+	<moqui.basic.LocalizedMessage original="Events This Week" locale="de" localized="Ereignisse dieser Woche"/>
+	<moqui.basic.LocalizedMessage original="Messages" locale="de" localized="Nachrichten"/>
+	<moqui.basic.LocalizedMessage original="History" locale="de" localized="Verlauf"/>
+	<moqui.basic.LocalizedMessage original="Previous Screen" locale="de" localized="Vorheriger Bildschirm"/>
+	<moqui.basic.LocalizedMessage original="Save Columns" locale="de" localized="Spalten speichern"/>
+	<moqui.basic.LocalizedMessage original="Reset to Default" locale="de" localized="Auf Standard zurücksetzen"/>
+	<moqui.basic.LocalizedMessage original="Save" locale="de" localized="Speichern"/>
+	<moqui.basic.LocalizedMessage original="Saving" locale="de" localized="Speichern"/>
+	<moqui.basic.LocalizedMessage original="Click to edit" locale="de" localized="Klicken Sie zum Bearbeiten"/>
+	<moqui.basic.LocalizedMessage original="Enter your username and password to sign in" locale="de" localized="Geben Sie Ihren Benutzernamen und Ihr Passwort ein, um sich anzumelden"/>
+	<moqui.basic.LocalizedMessage original="Sign in" locale="de" localized="Anmelden"/>
+	<moqui.basic.LocalizedMessage original="Reset Password" locale="de" localized="Passwort zurücksetzen"/>
+	
+	<moqui.basic.LocalizedMessage original="Reset &amp; Email Password" locale="de" localized="Passwort zurücksetzen & E-Mail senden"/>
+	
+	<moqui.basic.LocalizedMessage original="Change Password" locale="de" localized="Passwort ändern"/>
+	<moqui.basic.LocalizedMessage original="Old Password" locale="de" localized="Altes Passwort"/>
+	<moqui.basic.LocalizedMessage original="New Password" locale="de" localized="Neues Passwort"/>
+	<moqui.basic.LocalizedMessage original="Password" locale="de" localized="Passwort"/>
+	<moqui.basic.LocalizedMessage original="New Password Verify" locale="de" localized="Neues Passwort überprüfen"/>
+	<moqui.basic.LocalizedMessage original="Enter details to change your password" locale="de" localized="Geben Sie Details ein, um Ihr Passwort zu ändern"/>
+	<moqui.basic.LocalizedMessage original="Enter your username to reset and email your password" locale="de" localized="Geben Sie Ihren Benutzernamen ein, um das Passwort zurückzusetzen und per E-Mail zu senden"/>
+	<moqui.basic.LocalizedMessage original="Login" locale="de" localized="Einloggen"/>
+	
+	<moqui.basic.LocalizedMessage original="Reset && Email Password" locale="de" localized="Passwort zurücksetzen und per E-Mail senden"/>
+	
+	<moqui.basic.LocalizedMessage original="Add Comment" locale="de" localized="Kommentar hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Found issues with password so not updating" locale="de" localized="Probleme mit dem Passwort gefunden, daher keine Aktualisierung"/>
+	<moqui.basic.LocalizedMessage original="Password shorter than ${minLength} characters" locale="de" localized="Passwort ist kürzer als ${minLength} Zeichen"/>
+	<moqui.basic.LocalizedMessage original="New Password and New Password Verify do not match" locale="de" localized="Neues Passwort und Überprüfung des neuen Passworts stimmen nicht überein"/>
+	<moqui.basic.LocalizedMessage original="Password needs ${minDigits} digit/number characters" locale="de" localized="Passwort benötigt ${minDigits} Ziffern/Zahlzeichen"/>
+	<moqui.basic.LocalizedMessage original="Password needs ${minOthers} other characters (not letter or digit)" locale="de" localized="Passwort benötigt ${minOthers} andere Zeichen (keine Buchstaben oder Zahlen)"/>
+	<moqui.basic.LocalizedMessage original="New password is same as current password" locale="de" localized="Das neue Passwort ist das gleiche wie das aktuelle Passwort"/>
+	<moqui.basic.LocalizedMessage original="Password was used in last ${historyLimit} passwords" locale="de" localized="Passwort wurde in den letzten ${historyLimit} Passwörtern verwendet"/>
+	<moqui.basic.LocalizedMessage original="Password incorrect for username ${username}" locale="de"
+	localized="Passwort falsch für Benutzername ${username}"/>
+	<moqui.basic.LocalizedMessage original="Password incorrect for user ${username}" locale="de"
+	localized="Passwort falsch für Benutzer ${username}"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="de" pkValue="CLP" localized="Chilenischer Peso"/>
+	<moqui.basic.LocalizedMessage original="Spain" locale="de" localized="Spanien"/>
+	<moqui.basic.LocalizedMessage original="Username [${username}] is already in use. Please choose another." locale="de" localized="Der Benutzername [${username}] ist bereits in Verwendung. Bitte wählen Sie einen anderen."/>
+	<moqui.basic.LocalizedMessage original="Account created with username ${username}" locale="de" localized="Konto erstellt mit Benutzername ${username}"/>
+	<moqui.basic.LocalizedMessage original="Unit of Measure" locale="de" localized="Maßeinheit"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="TF_ms" localized="Milisegundo"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="TF_s" localized="Segundo"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="TF_min" localized="Minuto"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="TF_hr" localized="Hora"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="TF_day" localized="Día"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="TF_wk" localized="Semana"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="TF_mon" localized="Mes"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="TF_yr" localized="Año"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="TF_decade" localized="Década"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="TF_score" localized="Veintena"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="TF_century" localized="Siglo"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="TF_millenium" localized="Milenio"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_cm" localized="Centímetro"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_dm" localized="Decímetro"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_dam" localized="Decámetro"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_fm" localized="Braza"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_ft" localized="Pie"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_in" localized="Pulgada"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_km" localized="Kilómetro"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_league" localized="Legua"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_m" localized="Metro"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_u" localized="Micrón"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_mi" localized="Milla"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_nmi" localized="Milla Náutica"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_mm" localized="Milímetro"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_mil" localized="Milipulgada"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_point" localized="Punto (tipográfico)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_pica" localized="Pica (tipográfico)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_rd" localized="Vara"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="LEN_yd" localized="Yarda"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_m_hr" localized="Metros por hora"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_m_min" localized="Metros por minuto"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_m_s" localized="Metros por segundo"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_ft_hr" localized="Pies por hora"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_ft_min" localized="Pies por minuto"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_ft_s" localized="Pies por segundo"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_fur_hr" localized="Furlong por hora"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_fur_min" localized="Furlong por minuto"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_fur_s" localized="Furlong por segundo"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_in_hr" localized="Pulgadas por hora"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_in_min" localized="Pulgadas por minuto"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_in_s" localized="Pulgadas por segundo"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_kn" localized="Nudos"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_MPH" localized="Millas por hora"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_mi_min" localized="Millas por minuto"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_mi_s" localized="Millas por segundo"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_KPH" localized="Kilómetros por hora"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_km_min" localized="Kilómetros por minuto"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VEL_km_s" localized="Kilómetros por segundo"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="AREA_A" localized="Acre"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="AREA_a" localized="Área"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="AREA_ha" localized="Hectárea"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="AREA_cm2" localized="Centímetro cuadrado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="AREA_ft2" localized="Pie cuadrado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="AREA_in2" localized="Pulgada cuadrada"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="AREA_km2" localized="Kilómetro cuadrado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="AREA_m2" localized="Metro cuadrado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="AREA_mi2" localized="Milla cuadrada"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="AREA_mm2" localized="Milímetro cuadrado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="AREA_rd2" localized="Vara cuadrada"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="AREA_yd2" localized="Yarda cuadrada"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VLIQ_bbl" localized="Barril"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VLIQ_cup" localized="Taza"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VLIQ_galUK" localized="Galón (UK)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VLIQ_galUS" localized="Galón (US)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VLIQ_L" localized="Litro"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VLIQ_ml" localized="Mililitro"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VLIQ_ozUK" localized="Onza (fluida, UK)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VLIQ_ozUS" localized="Onza (fluida, US)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VLIQ_ptUK" localized="Pinta (UK)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VLIQ_ptUS" localized="Pinta (US)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VLIQ_qt" localized="Quart"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VLIQ_Tbs" localized="Cucharada"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VLIQ_tsp" localized="Cucharadita"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VDRY_cm3" localized="Centímetros cúbicos"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VDRY_ft3" localized="Pies cúbicos"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VDRY_in3" localized="Pulgadas cúbicas"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VDRY_m3" localized="Metros cúbicos"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="VDRY_yd3" localized="Yardas cúbicas"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="DENS_kg_m3" localized="Kilogramos por metro cúbico"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="DENS_g_cm3" localized="Gramos por centímetro cúbico"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="DENS_oz_in3" localized="Onzas por pulgada cúbica"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="DENS_oz_galUK" localized="Onzas por galón (UK)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="DENS_oz_galUS" localized="Onzas por galón (US)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="DENS_lb_ft3" localized="Libras por pie cúbico"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="DENS_lb_in3" localized="Libras por pulgada cúbica"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="DENS_lb_yd3" localized="Libras por yarda cúbica"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="DENS_lb_galUK" localized="Libras por galón (UK)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="DENS_lb_galUS" localized="Libras por galón (US)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="DENS_ton_yd3" localized="Toneladas por yardas cúbicas"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="WT_gr" localized="Grano"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="WT_g" localized="Gramo"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="WT_kg" localized="Kilogramo"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="WT_mg" localized="Miligramo"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="WT_oz" localized="Onza (avdp)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="WT_oz_tr" localized="Onza (troy)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="WT_lb" localized="Libra"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="WT_lt" localized="Tonelada (larga o británica)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="WT_mt" localized="Tonelada (métrica)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="WT_sh_t" localized="Tonelada (corta)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PW_hp" localized="Caballo de fuerza"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PW_BTU_hr" localized="BTU por hora"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PW_cal_sec" localized="Caloría por segundo"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PW_bhp" localized="Caballo de fuerza (boiler)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="EN_J" localized="Joule (absoluto)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="EN_cal" localized="Caloría (IT)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="EN_kcal" localized="Kilocaloría"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="EN_BTU" localized="Unidad Térmica Británica (BTU)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="EN_hp_h" localized="Caballos de fuerza hora"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="EN_kw_h" localized="Kilowatt hora"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="EN_ft_lbf" localized="Libra fuerza pie"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PRES_atm" localized="Atmósfera"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PRES_at" localized="Atmósfera (Técnica)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PRES_bar" localized="Bar"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PRES_mbar" localized="Milibar"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PRES_hPa" localized="Hectopascal"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PRES_inHg" localized="Pulgadas de mercurio"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PRES_mmHg" localized="Milímetros de mercurio"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PRES_kg_cm2" localized="Kilogramos por centímetro cuadrado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PRES_kg_m2" localized="Kilogramos por metro cuadrado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PRES_kPa" localized="Kilopascal"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PRES_Pa" localized="Pascal"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PRES_psf" localized="Libra por pie cuadrado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PRES_psi" localized="Libra por pulgada cuadrada"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="PRES_torr" localized="Torr"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="TEMP_C" localized="Grados Celsius"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="TEMP_F" localized="Grados Fahrenheit"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="OTH_A" localized="Ampere - Corriente eléctrica"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="OTH_cd" localized="Canela - Luminosidad"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="OTH_mol" localized="Mol - Sustancia (molecular)"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="OTH_RPM" localized="Revoluciones por minuto"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="OTH_ct" localized="Cantidad"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="OTH_ea" localized="Unidad"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" locale="es" pkValue="OTH_pp" localized="Por Persona"/>
+	
+	<moqui.basic.LocalizedMessage original="Show All" locale="de" localized="Alle anzeigen"/>
+	<moqui.basic.LocalizedMessage original="Paginate" locale="de" localized="Seiten"/>
+
+	<moqui.basic.LocalizedMessage original="Server Admin" locale="de" localized="Serververwaltung"/>
+	<moqui.basic.LocalizedMessage original="Data Documents and Feeds" locale="de" localized="Dokumente und Feeds"/>
+	<moqui.basic.LocalizedMessage original="Data Admin" locale="de" localized="Datenverwaltung"/>
+	<moqui.basic.LocalizedMessage original="Security" locale="de" localized="Sicherheit"/>
+	<moqui.basic.LocalizedMessage original="Usage" locale="de" localized="Nutzung"/>
+	<moqui.basic.LocalizedMessage original="Integration Admin" locale="de" localized="Integrationsverwaltung"/>
+	<moqui.basic.LocalizedMessage original="System Information" locale="de" localized="Systeminformationen"/>
+	<moqui.basic.LocalizedMessage original="Thread List" locale="de" localized="Thread-Liste"/>
+	<moqui.basic.LocalizedMessage original="General Tools" locale="de" localized="Allgemeine Werkzeuge"/>
+	<moqui.basic.LocalizedMessage original="Entity Tools" locale="de" localized="Entity-Werkzeuge"/>
+	<moqui.basic.LocalizedMessage original="Cache Stats and Mgmt" locale="de" localized="Cache-Statistiken und Verwaltung"/>
+	<moqui.basic.LocalizedMessage original="Instance Mgmt" locale="de" localized="Instanzverwaltung"/>
+	<moqui.basic.LocalizedMessage original="Printers" locale="de" localized="Drucker"/>
+	<moqui.basic.LocalizedMessage original="Print Jobs" locale="de" localized="Druckaufträge"/>
+	<moqui.basic.LocalizedMessage original="Export" locale="de" localized="Exportieren"/>
+	<moqui.basic.LocalizedMessage original="Feed Index" locale="de" localized="Feed-Index"/>
+	<moqui.basic.LocalizedMessage original="Edit and Report Builder" locale="de" localized="Bearbeitung und Berichterstellung"/>
+	<moqui.basic.LocalizedMessage original="User Groups" locale="de" localized="Benutzergruppen"/>
+	<moqui.basic.LocalizedMessage original="Artifact Groups" locale="de" localized="Artefaktgruppen"/>
+	<moqui.basic.LocalizedMessage original="Active Users" locale="de" localized="Aktive Benutzer"/>
+	<moqui.basic.LocalizedMessage original="Localization" locale="de" localized="Lokalisierung"/>
+	<moqui.basic.LocalizedMessage original="Resource Finder" locale="de" localized="Ressourcensuche"/>
+	<moqui.basic.LocalizedMessage original="Artifact Hit Summary" locale="de" localized="Zusammenfassung der Artefakt-Treffer"/>
+	<moqui.basic.LocalizedMessage original="Artifact Hit Bins" locale="de" localized="Artefakt-Trefferbehälter"/>
+	<moqui.basic.LocalizedMessage original="Audit Log" locale="de" localized="Audit-Protokoll"/>
+	<moqui.basic.LocalizedMessage original="System Messages" locale="de" localized="Systemnachrichten"/>
+	<moqui.basic.LocalizedMessage original="Message Remotes" locale="de" localized="Nachrichten-Remotes"/>
+	<moqui.basic.LocalizedMessage original="Message Types" locale="de" localized="Nachrichtentyp"/>
+
+	<moqui.basic.LocalizedMessage original="Auto Screens" locale="de" localized="Automatische Bildschirme"/>
+	<moqui.basic.LocalizedMessage original="Artifact Stats" locale="de" localized="Artefakt-Statistiken"/>
+	<moqui.basic.LocalizedMessage original="Services" locale="de" localized="Dienste"/>
+	<moqui.basic.LocalizedMessage original="Data Export" locale="de" localized="Datenexport"/>
+	<moqui.basic.LocalizedMessage original="Data Snapshots" locale="de" localized="Daten-Snapshots"/>
+	<moqui.basic.LocalizedMessage original="SQL Runner" locale="de" localized="SQL-Ausführung"/>
+	<moqui.basic.LocalizedMessage original="Entities" locale="de" localized="Entitäten"/>
+	<moqui.basic.LocalizedMessage original="Data Views" locale="de" localized="Datenansichten"/>
+	<moqui.basic.LocalizedMessage original="Speed Test" locale="de" localized="Geschwindigkeitstest"/>
+	<moqui.basic.LocalizedMessage original="Query Stats" locale="de" localized="Abfragestatistiken"/>
+	<moqui.basic.LocalizedMessage original="Visits" locale="de" localized="Besuche"/>
+	<moqui.basic.LocalizedMessage original="Persons" locale="de" localized="Personen"/>
+	<moqui.basic.LocalizedMessage original="Create Person" locale="de" localized="Person erstellen"/>
+	<moqui.basic.LocalizedMessage original="Abbreviation" locale="de" localized="Abkürzung"/>
+	<moqui.basic.LocalizedMessage original="Other ID" locale="de" localized="Andere ID"/>
+	<moqui.basic.LocalizedMessage original="Owned By Org" locale="de" localized="Im Besitz von Org"/>
+	<moqui.basic.LocalizedMessage original="Apply New Feature" locale="de" localized="Neue Funktion anwenden"/>
+	<moqui.basic.LocalizedMessage original="Seq #" locale="de" localized="Reihenfolge #"/>
+	<moqui.basic.LocalizedMessage original="Sign Req." locale="de" localized="Unterschrift erforderlich"/>
+	<moqui.basic.LocalizedMessage original="OUM" locale="de" localized="Maßeinheit"/>
+	<moqui.basic.LocalizedMessage original="Depth" locale="de" localized="Tiefe"/>
+	<moqui.basic.LocalizedMessage original="Add Outgoing Shipment" locale="de" localized="Ausgehenden Versand hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Add Item" locale="de" localized="Element hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Shipment Items" locale="de" localized="Versandartikel"/>
+	<moqui.basic.LocalizedMessage original="Packages##Shipment" locale="de" localized="Pakete"/>
+	<moqui.basic.LocalizedMessage original="Packages" locale="de" localized="Pakete"/>
+	<moqui.basic.LocalizedMessage original="Package" locale="de" localized="Paket"/>
+	<moqui.basic.LocalizedMessage original="Package##Shipment" locale="de" localized="Paket"/>
+	<moqui.basic.LocalizedMessage original="Pack Date" locale="de" localized="Packdatum"/>
+	<moqui.basic.LocalizedMessage original="Issued Date" locale="de" localized="Ausstellungsdatum"/>
+	<moqui.basic.LocalizedMessage original="Pack Quantity" locale="de" localized="Menge verpacken"/>
+	<moqui.basic.LocalizedMessage original="Packed/Issued" locale="de" localized="Verpackt/Ausgegeben"/>
+	<moqui.basic.LocalizedMessage original="Remaining" locale="de" localized="Verbleibend"/>
+	<moqui.basic.LocalizedMessage original="Add Package" locale="de" localized="Paket hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Add To Package" locale="de" localized="Zum Paket hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Invoice Item" locale="de" localized="Artikel"/>
+	<moqui.basic.LocalizedMessage original="Update Shipment" locale="de" localized="Lieferung aktualisieren"/>
+	<moqui.basic.LocalizedMessage original="Available Shipments" locale="de" localized="Verfügbare Lieferungen"/>
+	<moqui.basic.LocalizedMessage original="Add Shipment" locale="de" localized="Lieferung hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Reservation" locale="de" localized="Reservierung"/>
+	<moqui.basic.LocalizedMessage original="Was Stored At" locale="de" localized="Wurde gelagert in"/>
+	<moqui.basic.LocalizedMessage original="Pack/Issue Item" locale="de" localized="Artikel verpacken/ausgeben"/>
+	<moqui.basic.LocalizedMessage original="Reset Pkg" locale="de" localized="Paket leeren"/>
+	<moqui.basic.LocalizedMessage original="Packed Date" locale="de" localized="Verpackungsdatum"/>
+	<moqui.basic.LocalizedMessage original="Arrival Date" locale="de" localized="Ankunftsdatum"/>
+	<moqui.basic.LocalizedMessage original="Set Packed" locale="de" localized="Verpackt markieren"/>
+	<moqui.basic.LocalizedMessage original="Packed Date" locale="de" localized="Datum verpackt"/>
+	<moqui.basic.LocalizedMessage original="Arrival Date" locale="de" localized="Ankunftsdatum"/>
+	<moqui.basic.LocalizedMessage original="Set Packed" locale="de" localized="Als verpackt markieren"/>
+	<moqui.basic.LocalizedMessage original="Set Packed (Un-Ship)" locale="de" localized="Despacho anhalten"/>
+	<moqui.basic.LocalizedMessage original="Quantity Not Handled" locale="de" localized="Menge nicht bearbeitet"/>
+	<moqui.basic.LocalizedMessage original="Accepted" locale="de" localized="Akzeptiert"/>
+	<moqui.basic.LocalizedMessage original="Rejected" locale="de" localized="Abgelehnt"/>
+	<moqui.basic.LocalizedMessage original="Stored At" locale="de" localized="Gelagert in"/>
+	<moqui.basic.LocalizedMessage original="Receive Entire Shipment" locale="de" localized="Gesamten Versand erhalten"/>
+	<moqui.basic.LocalizedMessage original="Set Shipped" locale="de" localized="Als verschickt markieren"/>
+	<moqui.basic.LocalizedMessage original="Set Shipped (Un-Deliver)" locale="de" localized="Versand zurücksenden"/>
+	<moqui.basic.LocalizedMessage original="Set Picked" locale="de" localized="Als gepickt markieren"/>
+	<moqui.basic.LocalizedMessage original="Qty" locale="de" localized="Menge"/>
+	<moqui.basic.LocalizedMessage original="New" locale="de" localized="Neu"/>
+	<moqui.basic.LocalizedMessage original="Unpack" locale="de" localized="Auspacken"/>
+	<moqui.basic.LocalizedMessage original="Not Placed" locale="de" localized="Nicht platziert"/>
+	<moqui.basic.LocalizedMessage original="Assign Warehouse" locale="de" localized="Lager zuweisen"/>
+	<moqui.basic.LocalizedMessage original="Remove existing packages and create new based on auto-package data?" locale="de" localized="Bestehende Pakete entfernen und auf der Grundlage von automatischen Paketdaten neue erstellen?"/>
+	<moqui.basic.LocalizedMessage original="Package ${shipmentPackage.shipmentPackageSeqId}" locale="de" localized="Paket ${shipmentPackage.shipmentPackageSeqId}"/>
+	<moqui.basic.LocalizedMessage original="Item Type" locale="de" localized="Artikeltyp"/>
+	<moqui.basic.LocalizedMessage original="Return Quantity" locale="de" localized="Rückgabemenge"/>
+	<moqui.basic.LocalizedMessage original="Inventory Status" locale="de" localized="Bestandsstatus"/>
+	<moqui.basic.LocalizedMessage original="Reason" locale="de" localized="Grund"/>
+	<moqui.basic.LocalizedMessage original="Response" locale="de" localized="Antwort"/>
+	<moqui.basic.LocalizedMessage original="Look Back Days" locale="de" localized="Rückblicktage"/>
+	<moqui.basic.LocalizedMessage original="Return Price" locale="de" localized="Rücknahmepreis"/>
+	<moqui.basic.LocalizedMessage original="Estimated Quantity" locale="de" localized="Geschätzte Menge"/>
+	<moqui.basic.LocalizedMessage original="Unit of Measure" locale="de" localized="Maßeinheit"/>
+	<moqui.basic.LocalizedMessage original="Add Equipment" locale="de" localized="Gerät hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Completion Date" locale="de" localized="Fertigstellungsdatum"/>
+	<moqui.basic.LocalizedMessage original="Hours Worked" locale="de" localized="Arbeitsstunden"/>
+	<moqui.basic.LocalizedMessage original="Position" locale="de" localized="Position"/>
+	<moqui.basic.LocalizedMessage original="Supplies Assigned" locale="de" localized="Zugewiesene Vorräte"/>
+	<moqui.basic.LocalizedMessage original="Workers" locale="de" localized="Arbeiter"/>
+	<moqui.basic.LocalizedMessage original="Product Detail" locale="de" localized="Produktdetail"/>
+	<moqui.basic.LocalizedMessage original="Summary for Task ${workEffortName} in ${facilityName} (${ec.l10n.format(estimatedCompletionDate, 'yyyy-MM-dd HH:MM')})" locale="de" localized="Zusammenfassung für Aufgabe ${workEffortName} in ${facilityName} (${ec.l10n.format(estimatedCompletionDate, 'yyyy-MM-dd HH:MM')})"/>
+	<moqui.basic.LocalizedMessage original="Period from: ${ec.l10n.format(currentFromDate, 'MMMM dd yyyy')} to ${ec.l10n.format(currentThruDate, 'MMMM dd yyyy')}" locale="de" localized="Zeitraum von: ${ec.l10n.format(currentFromDate, 'dd. MMMM yyyy')} bis ${ec.l10n.format(currentThruDate, 'dd. MMMM yyyy')}"/>
+	<moqui.basic.LocalizedMessage original="Unsupported Currency ${hiah.currencyUomId} for Health Insurance Affiliation" locale="de" localized="Nicht unterstützte Währung ${hiah.currencyUomId} für Krankenversicherungs-Zugehörigkeit"/>
+	<moqui.basic.LocalizedMessage original="Health Insurance Affiliation History" locale="de" localized="Krankenversicherungs-Zugehörigkeitsverlauf"/>
+	<moqui.basic.LocalizedMessage original="Pension Fund Affiliation History" locale="de" localized="Rentenfonds-Zugehörigkeitsverlauf"/>
+	<moqui.basic.LocalizedMessage original="Commuting:" locale="de" localized="Fahrtkosten:"/>
+	<moqui.basic.LocalizedMessage original="Nourishment:" locale="de" localized="Verpflegung:"/>
+	<moqui.basic.LocalizedMessage original="Commuting Adjustment History" locale="de" localized="Fahrtkostenanpassungsverlauf"/>
+	<moqui.basic.LocalizedMessage original="Nourishment Adjustment History" locale="de" localized="Verpflegungsanpassungsverlauf"/>
+	<moqui.basic.LocalizedMessage original="Re-open" locale="de" localized="Wieder öffnen"/>
+
+	<moqui.basic.LocalizedMessage
+		original="Packed/Issued: ${ec.l10n.format(sid.quantityTotal ?: 0, '#.##')}, Remaining: ${ec.l10n.format(quantityPackRemaining, '#.##')} (Unit: ${productUom?.description ?: 'N/A'})"
+		locale="es"
+		localized="Verpackt/Ausgegeben: ${ec.l10n.format(sid.quantityTotal ?: 0, '#.##')}, Verbleibend: ${ec.l10n.format(quantityPackRemaining, '#.##')} (Einheit: ${productUom?.description ?: 'N/A'})"/>
+	<moqui.basic.LocalizedMessage
+		original="Receive Accepted: ${ec.l10n.format(sid.quantityAcceptedTotal ?: 0, '#.##')}, Rejected: ${ec.l10n.format(sid.quantityRejectedTotal ?: 0, '#.##')}, Remaining: ${ec.l10n.format(quantityRecRemaining, '#.##')} (Unit: ${productUom?.description ?: 'N/A'})"
+		locale="es"
+		localized="Empfangene Menge: ${ec.l10n.format(sid.quantityAcceptedTotal ?: 0, '#.##')} angenommen, ${ec.l10n.format(sid.quantityRejectedTotal ?: 0, '#.##')} abgelehnt, verbleibend: ${ec.l10n.format(quantityRecRemaining, '#.##')} (Einheit: ${productUom?.description ?: 'N/A'})"/>
+	<moqui.basic.LocalizedMessage original="Human Team" locale="es" localized="Menschliches Team"/>
+	<moqui.basic.LocalizedMessage original="Please select Organization" locale="es" localized="Bitte wählen Sie eine Organisation aus"/>
+	<moqui.basic.LocalizedMessage original="Parameters" locale="es" localized="Parameter"/>
+	<moqui.basic.LocalizedMessage original="Time Period Type" locale="es" localized="Zeitperiodentyp"/>
+	<moqui.basic.LocalizedMessage original="Change Period" locale="es" localized="Zeitraum ändern"/>
+	<moqui.basic.LocalizedMessage original="Did not find Payroll Time Period" locale="es" localized="Lohnabrechnungszeitraum nicht gefunden"/>
+	<moqui.basic.LocalizedMessage original="Payroll Type" locale="es" localized="Lohnart"/>
+	<moqui.basic.LocalizedMessage original="Create User Account" locale="es" localized="Benutzerkonto erstellen"/>
+	<moqui.basic.LocalizedMessage original="User Account" locale="de" localized="Benutzerkonto"/>
+	<moqui.basic.LocalizedMessage original="Disable Account" locale="de" localized="Konto deaktivieren"/>
+	<moqui.basic.LocalizedMessage original="Update User" locale="de" localized="Benutzer aktualisieren"/>
+	<moqui.basic.LocalizedMessage original="User Full Name" locale="de" localized="Vollständiger Name des Benutzers"/>
+	<moqui.basic.LocalizedMessage original="Req PW Change" locale="de" localized="Kennwortänderung erforderlich"/>
+	<moqui.basic.LocalizedMessage original="Password Set Date" locale="de" localized="Datum der Passwortänderung"/>
+	<moqui.basic.LocalizedMessage original="Resource" locale="de" localized="Ressource"/>
+	<moqui.basic.LocalizedMessage original="Full Name" locale="de" localized="Vollständiger Name"/>
+	<moqui.basic.LocalizedMessage original="Locale" locale="de" localized="Sprachumgebung"/>
+	<moqui.basic.LocalizedMessage original="Category" locale="de" localized="Kategorie"/>
+	<moqui.basic.LocalizedMessage original="Disabled Date" locale="de" localized="Deaktivierungsdatum"/>
+	<moqui.basic.LocalizedMessage original="IPs Allowed" locale="de" localized="Zugelassene IPs"/>
+	<moqui.basic.LocalizedMessage original="Add Group" locale="de" localized="Gruppe hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Group" locale="de" localized="Gruppe"/>
+	<moqui.basic.LocalizedMessage original="Login History" locale="de" localized="Anmeldungsverlauf"/>
+	<moqui.basic.LocalizedMessage original="Successful" locale="de" localized="Erfolgreich"/>
+	<moqui.basic.LocalizedMessage original="Security Groups" locale="de" localized="Sicherheitsgruppen"/>
+	<moqui.basic.LocalizedMessage original="Add to Group" locale="de" localized="Zur Gruppe hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Organizations" locale="de" localized="Organisationen"/>
+	<moqui.basic.LocalizedMessage original="Add to Organization" locale="de" localized="Zur Organisation hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Employee" locale="de" localized="Mitarbeiter"/>
+	<moqui.basic.LocalizedMessage original="Find Employment" locale="de" localized="Beschäftigung suchen"/>
+	<moqui.basic.LocalizedMessage original="End Employment" locale="de" localized="Beschäftigung beenden"/>
+	<moqui.basic.LocalizedMessage original="Termination Type" locale="de" localized="Kündigungsart"/>
+	<moqui.basic.LocalizedMessage original="Termination Reason" locale="de" localized="Kündigungsgrund"/>
+	<moqui.basic.LocalizedMessage original="New Employment" locale="de" localized="Neue Beschäftigung"/>
+	<moqui.basic.LocalizedMessage original="Employment" locale="de" localized="Beschäftigung"/>
+	<moqui.basic.LocalizedMessage original="Employments" locale="de" localized="Beschäftigungen"/>
+	<moqui.basic.LocalizedMessage original="Payroll Data" locale="de" localized="Abrechnungsdaten"/>
+	<moqui.basic.LocalizedMessage original="Payroll" locale="de" localized="Abrechnung"/>
+	<moqui.basic.LocalizedMessage original="Salary History" locale="de" localized="Gehaltshistorie"/>
+	<moqui.basic.LocalizedMessage original="Salary:" locale="de" localized="Gehalt:"/>
+	<moqui.basic.LocalizedMessage original="Salary" locale="de" localized="Gehalt"/>
+	<moqui.basic.LocalizedMessage original="Payroll Income" locale="de" localized="Abrechnungseinkommen"/>
+	<moqui.basic.LocalizedMessage original="Create New Payroll Period" locale="de" localized="Neuen Abrechnungszeitraum erstellen"/>
+	<moqui.basic.LocalizedMessage original="Payroll Periods" locale="de" localized="Abrechnungszeiträume"/>
+	<moqui.basic.LocalizedMessage original="Is Closed" locale="de" localized="Geschlossen"/>
+	<moqui.basic.LocalizedMessage original="Period from: ${ec.l10n.format(timePeriod.fromDate, 'MMMM dd yyyy')} to ${ec.l10n.format(timePeriod.thruDate, 'MMMM dd yyyy')}" locale="de" localized="Zeitraum vom: ${ec.l10n.format(timePeriod.fromDate, 'dd.MM.yyyy')} bis ${ec.l10n.format(timePeriod.thruDate, 'dd.MM.yyyy')}"/>
+	<moqui.basic.LocalizedMessage original="Organization ${ec.resource.expand('PartyNameOnlyTemplate', null)}" locale="de" localized="Organisation ${ec.resource.expand('PartyNameOnlyTemplate', null)}"/>
+	<moqui.basic.LocalizedMessage original="Any" locale="de" localized="Beliebig"/>
+	<moqui.basic.LocalizedMessage original="Loaded ${recordsLoaded} records from [${source}]" locale="de" localized="${recordsLoaded} Datensätze aus [${source}] geladen]"/>
+	<moqui.basic.LocalizedMessage original="Data Import" locale="de" localized="Datenimport"/>
+	<moqui.basic.LocalizedMessage original="Import Data - Create or Update" locale="de" localized="Daten importieren - Erstellen oder Aktualisieren"/>
+	<moqui.basic.LocalizedMessage original="Import Data - Create Only" locale="de" localized="Daten importieren - Nur erstellen"/>
+	<moqui.basic.LocalizedMessage original="Check Data" locale="de" localized="Daten prüfen"/>
+	<moqui.basic.LocalizedMessage original="No differences found in check" locale="de" localized="Keine Unterschiede bei der Prüfung gefunden"/>
+	<moqui.basic.LocalizedMessage original="Gender" locale="de" localized="Geschlecht"/>
+
+    <moqui.basic.LocalizedEntityField entityName="mantle.product.ProductDimensionType" fieldName="description" locale="de" pkValue="Depth" localized="Profundidad"/>
+    <moqui.basic.LocalizedEntityField entityName="mantle.product.ProductDimensionType" fieldName="description" locale="de" pkValue="Diameter" localized="Diámetro"/>
+    <moqui.basic.LocalizedEntityField entityName="mantle.product.ProductDimensionType" fieldName="description" locale="de" pkValue="Height" localized="Altura"/>
+    <moqui.basic.LocalizedEntityField entityName="mantle.product.ProductDimensionType" fieldName="description" locale="de" pkValue="PiecesIncluded" localized="Piezas Incluídas"/>
+    <moqui.basic.LocalizedEntityField entityName="mantle.product.ProductDimensionType" fieldName="description" locale="de" pkValue="QuantityIncluded" localized="Cantidad Incluída"/>
+    <moqui.basic.LocalizedEntityField entityName="mantle.product.ProductDimensionType" fieldName="description" locale="de" pkValue="Volume" localized="Volumen"/>
+    <moqui.basic.LocalizedEntityField entityName="mantle.product.ProductDimensionType" fieldName="description" locale="de" pkValue="Weight" localized="Peso"/>
+    <moqui.basic.LocalizedEntityField entityName="mantle.product.ProductDimensionType" fieldName="description" locale="de" pkValue="Width" localized="Ancho"/>
+    <moqui.basic.LocalizedEntityField entityName="mantle.product.ProductDimensionType" fieldName="description" locale="de" pkValue="ShippingDepth" localized="Profundidad en Embalaje"/>
+    <moqui.basic.LocalizedEntityField entityName="mantle.product.ProductDimensionType" fieldName="description" locale="de" pkValue="ShippingHeight" localized="Altura en Embalaje"/>
+    <moqui.basic.LocalizedEntityField entityName="mantle.product.ProductDimensionType" fieldName="description" locale="de" pkValue="ShippingWeight" localized="Peso en Embalaje"/>
+    <moqui.basic.LocalizedEntityField entityName="mantle.product.ProductDimensionType" fieldName="description" locale="de" pkValue="ShippingWidth" localized="Ancho en Embalaje"/>
+
+    <!--
+    <moqui.basic.LocalizedMessage original="" locale="de" localized=""/>
+    <moqui.basic.LocalizedEntityField entityName="" fieldName="" locale="de" pkValue="" localized=""/>
+     -->
+    <!-- Enumeraciones -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemPayrollCommuting" localized="Movilización"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="ItemPayrollNourishment" localized="Colación"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrsnArriveLate" localized="08 Llegó Muy Tarde"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrsnBetterPrice" localized="10 Se Encontró Mejor Precio"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrsnCodPmtRejected" localized="13 Pago Contra Entrega Rechazado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrsnDamagedShip" localized="01 Dañado Durante Trayecto"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrsnDefective" localized="02 Defectuoso"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrsnDidNotWant" localized="09 No Gustó a Cliente"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrsnDupShip" localized="06 Despacho Duplicado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrsnGiftNotWant" localized="07 Regalo, Rechazado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrsnMisShip" localized="03 Item Incorrecto"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrsnNotExpected" localized="04 No Era lo Esperado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrsnPoorService" localized="11 Mal Servicio Al Cliente"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrsnSizeExchange" localized="Cambio de Tamaño/Talla"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrsnUnlikeDescribed" localized="12 No Corresponde a Foto/Descripción"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrsnWrongSize" localized="05 Tamaño Incorrecto"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrspCredit" localized="Crédito"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrspManual" localized="Manual"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrspRefund" localized="Reembolso"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="RrspReplace" localized="Reemplazo"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" locale="de" pkValue="PartyContentType" localized="Tipo de Contenido de Sujeto"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntInternal" localized="Contenido Interno"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntUserDefined" localized="Contenido definido por usuario"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntPrimaryImage" localized="Imagen Principal"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntLogoImage" localized="Imagen Logotipo"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntFaceImage" localized="Imagen Rostro"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntVendorShipping" localized="Información Despacho Proveedores"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntPaymentSignaturePrimary" localized="Firma Primaria Pagos"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntPaymentSignaturePrimary" localized="Firma Secundaria Pagos"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntIdentityDocument" localized="Documento de Identidad"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntEmplAuthzDocument" localized="Documento de Autorización de Empleo"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PcntInternal" localized="Contenido"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="PrtLegalRepresentative" localized="Representante Legal"/>
+
+	<moqui.basic.LocalizedMessage original="New Relationship" locale="de" localized="Neue Beziehung"/>
+	<moqui.basic.LocalizedMessage original="Male" locale="de" localized="Männlich"/>
+	<moqui.basic.LocalizedMessage original="Female" locale="de" localized="Weiblich"/>
+	<moqui.basic.LocalizedMessage original="Leave Type" locale="de" localized="Abwesenheitsart"/>
+	<moqui.basic.LocalizedMessage original="Leave" locale="de" localized="Abwesenheit"/>
+	<moqui.basic.LocalizedMessage original="Nourishment" locale="de" localized="Verpflegung"/>
+	<moqui.basic.LocalizedMessage original="Commuting" locale="de" localized="Fahrkosten"/>
+	<moqui.basic.LocalizedMessage original="Modify Nourishment Assignment" locale="de" localized="Verpflegungszuweisung ändern"/>
+	<moqui.basic.LocalizedMessage original="Modify Commuting Assignment" locale="de" localized="Fahrkostenzuweisung ändern"/>
+	<moqui.basic.LocalizedMessage original="Modify Health Insurance" locale="de" localized="Krankenversicherung ändern"/>
+	<moqui.basic.LocalizedMessage original="Modify Pension Fund Affiliation" locale="de" localized="Pensionsfondszugehörigkeit ändern"/>
+	<moqui.basic.LocalizedMessage original="Accrued Vacation day balance: ${accruedVacationDays?:'N/A'}" locale="de" localized="Angehäufter Urlaubstag-Saldo: ${accruedVacationDays?:'N/A'}"/>
+	<moqui.basic.LocalizedMessage original="Planned Leaves" locale="de" localized="Geplante Abwesenheiten"/>
+
+	<moqui.basic.LocalizedMessage original="Reconciliate" locale="de" localized="Abgleichen"/>
+	<moqui.basic.LocalizedMessage original="Reconciliations" locale="de" localized="Abgleichungen"/>
+	<moqui.basic.LocalizedMessage original="Movement Date" locale="de" localized="Bewegungsdatum"/>
+	<moqui.basic.LocalizedMessage original="Transaction Type" locale="de" localized="Transaktionstyp"/>
+	<moqui.basic.LocalizedMessage original="Import Account Statement" locale="de" localized="Kontoauszug importieren"/>
+	<moqui.basic.LocalizedMessage original="New Salary" locale="de" localized="Neues Gehalt"/>
+	<moqui.basic.LocalizedMessage original="Employment Detail" locale="de" localized="Beschäftigungsdetails"/>
+	<moqui.basic.LocalizedMessage original="Find Position" locale="de" localized="Position suchen"/>
+	<moqui.basic.LocalizedMessage original="New Position" locale="de" localized="Neue Position"/>
+	<moqui.basic.LocalizedMessage original="Employment Start: ${ec.l10n.format(employment.fromDate, 'MMM dd yyyy')}" locale="de" localized="Beschäftigungsbeginn: ${ec.l10n.format(employment.fromDate, 'dd. MMMM yyyy')}"/>
+	<moqui.basic.LocalizedMessage original="Employment End: ${ec.l10n.format(employment.thruDate, 'MMM dd yyyy')}" locale="de" localized="Beschäftigungsende: ${ec.l10n.format(employment.thruDate, 'dd. MMMM yyyy')}"/>
+	<moqui.basic.LocalizedMessage original="Employment End Type: ${employmentTerminationType.description}" locale="de" localized="Art des Beschäftigungsendes: ${employmentTerminationType.description}"/>
+	<moqui.basic.LocalizedMessage original="Employment End Reason: ${employmentTerminationReason.description}" locale="de" localized="Grund für das Beschäftigungsende: ${employmentTerminationReason.description}"/>
+	<moqui.basic.LocalizedMessage original="View Parameters" locale="de" localized="Parameter anzeigen"/>
+	<moqui.basic.LocalizedMessage original="Add Illness Leave" locale="de" localized="Krankheitsurlaub hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Add Vacation Leave" locale="de" localized="Urlaub hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Add Other Leave" locale="de" localized="Weitere Abwesenheit hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Add Overtime" locale="de" localized="Überstunden hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Leave Days" locale="de" localized="Abwesenheitstage"/>
+	<moqui.basic.LocalizedMessage original="Overtime Hours" locale="de" localized="Überstundenstunden"/>
+	<moqui.basic.LocalizedMessage original="Distribute total on a number of periods" locale="de" localized="Gesamtbetrag auf eine Anzahl von Perioden verteilen"/>
+	<moqui.basic.LocalizedMessage original="Repeat amount for a number of periods" locale="de" localized="Betrag für eine Anzahl von Perioden wiederholen"/>
+	<moqui.basic.LocalizedMessage original="Number of periods" locale="de" localized="Anzahl der Perioden"/>
+	<moqui.basic.LocalizedMessage original="Distribution" locale="de" localized="Verteilung"/>
+	<moqui.basic.LocalizedMessage original="Add Deductible" locale="de" localized="Abzug hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Add Bonus" locale="de" localized="Bonus hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Manage Leaves" locale="de" localized="Abwesenheiten verwalten"/>
+	<moqui.basic.LocalizedMessage original="Manage Overtimes" locale="de" localized="Überstunden verwalten"/>
+	<moqui.basic.LocalizedMessage original="Manage Deductibles" locale="de" localized="Abzüge verwalten"/>
+	<moqui.basic.LocalizedMessage original="Manage Bonuses" locale="de" localized="Bonifikationen verwalten"/>
+	<moqui.basic.LocalizedMessage original="Modify Salary" locale="de" localized="Gehalt anpassen"/>
+	<moqui.basic.LocalizedMessage original="Payroll Period" locale="de" localized="Abrechnungsperiode"/>
+	<moqui.basic.LocalizedMessage original="Payee" locale="de" localized="Zahlungsempfänger"/>
+	<moqui.basic.LocalizedMessage original="Record Payment" locale="de" localized="Zahlung aufzeichnen"/>
+	<moqui.basic.LocalizedMessage original="Manage Adjustments" locale="de" localized="Anpassungen verwalten"/>
+	<moqui.basic.LocalizedMessage original="Add Adjustment" locale="de" localized="Anpassung hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Employee Name" locale="de" localized="Name des Mitarbeiters"/>
+	<moqui.basic.LocalizedMessage original="Actions" locale="de" localized="Aktionen"/>
+	<moqui.basic.LocalizedMessage original="Certificate" locale="de" localized="Zertifikat"/>
+	<moqui.basic.LocalizedMessage original="Overtime Type" locale="de" localized="Überstundenart"/>
+	<moqui.basic.LocalizedMessage original="Employment Position" locale="de" localized="Beschäftigungsposition"/>
+	<moqui.basic.LocalizedMessage original="Employment Duration" locale="de" localized="Beschäftigungsdauer"/>
+	<moqui.basic.LocalizedMessage original="Employment Condition" locale="de" localized="Beschäftigungsbedingung"/>
+	<moqui.basic.LocalizedMessage original="Employment Facility" locale="de" localized="Beschäftigungseinrichtung"/>
+	<moqui.basic.LocalizedMessage original="Employment Facility: ${employmentFacility?.facilityName}" locale="de" localized="Beschäftigungseinrichtung: ${employmentFacility?.facilityName}"/>
+	<moqui.basic.LocalizedMessage original="No GL Account mapping found" locale="de" localized="Keine GL-Kontomapping gefunden"/>
+	<moqui.basic.LocalizedMessage original="Done" locale="de" localized="Erledigt"/>
+	<moqui.basic.LocalizedMessage original="Setup" locale="de" localized="Einstellungen"/>
+	<moqui.basic.LocalizedMessage original="Edit Content" locale="de" localized="Inhalt bearbeiten"/>
+	<moqui.basic.LocalizedMessage original="By ${ec.resource.expand('UsernameTemplate','',paua+[userId:content.userId])} at ${ec.l10n.format(content.contentDate, 'yyyy-MM-dd HH:mm')}" locale="de" localized="Von ${ec.resource.expand('UsernameTemplate','',paua+[userId:content.userId])} am ${ec.l10n.format(content.contentDate, 'yyyy-MM-dd HH:mm')}"/>
+	<moqui.basic.LocalizedMessage original="Mothers Maiden Name" locale="de" localized="Mädchenname der Mutter"/>
+	<moqui.basic.LocalizedMessage original="Last Name" locale="de" localized="Nachname"/>
+
+</entity-facade-xml>
