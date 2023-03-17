@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+
+	<moqui.basic.LocalizedMessage original="Sale Detail" locale="de" localized="Verkaufsdetails"/>
+	<moqui.basic.LocalizedMessage original="No product found with barcode '${barcode}'." locale="de" localized="Kein Produkt mit Barcode '${barcode}' gefunden."/>
+	<moqui.basic.LocalizedMessage original="New Sale" locale="de" localized="Neuer Verkauf"/>
+	<moqui.basic.LocalizedMessage original="Are you sure you want to delete this item?" locale="de" localized="Sind Sie sicher, dass Sie diesen Artikel löschen möchten?"/>
+	<moqui.basic.LocalizedMessage original="Barcode" locale="de" localized="Barcode"/>
+	<moqui.basic.LocalizedMessage original="Store Products" locale="de" localized="Ladenprodukte"/>
+	<moqui.basic.LocalizedMessage original="Sale Total" locale="de" localized="Verkaufsgesamtsumme"/>
+	<moqui.basic.LocalizedMessage original="Close Sale" locale="de" localized="Verkauf abschließen"/>
+	<moqui.basic.LocalizedMessage original="Price Query" locale="de" localized="Preisanfrage"/>
+	<moqui.basic.LocalizedMessage original="See" locale="de" localized="Ansehen"/>
+	<moqui.basic.LocalizedMessage original="Main" locale="de" localized="Haupt"/>
+	<moqui.basic.LocalizedMessage original="Total Price" locale="de" localized="Gesamtpreis"/>
+	<moqui.basic.LocalizedMessage original="Unit Price" locale="de" localized="Stückpreis"/>
+	<moqui.basic.LocalizedMessage original="Sales Order #${orderId}" locale="de" localized="Verkauf #${orderId}"/>
+	<moqui.basic.LocalizedMessage original="Store: ${productStore.storeName}" locale="de" localized="Laden: ${productStore.storeName}"/>
+	<moqui.basic.LocalizedMessage original="Sale" locale="de" localized="Verkauf"/>
+	<moqui.basic.LocalizedMessage original="Cancel Sale" locale="de" localized="Verkauf abbrechen"/>
+	<moqui.basic.LocalizedMessage original="Cancel Purchase" locale="de" localized="Kauf abbrechen"/>
+	<moqui.basic.LocalizedMessage original="Payments Total" locale="de" localized="Gesamtbetrag Zahlungen"/>
+	<moqui.basic.LocalizedMessage original="Payments Detail" locale="de" localized="Zahlungsdetails"/>
+	<moqui.basic.LocalizedMessage original="Change" locale="de" localized="Wechselgeld"/>
+	<moqui.basic.LocalizedMessage original="Handed" locale="de" localized="Entregado"/>
+	<moqui.basic.LocalizedMessage original="Finish Sale" locale="de" localized="Verkauf abschließen"/>
+	<moqui.basic.LocalizedMessage original="Are you sure you want to cancel this sale?" locale="de" localized="Sind Sie sicher, dass Sie diesen Verkauf stornieren möchten?"/>
+	<moqui.basic.LocalizedMessage original="Are you sure you want to cancel this purchase?" locale="de" localized="Sind Sie sicher, dass Sie diesen Einkauf stornieren möchten?"/>
+	<moqui.basic.LocalizedMessage original="Tax Document Type" locale="de" localized="Steuerdokumenttyp"/>
+	<moqui.basic.LocalizedMessage original="Tax Document Id" locale="de" localized="Steuernummer"/>
+	<moqui.basic.LocalizedMessage original="Tills" locale="de" localized="Kassen"/>
+	<moqui.basic.LocalizedMessage original="Counted Amount" locale="de" localized="Gezählte Menge"/>
+	<moqui.basic.LocalizedMessage original="Search product" locale="de" localized="Produkt suchen"/>
+	<moqui.basic.LocalizedMessage original="Finish Physical Inventory" locale="de" localized="Physisches Inventar abschließen"/>
+	<moqui.basic.LocalizedMessage original="Make Physical Inventory" locale="de" localized="Physisches Inventar erstellen"/>
+	<moqui.basic.LocalizedMessage original="Inventories" locale="de" localized="Inventare"/>
+	<moqui.basic.LocalizedMessage original="Physical Inventories" locale="de" localized="Physische Inventare"/>
+	<moqui.basic.LocalizedMessage original="Find Physical Inventories" locale="de" localized="Physische Inventare suchen"/>
+	<moqui.basic.LocalizedMessage original="Reassign to" locale="de" localized="Neuzuweisung an"/>
+	<moqui.basic.LocalizedMessage original="From Location" locale="de" localized="Von Standort"/>
+	<moqui.basic.LocalizedMessage original="To Location" locale="de" localized="Zu Standort"/>
+	<moqui.basic.LocalizedMessage original="Initiate Physical Inventory" locale="de" localized="Physisches Inventar initiieren"/>
+	<moqui.basic.LocalizedMessage original="Assign" locale="de" localized="Zuweisen"/>
+	<moqui.basic.LocalizedMessage original="Assigned to" locale="de" localized="Zugewiesen an"/>
+	<moqui.basic.LocalizedMessage original="Assign Date" locale="de" localized="Zuweisungsdatum"/>
+	<moqui.basic.LocalizedMessage original="Add Product to Location ${locationSeqId}" locale="de" localized="Produkt zur Lage ${locationSeqId} hinzufügen"/>
+	<moqui.basic.LocalizedMessage original="Create Product" locale="de" localized="Produkt erstellen"/>
+	<moqui.basic.LocalizedMessage original="Location Description" locale="de" localized="Beschreibung des Ortes"/>
+	<moqui.basic.LocalizedMessage original="Select/Change Physical Inventory or Location" locale="de" localized="Physisches Inventar oder Ort auswählen/ändern"/>
+	<moqui.basic.LocalizedMessage original="Count##PhysicalInventory" locale="de" localized="Zählen"/>
+	<moqui.basic.LocalizedMessage original="Record Counts##PhysicalInventory" locale="de" localized="Zählungen aufzeichnen"/>
+	<moqui.basic.LocalizedMessage original="Count Date" locale="de" localized="Zählungsdatum"/>
+	<moqui.basic.LocalizedMessage original="Create New Inventory" locale="de" localized="Neues Inventar erstellen"/>
+	<moqui.basic.LocalizedMessage original="Show Only Pending" locale="de" localized="Nur ausstehende anzeigen"/>
+	<moqui.basic.LocalizedMessage original="Finish Physical Inventory for Location ${locationSeqId}" locale="de" localized="Physisches Inventar für Ort ${locationSeqId} abschließen"/>
+	<moqui.basic.LocalizedMessage original="Go to Make Inventory" locale="de" localized="Zur Inventurerstellung gehen"/>
+	<moqui.basic.LocalizedMessage original="Reassign Scope" locale="de" localized="Bereich neu zuweisen"/>
+	<moqui.basic.LocalizedMessage original="Pending Only" locale="de" localized="Nur ausstehende"/>
+	<moqui.basic.LocalizedMessage original="All##Locations" locale="de" localized="Alle"/>
+	<moqui.basic.LocalizedMessage original="Product already exists at that location." locale="de" localized="Produkt existiert bereits an diesem Ort."/>
+	<moqui.basic.LocalizedMessage original="Store" locale="de" localized="Geschäft"/>
+	<moqui.basic.LocalizedMessage original="Till ID" locale="de" localized="Kassen-ID"/>
+	<moqui.basic.LocalizedMessage original="Create New Till" locale="de" localized="Neue Kasse erstellen"/>
+	<moqui.basic.LocalizedMessage original="Responsible User" locale="de" localized="Verantwortlicher Benutzer"/>
+	<moqui.basic.LocalizedMessage original="Responsible User: ${userFullName?:'N/A'}" locale="de" localized="Verantwortlicher Benutzer: ${userFullName?:'N/A'}"/>
+	<moqui.basic.LocalizedMessage original="Actual Balance" locale="de" localized="Saldo efectivo"/>
+	<moqui.basic.LocalizedMessage original="Set" locale="de" localized="Setzen"/>
+	<moqui.basic.LocalizedMessage original="Barcode Type" locale="de" localized="Barcode-Typ"/>
+	<moqui.basic.LocalizedMessage original="Sales Report" locale="de" localized="Verkaufsbericht"/>
+	<moqui.basic.LocalizedMessage original="Salesman" locale="de" localized="Verkäufer"/>
+	<moqui.basic.LocalizedMessage original="List Price" locale="de" localized="Preisliste"/>
+	<moqui.basic.LocalizedMessage original="Price Modified" locale="de" localized="Preis geändert"/>
+	<moqui.basic.LocalizedMessage original="Store: ${productStore.storeName} (${productStore.productStoreId})" locale="de" localized="Geschäft: ${productStore.storeName} (${productStore.productStoreId})"/>
+	<moqui.basic.LocalizedMessage original="Till" locale="de" localized="Kasse"/>
+	<moqui.basic.LocalizedMessage original="Till: ${tillSeqId? (productStoreId + '-' + tillSeqId): 'N/A'}" locale="de" localized="Kasse: ${tillSeqId? (productStoreId + '-' + tillSeqId): 'N/A'}"/>
+	<moqui.basic.LocalizedMessage original="Park Sale" locale="de" localized="Verkauf parken"/>
+	<moqui.basic.LocalizedMessage original="Park" locale="de" localized="Parken"/>
+	<moqui.basic.LocalizedMessage original="Select Sale" locale="de" localized="Verkauf auswählen"/>
+	<moqui.basic.LocalizedMessage original="Till: ${orderTillShift.productStoreId}-${orderTillShift.tillSeqId}" locale="de" localized="Kasse: ${orderTillShift.productStoreId}-${orderTillShift.tillSeqId}"/>
+	<moqui.basic.LocalizedMessage original="Sale ID" locale="de" localized="Verkaufs-ID"/>
+	<moqui.basic.LocalizedMessage original="Finished Sales" locale="de" localized="Abgeschlossene Verkäufe"/>
+	<moqui.basic.LocalizedMessage original="Open Till" locale="de" localized="Kasse öffnen"/>
+	<moqui.basic.LocalizedMessage original="Close Till" locale="de" localized="Kasse schließen"/>
+	<moqui.basic.LocalizedMessage original="Close Till Shift" locale="de" localized="Kassenschicht schließen"/>
+	<moqui.basic.LocalizedMessage original="Initial Deposit" locale="de" localized="Anfangsdepot"/>
+	<moqui.basic.LocalizedMessage original="Open" locale="de" localized="Öffnen"/>
+	<moqui.basic.LocalizedMessage original="Card Voucher Number" locale="de" localized="Karten-Gutscheinnummer"/>
+	<moqui.basic.LocalizedMessage original="Card Voucher Number is required." locale="de" localized="Karten-Gutscheinnummer ist erforderlich."/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FatrCustomerPayment" localized="Zahlung von Kunden erhalten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FatrOrderPayment" localized="Zahlung in Verbindung mit Bestellung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="FatrCustomerChange" localized="Kundenwechselgeld zurückgeben"/>
+	<moqui.basic.LocalizedMessage original="Change Customer" locale="de" localized="Kunde ändern"/>
+	<moqui.basic.LocalizedMessage original="Existing Party" locale="de" localized="Existierende Partei"/>
+	<moqui.basic.LocalizedMessage original="Create and Select Person" locale="de" localized="Person erstellen und auswählen"/>
+	<moqui.basic.LocalizedMessage original="Create and Select Organization" locale="de" localized="Organisation erstellen und auswählen"/>
+	<moqui.basic.LocalizedMessage original="Customer: ${customerName}" locale="de" localized="Kunde: ${customerName}"/>
+	<moqui.basic.LocalizedMessage original="Pending Payment" locale="de" localized="Ausstehende Zahlung"/>
+	<moqui.basic.LocalizedMessage original="Difference found" locale="de" localized="Unterschied gefunden"/>
+	<moqui.basic.LocalizedMessage original="Vat Taxable" locale="de" localized="Mehrwertsteuerpflichtig"/>
+	<moqui.basic.LocalizedMessage original="Sale Price" locale="de" localized="Verkaufspreis"/>
+	<moqui.basic.LocalizedMessage original="Purchase Price" locale="de" localized="Einkaufspreis"/>
+	<moqui.basic.LocalizedMessage original="Sale price is less than purchase price!" locale="de" localized="Verkaufspreis ist niedriger als Einkaufspreis!"/>
+	<moqui.basic.LocalizedMessage original="Sale #" locale="de" localized="Verkauf #"/>
+	<moqui.basic.LocalizedMessage original="Cash" locale="de" localized="Bargeld"/>
+	<moqui.basic.LocalizedMessage original="Card" locale="de" localized="Karte"/>
+	<moqui.basic.LocalizedMessage original="Check" locale="de" localized="Scheck"/>
+	<moqui.basic.LocalizedMessage original="Wire" locale="de" localized="Überweisung"/>
+	<moqui.basic.LocalizedMessage original="Wire Transfer" locale="de" localized="Überweisung"/>
+	<moqui.basic.LocalizedMessage original="Tax Document Emission" locale="de" localized="Ausstellung von Steuerdokumenten"/>
+	<moqui.basic.LocalizedMessage original="Tax Document Amount" locale="de" localized="Steuerdokumentbetrag"/>
+	<moqui.basic.LocalizedMessage original="Fiscal Tax Document Type" locale="de" localized="Art des Steuerdokuments"/>
+	<moqui.basic.LocalizedMessage original="Created Tax Document Number" locale="de" localized="Erstellte Dokumentnummer"/>
+	<moqui.basic.LocalizedMessage original="Date: ${date}" locale="de" localized="Datum: ${date}"/>
+	<moqui.basic.LocalizedMessage original="Check Number" locale="de" localized="Schecknummer"/>
+	<moqui.basic.LocalizedMessage original="Bank" locale="de" localized="Bank"/>
+	<moqui.basic.LocalizedMessage original="Financial Tasks" locale="de" localized="Finanzaufgaben"/>
+	<moqui.basic.LocalizedMessage original="Open##Till" locale="de" localized="Offen"/>
+	<moqui.basic.LocalizedMessage original="Open Date" locale="de" localized="Öffnungsdatum"/>
+	<moqui.basic.LocalizedMessage original="Return of opening balance" locale="de" localized="Rückgabe des Eröffnungsbetrags"/>
+	<moqui.basic.LocalizedMessage original="Income during shift" locale="de" localized="Einkommen während der Schicht"/>
+	<moqui.basic.LocalizedMessage original="Opening Till" locale="de" localized="Kassenöffnung"/>
+	<moqui.basic.LocalizedMessage original="Please select existing Customer or provide name and ID for new customer" locale="de" localized="Bitte wählen Sie einen vorhandenen Kunden aus oder geben Sie Namen und ID für einen neuen Kunden an"/>
+	<moqui.basic.LocalizedMessage original="Cannot handle more than 1 invoice per Order for order ${orderId}" locale="de" localized="Es kann nicht mehr als 1 Rechnung pro Bestellung für Bestellung ${orderId} abgewickelt werden"/>
+	<moqui.basic.LocalizedMessage original="Cannot give change for paymentInstrument ${paymentInstrument.description}" locale="de" localized="No se puede entregar vuelto para paymentInstrument ${paymentInstrument.description}"/>
+	<moqui.basic.LocalizedMessage original="Till ${productStoreId}-${tillSeqId} is already open, cannot open again" locale="de" localized="Caja ${productStoreId}-${tillSeqId} ist bereits geöffnet, kann nicht erneut geöffnet werden"/>
+	<moqui.basic.LocalizedMessage original="Till ${productStoreId}-${tillSeqId} FinancialAccount ${finAcct.finAccountId} has non-zero balance (${finAcct.actualBalance}), cannot open." locale="de" localized="Finanzkonto ${finAcct.finAccountId} der Kasse ${productStoreId}-${tillSeqId} hat einen nicht-nullen Kontostand (${finAcct.actualBalance}), kann nicht geöffnet werden."/>
+	<moqui.basic.LocalizedMessage original="Undefined ProductStorePaymentGlAccount for productStore ${productStoreId} and payment instrument PiCash" locale="de" localized="Undefiniertes ProductStorePaymentGlAccount für Produktgeschäft ${productStoreId} und Zahlungsinstrument PiCash"/>
+	<moqui.basic.LocalizedMessage original="Till ${productStoreId}-{tillSeqId} not found" locale="de" localized="Kasse ${productStoreId}-{tillSeqId} nicht gefunden"/>
+	<moqui.basic.LocalizedMessage original="Could not find orderPart for orderId ${orderId}, orderPartSeqId ${orderPartSeqId}" locale="de" localized="Bestellposition für Bestellnummer ${orderId} und Bestellposition ${orderPartSeqId} konnte nicht gefunden werden"/>
+	<moqui.basic.LocalizedMessage original="Till Shift ${tillShift.tillShiftId}" locale="de" localized="Kassenschicht ${tillShift.tillShiftId}"/>
+	<moqui.basic.LocalizedMessage original="Close Date" locale="de" localized="Schließungsdatum"/>
+	<moqui.basic.LocalizedMessage original="Open Balance" locale="de" localized="Eröffnungsbilanz"/>
+	<moqui.basic.LocalizedMessage original="Close Balance" locale="de" localized="Abschlussbilanz"/>
+	<moqui.basic.LocalizedMessage original="Sale - Payment" locale="de" localized="Verkauf - Zahlung"/>
+	<moqui.basic.LocalizedMessage original="Total Paid" locale="de" localized="Insgesamt bezahlt"/>
+	<moqui.basic.LocalizedMessage original="List Tills" locale="de" localized="Kassen auflisten"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" locale="de" pkValue="TillShiftDocumentType" localized="Dokumente eingesammelt in Registrierkassen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="TsdtCheck" localized="Scheck"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="de" pkValue="TsdtCardVoucher" localized="RedCompra-Beleg"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description" locale="de" pkValue="TillShiftDocument" localized="Dokumente eingesammelt in Registrierkassen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="TsdCollectedAtTill" localized="Eingesammelt in Kasse"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="TsdDelivered" localized="Übergeben"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="TsdPending" localized="Nicht überprüfte Übergabe"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="TsdMissing" localized="Fehlt"/>
+	<moqui.basic.LocalizedMessage original="Checks" locale="de" localized="Schecks"/>
+	<moqui.basic.LocalizedMessage original="Collected" locale="de" localized="Eingesammelt"/>
+	<moqui.basic.LocalizedMessage original="Pending" locale="de" localized="Ausstehend"/>
+	<moqui.basic.LocalizedMessage original="Missing" locale="de" localized="Fehlend"/>
+	<moqui.basic.LocalizedMessage original="Card Vouchers" locale="de" localized="Kartengutscheine"/>
+	<moqui.basic.LocalizedMessage original="Voucher Number" locale="de" localized="Gutscheinnummer"/>
+	<moqui.basic.LocalizedMessage original="Closing Till Shift ${tillShift.tillShiftId} (Till ${tillShift.productStoreId}-${tillShift.tillSeqId})" locale="de" localized="Kassenschluss ${tillShift.productStoreId}-${tillShift.tillSeqId} Schicht ${tillShift.tillShiftId}"/>
+	<moqui.basic.LocalizedMessage original="Number of Checks per Status" locale="de" localized="Anzahl der Schecks pro Status"/>
+	<moqui.basic.LocalizedMessage original="Unassigned Checks" locale="de" localized="Nicht zugewiesene Schecks"/>
+	<moqui.basic.LocalizedMessage original="Unassigned Card Vouchers" locale="de" localized="Nicht zugewiesene Kartengutscheine"/>
+	<moqui.basic.LocalizedMessage original="To##Status" locale="de" localized="Zu##Status"/>
+	<moqui.basic.LocalizedMessage original="Bulk Status Change" locale="de" localized="Massenstatusänderung"/>
+	<moqui.basic.LocalizedMessage original="Apply to all checks" locale="de" localized="Auf alle Schecks anwenden"/>
+	<moqui.basic.LocalizedMessage original="Number of Vouchers per Status" locale="de" localized="Anzahl der Gutscheine pro Status"/>
+	<moqui.basic.LocalizedMessage original="Apply to all vouchers" locale="de" localized="Auf alle Gutscheine anwenden"/>
+	<moqui.basic.LocalizedMessage original="Update Balance" locale="de" localized="Saldo aktualisieren"/>
+	<moqui.basic.LocalizedMessage original="Close Balance Counted" locale="de" localized="Kassenabschluss gezählt"/>
+	<moqui.basic.LocalizedMessage original="Difference of ${tillShift.closeBalanceCounted-tillShift.closeBalanceExpected} will be registered." locale="de" localized="Differenz von ${tillShift.closeBalanceCounted-tillShift.closeBalanceExpected} wird registriert werden."/>
+	<moqui.basic.LocalizedMessage original="Stop Shift" locale="de" localized="Schicht beenden"/>
+	<moqui.basic.LocalizedMessage original="Cannot stop till shift ${tillShiftId} in status ${tillShift.statusId}" locale="de" localized="Schicht ${tillShiftId} im Status ${tillShift.statusId} kann nicht beendet werden."/>
+	<moqui.basic.LocalizedMessage original="Difference upon closing" locale="de" localized="Differenz bei Schließung"/>
+	<moqui.basic.LocalizedMessage original="Balance Difference" locale="de" localized="Saldo-Differenz"/>
+	<moqui.basic.LocalizedMessage original="Till Shift" locale="de" localized="Kassenschicht"/>
+	<moqui.basic.LocalizedMessage original="Select Till Shift" locale="de" localized="Wählen Sie den Kassenwechsel aus"/>
+	<moqui.basic.LocalizedMessage original="Shift ${tillShiftId} for till ${tillShift.productStoreId}-${tillShift.tillSeqId} is Closed!" locale="de" localized="Wechsel ${tillShiftId} für Kasse ${tillShift.productStoreId}-${tillShift.tillSeqId} ist geschlossen!"/>
+	<moqui.basic.LocalizedMessage original="Create Return" locale="de" localized="Rückgabe erstellen"/>
+	<moqui.basic.LocalizedMessage original="Edit Return" locale="de" localized="Rückgabe bearbeiten"/>
+	<moqui.basic.LocalizedMessage original="Find Return" locale="de" localized="Rückgabe suchen"/>
+	<moqui.basic.LocalizedMessage original="Procurement" locale="de" localized="Beschaffung"/>
+	<moqui.basic.LocalizedMessage original="Change Supplier" locale="de" localized="Lieferanten ändern"/>
+	<moqui.basic.LocalizedMessage original="Vendor: ${vendorName}" locale="de" localized="Lieferant: ${vendorName}"/>
+	<moqui.basic.LocalizedMessage original="New Purchase" locale="de" localized="Neuer Kauf"/>
+	<moqui.basic.LocalizedMessage original="Purchase Order #${orderId}" locale="de" localized="Bestellnummer #${orderId}"/>
+	<moqui.basic.LocalizedMessage original="Find Till" locale="de" localized="Kassen suchen"/>
+	<moqui.basic.LocalizedMessage original="Till Shifts" locale="de" localized="Kassenwechsel"/>
+	<moqui.basic.LocalizedMessage original="Duration (hours)" locale="de" localized="Dauer (Stunden)"/>
+	<moqui.basic.LocalizedMessage original="Levy" locale="de" localized="Abgabe"/>
+	<moqui.basic.LocalizedMessage original="Current Till Shift: ${currentTillShiftId?:'N/A'}" locale="de" localized="Aktueller Kassenwechsel: ${currentTillShiftId?:'N/A'}"/>
+	<moqui.basic.LocalizedMessage original="Till Shift: ${orderTillShiftId}" locale="de" localized="Kassenwechsel: ${tillShiftId}"/>
+	<moqui.basic.LocalizedMessage original="Sale till shift (${orderTillShiftId}) is different from active Till Shift (${currentTillShiftId})" locale="de" localized="Der Verkaufsschicht (${orderTillShiftId}) ist unterschiedlich von der aktiven Kassenschicht (${currentTillShiftId})"/>
+	<moqui.basic.LocalizedMessage original="Change sale Till Shift to ${currentTillShiftId}" locale="de" localized="Kassen-Schicht für den Verkauf auf ${currentTillShiftId} ändern"/>
+	<moqui.basic.LocalizedMessage original="Purchase Total" locale="de" localized="Kaufsumme"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="TillShiftPlanned" localized="Geplante Kassenschicht"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="TillShiftOpen" localized="Kasse geöffnet"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="TillShiftClosing" localized="Kasse wird geschlossen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="TillShiftClosed" localized="Kassenschicht geschlossen"/>
+	<moqui.basic.LocalizedMessage original="Process Closing" locale="de" localized="Abschluss verarbeiten"/>
+	<moqui.basic.LocalizedMessage original="Process Vouchers and Checks" locale="de" localized="Gutscheine und Schecks verarbeiten"/>
+	<moqui.basic.LocalizedMessage original="No Physical Inventory in Progress" locale="de" localized="Keine physische Inventur in Arbeit"/>
+	<moqui.basic.LocalizedMessage original="Receive Purchase" locale="de" localized="Kauf empfangen"/>
+	<moqui.basic.LocalizedMessage original="Move Stock" locale="de" localized="Lagerbestand bewegen"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="TFPPIGInPlanning" localized="In Planung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="TFPPIGInProgress" localized="In Bearbeitung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="TFPPIGInValidation" localized="In Überprüfung"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="de" pkValue="TFPPIGComplete" localized="Abgeschlossen"/>
+	<moqui.basic.LocalizedMessage original="Counted" locale="de" localized="Gezählt"/>
+	<moqui.basic.LocalizedMessage original="Pending To Count" locale="de" localized="Zu zählen"/>
+	<moqui.basic.LocalizedMessage original="Total Counted" locale="de" localized="Gesamt gezählt"/>
+	<moqui.basic.LocalizedMessage original="Total Pending To Count" locale="de" localized="Insgesamt zu zählen"/>
+	<moqui.basic.LocalizedMessage original="Number of Locations" locale="de" localized="Anzahl der Standorte"/>
+	<moqui.basic.LocalizedMessage original="Number of Products" locale="de" localized="Anzahl der Produkte"/>
+	<moqui.basic.LocalizedMessage original="Place Order Anyway" locale="de" localized="Bestellung trotzdem aufgeben"/>
+	<moqui.basic.LocalizedMessage original="Find Order" locale="de" localized="Bestellung suchen"/>
+	<moqui.basic.LocalizedMessage original="Purchase Detail" locale="de" localized="Kaufdetail"/>
+	<moqui.basic.LocalizedMessage original="Counting assignments for ${physicalInventoryInfo.partyName}" locale="de"
+	localized="Zählzuweisungen für ${physicalInventoryInfo.partyName}"/>
+	<moqui.basic.LocalizedMessage original="Closed Sales" locale="de" localized="Geschlossene Verkäufe"/>
+	<moqui.basic.LocalizedMessage original="Find Sale" locale="de" localized="Verkauf suchen"/>
+	<moqui.basic.LocalizedMessage original="Reconcile Status" locale="de" localized="Abstimmungsstatus"/>
+	<moqui.basic.LocalizedMessage original="Issued By" locale="de" localized="Ausgestellt von"/>
+	<moqui.basic.LocalizedMessage original="Deposits" locale="de" localized="Einlagen"/>
+	<moqui.basic.LocalizedMessage original="Diff Reason" locale="de" localized="Differenzgrund"/>
+	<moqui.basic.LocalizedMessage original="Quantity Counted" locale="de" localized="Menge gezählt"/>
+	<moqui.basic.LocalizedMessage original="Difference" locale="de" localized="Differenz"/>
+	<moqui.basic.LocalizedMessage original="Counted By" locale="de" localized="Gezählt Von"/>
+	<moqui.basic.LocalizedMessage original="Differences Found" locale="de" localized="Gefundene Unterschiede"/>
+	<moqui.basic.LocalizedMessage original="Total Differences" locale="de" localized="Gesamtunterschiede"/>
+	<moqui.basic.LocalizedMessage original="Total Differences Percent" locale="de" localized="Gesamtunterschiede Prozent"/>
+	
+
+</entity-facade-xml>
